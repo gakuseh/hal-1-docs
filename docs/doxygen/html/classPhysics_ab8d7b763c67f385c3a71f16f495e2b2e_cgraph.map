@@ -1,0 +1,10 @@
+<map id="Physics::jacobianB" name="Physics::jacobianB">
+<area shape="rect" id="Node000001" title="Analytic ∂f/∂u. Only the roll&#45;rate row is non&#45;zero. Unused." alt="" coords="5,81,148,109"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a58a6ca0015fce48e0f19193f647d3c26" title="Air&#45;relative velocity in the body frame, using the config&#39;s fixed wind. Only jacobianB() uses this." alt="" coords="210,29,412,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,78,233,60,228,62,143,83"/>
+<area shape="rect" id="Node000003" href="$classPhysics.html#a1ae9cf014b2dfeb31b115f79bb6279a7" title="∂M/∂ζ (N·m per rad) at airspeed v_mag. ControlLaw divides by this to set its gain." alt="" coords="196,81,427,109"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="148,93,183,94,178,96,149,98"/>
+<area shape="rect" id="Node000004" href="$classPhysics.html#a9ef9fe2b0b4522587cf5dba812c40673" title="Roll inertia (kg·m²) at time t: linear from I_3_0 to I_3_f during the burn." alt="" coords="228,133,394,161"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="143,107,233,128,228,130,142,112"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="271,28,265,20,270,11,286,5,311,3,339,5,355,14,350,14,338,10,311,8,287,10,273,15,270,20,276,29"/>
+</map>

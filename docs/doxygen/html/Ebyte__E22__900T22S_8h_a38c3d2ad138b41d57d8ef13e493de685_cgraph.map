@@ -1,0 +1,16 @@
+<map id="changeOpFreq_e22_900t22s" name="changeOpFreq_e22_900t22s">
+<area shape="rect" id="Node000001" title="Changes the module&#39;s channel by rewriting REG2 (not saved to flash)." alt="" coords="5,30,210,58"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="66,30,59,21,65,12,81,6,108,4,136,6,153,14,148,16,135,11,107,9,82,11,68,16,65,21,71,29"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="492,54,596,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,47,478,62,475,67,210,52"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="644,54,809,82"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="182,27,267,15,371,5,484,4,541,8,597,16,642,29,686,48,680,47,641,34,596,21,541,14,484,10,371,11,268,20,183,32"/>
+<area shape="rect" id="Node000004" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="258,105,444,133"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="156,56,290,98,286,101,155,61"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="512,53,507,45,511,36,524,30,544,28,566,30,579,39,574,39,564,35,544,33,525,35,515,40,513,45,517,55"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="597,65,632,68,626,68,597,71"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="695,53,690,45,694,36,706,30,727,28,748,30,761,39,756,38,747,35,726,33,708,35,698,40,695,45,700,55"/>
+<area shape="poly" id="edge8_Node000004_Node000002" title=" " alt="" coords="406,102,474,86,480,85,407,107"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="444,109,596,91,641,86,646,85,597,96,445,114"/>
+<area shape="poly" id="edge10_Node000004_Node000004" title=" " alt="" coords="317,103,312,96,316,86,330,80,351,78,374,81,387,90,382,89,372,86,351,84,331,86,320,90,317,96,322,106"/>
+</map>

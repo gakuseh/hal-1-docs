@@ -1,0 +1,12 @@
+<map id="Barometer::Init" name="Barometer::Init">
+<area shape="rect" id="Node000001" title="Initializes the chip and starts continuous measurement." alt="" coords="5,105,125,133"/>
+<area shape="rect" id="Node000002" href="$BMP3xx__platform_8cpp.html#ac582b5c347d1c88e9831b289184c8527" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="175,29,290,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,103,172,67,188,62,183,65,174,72,98,107"/>
+<area shape="rect" id="Node000003" href="$BMP3xx__platform_8cpp.html#adc0462790d480755a0b8a5a77b0208ad" title="Bosch read callback: reads len bytes starting at register reg_addr." alt="" coords="174,105,291,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="125,117,161,118,156,120,126,122"/>
+<area shape="rect" id="Node000004" href="$BMP3xx__platform_8cpp.html#a21cd941c1105c635ca650233e9445ad7" title="Bosch write callback: writes len bytes starting at register reg_addr." alt="" coords="173,181,292,209"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="98,131,188,173,184,176,97,136"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="203,28,198,20,202,11,214,5,232,3,252,5,264,14,259,14,251,10,232,8,215,10,206,15,204,20,208,29"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="203,104,198,96,202,87,214,81,232,79,252,81,264,90,259,90,251,86,232,84,215,86,206,91,204,96,208,106"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="203,180,198,172,202,163,214,157,232,155,252,157,264,166,259,166,251,162,232,160,215,162,206,167,204,172,208,182"/>
+</map>

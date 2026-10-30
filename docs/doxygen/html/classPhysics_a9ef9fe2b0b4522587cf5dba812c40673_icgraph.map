@@ -1,0 +1,26 @@
+<map id="Physics::getInertiaRoll" name="Physics::getInertiaRoll">
+<area shape="rect" id="Node000001" title="Roll inertia (kg·m²) at time t: linear from I_3_0 to I_3_f during the burn." alt="" coords="784,135,951,162"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a420be790289e6d5617c41c3123572bff" title="Full nonlinear equations of motion, ẋ = f(t, x, u)." alt="" coords="584,56,692,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="817,128,735,99,692,86,692,81,737,94,822,128"/>
+<area shape="rect" id="Node000011" href="$classControlLaw.html#aa71a66c4f4199fd6937c7fa4b963f012" title="Gain K = I3 · λ / (∂M/∂ζ) for the current airspeed." alt="" coords="540,108,736,136"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="766,137,737,136,737,131,771,137"/>
+<area shape="rect" id="Node000013" href="$classPhysics.html#ab8d7b763c67f385c3a71f16f495e2b2e" title="Analytic ∂f/∂u. Only the roll&#45;rate row is non&#45;zero. Unused." alt="" coords="567,160,709,188"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="771,159,710,169,710,163,766,160"/>
+<area shape="rect" id="Node000014" href="$classControlLaw.html#a0658a83a2ece1e01cea84a35fe5f1f63" title="Roll effectiveness monitor: flips the gain sign if the canards act backwards." alt="" coords="204,211,492,238"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="826,168,783,188,737,202,675,213,612,221,492,228,492,223,612,216,675,208,736,197,781,183,821,170"/>
+<area shape="rect" id="Node000003" href="$classPhysics.html#a5f0e88b94556c5fe9d033769aa3a42b2" title="Numerical Jacobian ∂f/∂x by central differences (step 1e&#45;5, 20 eom() calls)." alt="" coords="277,5,419,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="567,59,420,34,419,29,572,57"/>
+<area shape="rect" id="Node000004" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="28,31,133,58"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="568,69,134,50,134,44,570,64"/>
+<area shape="rect" id="Node000009" href="$classPhysics.html#ac95a25705b5f690f7530691e8c24f92f" title="Predicted IMU reading for state x." alt="" coords="241,107,454,134"/>
+<area shape="poly" id="edge5_Node000002_Node000009" title=" " alt="" coords="567,82,432,109,430,103,572,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,29,134,42,133,37,263,25"/>
+<area shape="rect" id="Node000010" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="28,107,133,134"/>
+<area shape="poly" id="edge6_Node000009_Node000010" title=" " alt="" coords="223,122,134,123,133,118,228,119"/>
+<area shape="rect" id="Node000012" href="$classControlLaw.html#a7105a49a6c01607205eacbbc8b3e985a" title="Computes the canard deflection. Call after the EKF step." alt="" coords="245,159,451,186"/>
+<area shape="poly" id="edge8_Node000011_Node000012" title=" " alt="" coords="537,139,432,161,431,155,543,138"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="5,196,156,224"/>
+<area shape="poly" id="edge9_Node000012_Node000006" title=" " alt="" coords="227,190,156,202,156,197,232,188"/>
+<area shape="poly" id="edge10_Node000006_Node000006" title=" " alt="" coords="125,181,111,177,80,175,52,177,37,182,33,187,40,195,35,196,28,187,34,177,51,171,81,169,112,172,130,180"/>
+<area shape="poly" id="edge13_Node000014_Node000006" title=" " alt="" coords="185,216,156,217,156,211,191,216"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Telemetry" name="Telemetry">
+<area shape="rect" id="Node000001" title="Frames packets, schedules TX and RX on the E22, and applies GND commands." alt="" coords="195,106,282,134"/>
+<area shape="rect" id="Node000002" href="$structconfig__e22__900t22s.html" title="Register values and pin assignments for one E22 module." alt="" coords="5,5,157,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,39,176,80,218,106,213,106,174,84,112,45"/>
+<area shape="rect" id="Node000003" href="$structtelemetryData.html" title="FC → GND packet payload, 112 bytes including padding." alt="" coords="180,5,296,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,47,241,107,236,104,236,50"/>
+<area shape="rect" id="Node000004" href="$structGndStationData.html" title="GND → FC packet payload, 16 bytes including padding." alt="" coords="320,5,444,33"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="368,44,353,67,333,84,309,99,283,109,281,104,306,94,330,80,349,63,364,47"/>
+</map>

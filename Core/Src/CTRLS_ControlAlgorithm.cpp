@@ -5,6 +5,7 @@
 
 namespace {
 
+/// Motor thrust curve sample times (s). Pairs with kThrustN.
 static constexpr float kThrustT[] = {
     0.07f, 0.211f, 0.353f, 0.495f, 0.636f, 0.778f, 0.92f, 1.061f,
     1.203f, 1.345f, 1.486f, 1.628f, 1.771f, 1.914f, 2.055f, 2.197f,
@@ -12,6 +13,7 @@ static constexpr float kThrustT[] = {
     3.473f, 3.616f
 };
 
+/// Thrust (N) at each time in kThrustT.
 static constexpr float kThrustN[] = {
     2441.945f, 2495.46f, 2556.133f, 2601.596f, 2637.66f, 2660.804f, 2676.486f, 2687.081f,
     2695.807f, 2694.493f, 2684.268f, 2667.289f, 2629.961f, 2578.923f, 2522.074f, 2461.704f,
@@ -19,6 +21,7 @@ static constexpr float kThrustN[] = {
     3.669f, 0.0f
 };
 
+/// Mach numbers for the drag table, 0.01 to 1.0. Pairs with kDragCd.
 static constexpr float kDragMach[] = {
     0.01f, 0.02f, 0.03f, 0.04f, 0.05f, 0.06f, 0.07f, 0.08f,
     0.09f, 0.1f, 0.11f, 0.12f, 0.13f, 0.14f, 0.15f, 0.16f,
@@ -35,6 +38,7 @@ static constexpr float kDragMach[] = {
     0.97f, 0.98f, 0.99f, 1.0f
 };
 
+/// Drag coefficient at each Mach number in kDragMach, loaded as both the power-on and the power-off drag.
 static constexpr float kDragCd[] = {
     0.569051589f, 0.52605377f, 0.525832698f, 0.525615889f, 0.5254033f, 0.52519502f, 0.524991009f, 0.524791277f,
     0.524595889f, 0.524404882f, 0.524218202f, 0.524035931f, 0.523858126f, 0.523684782f, 0.523515978f, 0.52335172f,
@@ -51,16 +55,21 @@ static constexpr float kDragCd[] = {
     0.808638601f, 0.851079162f, 0.893519724f, 0.935960286f
 };
 
+/// One row of kWeatherProfile.
 struct WeatherPoint {
-    float altitude_agl_m;
-    float rho;
-    float temperature_K;
-    float g;
-    float wind_x;
-    float wind_y;
+    float altitude_agl_m;   ///< Height above the launch site (m).
+    float rho;              ///< Air density (kg/m³).
+    float temperature_K;    ///< Air temperature (K).
+    float g;                ///< Gravity (m/s²).
+    float wind_x;           ///< Wind, world frame (m/s).
+    float wind_y;           ///< Wind, world frame (m/s).
 };
 
-// Generated from FV-Controls/rockets/Control Freak/data/weather/weather_profile.csv; capped at 4000 m AGL.
+/**
+ * @brief Atmosphere and wind for Physics::weatherAtAltitude(), in 50 m steps.
+ *
+ * Generated from FV-Controls/rockets/Control Freak/data/weather/weather_profile.csv; capped at 4000 m AGL.
+ */
 static constexpr WeatherPoint kWeatherProfile[] = {
     {0.000f, 1.02020119f, 310.877052f, 9.79146002f, 4.37660828f, 2.2574781f},
     {50.000f, 1.01559781f, 310.5356f, 9.79130576f, 4.39296528f, 2.26361198f},
@@ -145,6 +154,7 @@ static constexpr WeatherPoint kWeatherProfile[] = {
     {4000.000f, 0.726440336f, 274.111563f, 9.77913027f, 4.65050699f, 0.950495929f},
 };
 
+/// Copies @p n floats from @p src to @p dst.
 static void copyTable(float* dst, const float* src, int n) {
     for (int i = 0; i < n; ++i) dst[i] = src[i];
 }

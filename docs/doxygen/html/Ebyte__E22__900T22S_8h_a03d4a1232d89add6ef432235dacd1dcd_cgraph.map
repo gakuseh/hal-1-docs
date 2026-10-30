@@ -1,0 +1,21 @@
+<map id="init_e22_900t22s" name="init_e22_900t22s">
+<area shape="rect" id="Node000001" title="Powers up the module, writes cfg to its flash, verifies it, and enters TRANS mode." alt="" coords="5,82,138,110"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="35,82,30,73,35,63,49,57,72,55,96,58,111,66,105,67,95,63,71,61,50,63,38,67,35,73,41,81"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="420,119,524,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,99,406,124,403,129,138,105"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="572,82,737,110"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="86,79,128,47,156,30,185,19,243,6,303,3,363,6,422,15,528,43,610,75,605,75,527,48,421,21,363,12,303,8,244,12,186,24,158,35,131,51,90,83"/>
+<area shape="rect" id="Node000004" href="$Ebyte__E22__900T22S_8cpp.html#a14cd46771d93456372de769e3d00e59c" title="Reads ADDH through REG3 from the module." alt="" coords="188,57,370,84"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="137,85,174,82,170,85,139,90"/>
+<area shape="rect" id="Node000005" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="186,182,372,210"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="103,107,236,173,232,176,101,113"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="440,118,435,110,439,101,452,95,472,93,494,95,507,104,502,104,492,100,472,98,453,100,443,104,441,110,445,120"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="524,120,566,114,571,113,525,125"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="623,80,618,73,622,63,634,57,655,55,676,58,689,67,684,66,675,63,654,61,636,63,626,67,623,73,628,82"/>
+<area shape="poly" id="edge7_Node000004_Node000002" title=" " alt="" coords="324,82,416,114,410,114,324,87"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="371,72,525,81,559,86,554,87,524,86,371,77"/>
+<area shape="poly" id="edge8_Node000004_Node000004" title=" " alt="" coords="245,55,240,48,244,38,258,32,279,30,302,32,316,41,310,41,300,38,279,35,259,37,248,42,245,47,250,57"/>
+<area shape="poly" id="edge12_Node000005_Node000002" title=" " alt="" coords="323,179,410,153,416,152,325,184"/>
+<area shape="poly" id="edge13_Node000005_Node000003" title=" " alt="" coords="372,186,447,174,524,156,572,137,614,118,619,117,574,142,525,161,448,180,373,191"/>
+<area shape="poly" id="edge14_Node000005_Node000005" title=" " alt="" coords="245,180,240,173,244,163,258,157,279,155,302,158,315,167,310,166,300,163,279,161,259,163,248,167,245,173,250,182"/>
+</map>

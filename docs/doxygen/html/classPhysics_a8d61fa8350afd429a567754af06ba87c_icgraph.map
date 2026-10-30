@@ -1,0 +1,29 @@
+<map id="Physics::weatherAtAltitude" name="Physics::weatherAtAltitude">
+<area shape="rect" id="Node000001" title="Atmosphere and wind at alt_m, interpolated from the built&#45;in weather profile." alt="" coords="819,156,1015,184"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="115,29,265,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="887,145,836,106,804,86,770,70,704,49,635,35,565,27,496,23,368,25,266,34,265,29,368,20,496,18,565,22,636,30,705,44,772,65,806,81,839,101,892,146"/>
+<area shape="rect" id="Node000004" href="$classPhysics.html#a420be790289e6d5617c41c3123572bff" title="Full nonlinear equations of motion, ẋ = f(t, x, u)." alt="" coords="619,156,726,184"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="800,170,727,172,727,167,806,170"/>
+<area shape="rect" id="Node000009" href="$classPhysics.html#ac95a25705b5f690f7530691e8c24f92f" title="Predicted IMU reading for state x." alt="" coords="313,208,526,236"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="828,187,771,198,644,211,527,219,527,214,644,205,770,193,823,187"/>
+<area shape="rect" id="Node000011" href="$classControlLaw.html#aa71a66c4f4199fd6937c7fa4b963f012" title="Gain K = I3 · λ / (∂M/∂ζ) for the current airspeed." alt="" coords="574,79,771,106"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="854,151,719,110,719,104,859,151"/>
+<area shape="rect" id="Node000013" href="$classPhysics.html#afd63036bd767895513d8b4ff46a25697" title="Measurement Jacobian ∂y/∂x (6×10)." alt="" coords="601,257,744,285"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="877,191,772,242,722,259,721,254,770,237,872,192"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="214,14,206,10,190,8,174,10,166,14,164,20,168,29,162,29,158,20,162,11,173,5,190,3,208,5,219,13"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,29,67,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,45,68,45,66,41,101,41"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="60,15,52,10,36,8,20,10,12,14,10,20,14,28,9,29,5,20,8,11,19,5,36,3,54,5,65,12"/>
+<area shape="rect" id="Node000005" href="$classPhysics.html#a5f0e88b94556c5fe9d033769aa3a42b2" title="Numerical Jacobian ∂f/∂x by central differences (step 1e&#45;5, 20 eom() calls)." alt="" coords="348,156,491,184"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="601,170,492,172,491,167,606,169"/>
+<area shape="rect" id="Node000006" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="137,132,242,160"/>
+<area shape="poly" id="edge8_Node000004_Node000006" title=" " alt="" coords="601,156,526,147,420,144,313,147,243,148,242,143,313,142,420,139,527,142,606,155"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="606,183,491,210,490,205,601,184"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="331,162,243,154,243,149,336,160"/>
+<area shape="rect" id="Node000010" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="137,233,242,261"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="295,236,243,244,242,239,301,235"/>
+<area shape="rect" id="Node000012" href="$classControlLaw.html#a7105a49a6c01607205eacbbc8b3e985a" title="Computes the canard deflection. Call after the EKF step." alt="" coords="316,55,523,82"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="556,82,523,81,523,76,561,81"/>
+<area shape="poly" id="edge13_Node000012_Node000002" title=" " alt="" coords="299,56,266,54,265,49,304,55"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="585,269,243,252,243,247,587,264"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="IMUs::TMR_Compute" name="IMUs::TMR_Compute">
+<area shape="rect" id="Node000001" title="Votes Raw_BMI into Voted_BMI, acceleration and rate separately." alt="" coords="5,32,163,60"/>
+<area shape="rect" id="Node000002" href="$structTMR.html#ab9b86fe67efdfd28423537ab7291b8f4" title="Returns the mean of the two vectors closest to each other (Euclidean distance)." alt="" coords="211,32,299,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,43,198,45,192,46,163,48"/>
+<area shape="rect" id="Node000003" href="$structTMR.html#abf524eff6ccb00707c6d5804b65ce588" title="Component&#45;wise mean of a and b." alt="" coords="348,5,459,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="299,35,330,32,335,31,300,41"/>
+<area shape="rect" id="Node000004" href="$structTMR.html#a7e98d094b586379807ad8b61f46a4494" title="Euclidean distance between a and b." alt="" coords="347,57,460,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="300,51,335,59,329,59,299,56"/>
+</map>

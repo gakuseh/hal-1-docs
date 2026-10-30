@@ -1,0 +1,31 @@
+<map id="Servo_Axon_Mini_MKII::readRawVoltage" name="Servo_Axon_Mini_MKII::readRawVoltage">
+<area shape="rect" id="Node000001" title="Reads both feedback voltages from ADC3 and smooths them." alt="" coords="753,136,922,180"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a86ff496255536cb316929054364d5533" title="Starts PWM, centres both servos, records the zero reference, and checks they hold position." alt="" coords="318,96,487,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="735,150,488,128,488,123,740,148"/>
+<area shape="rect" id="Node000006" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="535,165,705,210"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="735,172,706,178,705,173,740,171"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="5,29,72,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,87,316,64,269,46,216,37,162,34,73,40,71,36,162,29,217,31,271,41,318,59,362,86"/>
+<area shape="rect" id="Node000004" href="$classSensors.html#adea9ecd9a2315082d6fd583cac1dd89e" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="144,55,246,82"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="301,95,246,83,245,78,306,93"/>
+<area shape="rect" id="Node000005" href="$classTEST.html#a68118d6312a5385c98cb4faf8bbc003b" title="Inits both servos, then cycles them through 90/−33°, −45/45° and 0/0° forever." alt="" coords="123,107,266,134"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="300,120,268,122,266,117,305,118"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="63,15,55,10,38,8,23,10,14,14,12,20,16,28,11,29,7,20,10,11,21,5,39,3,57,5,68,12"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="127,60,73,51,71,46,131,56"/>
+<area shape="poly" id="edge11_Node000006_Node000002" title=" " alt="" coords="531,160,475,143,475,138,536,159"/>
+<area shape="rect" id="Node000007" href="$classServo__Axon__Mini__MKII.html#ae818d1ad600abab5f2b0dab261e2f67b" title="Relative error between the measured angle and trackedAngle. Unused." alt="" coords="318,234,487,279"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="536,214,476,236,474,231,531,215"/>
+<area shape="rect" id="Node000008" href="$classServo__Axon__Mini__MKII.html#a1ec833f61698a190b5002a4991abedc4" title="Reads both feedback angles (deg from the Init() zero)." alt="" coords="318,304,487,348"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="585,219,540,258,489,293,465,305,464,300,486,289,537,254,580,221"/>
+<area shape="rect" id="Node000011" href="$classServo__Axon__Mini__MKII.html#a407534f1678520e15b865b4e19183922" title="Commands both servos and refreshes the feedback data." alt="" coords="318,165,487,210"/>
+<area shape="poly" id="edge12_Node000006_Node000011" title=" " alt="" coords="517,188,488,190,487,185,523,187"/>
+<area shape="rect" id="Node000009" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="131,312,258,340"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="300,326,259,328,259,323,306,326"/>
+<area shape="poly" id="edge17_Node000011_Node000005" title=" " alt="" coords="314,160,241,138,240,132,319,159"/>
+<area shape="rect" id="Node000012" href="$main_8cpp.html#ab85808c9cd01e8dc25add722198590e9" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="150,183,240,210"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="300,193,241,197,240,192,305,191"/>
+<area shape="rect" id="Node000014" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="120,259,270,286"/>
+<area shape="poly" id="edge15_Node000011_Node000014" title=" " alt="" coords="335,215,232,261,230,256,330,217"/>
+<area shape="poly" id="edge14_Node000012_Node000012" title=" " alt="" coords="219,167,211,163,195,161,179,163,170,168,168,173,172,182,167,182,163,174,166,164,177,158,195,156,213,158,225,167"/>
+<area shape="poly" id="edge16_Node000014_Node000014" title=" " alt="" coords="219,243,211,239,195,237,179,239,170,244,168,249,172,259,167,257,163,250,166,240,177,234,195,232,213,234,225,243"/>
+</map>

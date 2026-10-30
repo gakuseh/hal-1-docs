@@ -1,0 +1,12 @@
+<map id="Baro_Unified::getData" name="Baro_Unified::getData">
+<area shape="rect" id="Node000001" title="Returns the last readings and voted result." alt="" coords="382,57,547,85"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#af0852fded52be2baabe8202b799427ff" title="Inits the three barometers and reads them every 100 ms forever, toggling the LED. Uses HAL_Delay() be..." alt="" coords="195,5,332,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="391,53,320,36,320,31,396,53"/>
+<area shape="rect" id="Node000003" href="$classTEST.html#ae19cacfbe1157460fda27634a8826b3e" title="Standalone radio link: sends barometer altitude through Telemetry::Update() every 10 ms forever." alt="" coords="193,57,334,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="364,71,335,74,334,69,369,71"/>
+<area shape="rect" id="Node000004" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="200,109,327,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="396,89,321,111,320,106,391,90"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#ac1eede4a9ca0bf8cda1c392aa09bee67" title="Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz." alt="" coords="5,109,145,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="181,123,145,126,145,121,187,123"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="105,94,96,90,75,88,56,90,45,95,42,100,47,109,42,109,37,100,41,91,54,85,75,83,97,85,111,94"/>
+</map>

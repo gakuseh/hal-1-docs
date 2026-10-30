@@ -1,0 +1,6 @@
+<map id="modelVerticalVelocityMS" name="modelVerticalVelocityMS">
+<area shape="rect" id="Node000001" title="Vertical (world z) velocity in m/s from the EKF state: the body velocity rotated into the world frame..." alt="" coords="5,29,191,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="63,28,58,20,63,11,76,5,98,3,122,5,136,14,130,14,120,10,98,8,77,10,66,15,63,20,69,29"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a83fa4d24f42f37f8b008ee394bdf6c9a" title="World&#45;to&#45;body rotation matrix (DCM) from a unit quaternion." alt="" coords="239,29,355,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="191,41,226,43,221,43,191,46"/>
+</map>

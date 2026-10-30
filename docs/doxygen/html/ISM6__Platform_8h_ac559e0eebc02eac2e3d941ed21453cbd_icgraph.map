@@ -1,0 +1,6 @@
+<map id="Platform_Init" name="Platform_Init">
+<area shape="rect" id="Node000001" title="Does nothing. CubeMX already configures SPI3 and the chip&#45;select pin." alt="" coords="197,29,302,57"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="277,14,268,10,249,8,232,10,222,15,220,20,224,30,219,28,214,20,218,11,230,5,249,3,270,5,282,14"/>
+<area shape="rect" id="Node000002" href="$classIMU__ISM6HGx.html#a308f0d9ba86e053605581d300e9d2580" title="Resets the chip, checks WHO_AM_I, and applies the config." alt="" coords="5,29,149,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,43,149,46,149,41,184,43"/>
+</map>

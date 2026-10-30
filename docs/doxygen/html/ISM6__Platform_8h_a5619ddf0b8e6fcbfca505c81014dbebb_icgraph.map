@@ -1,0 +1,6 @@
+<map id="ISM_SPI_Read" name="ISM_SPI_Read">
+<area shape="rect" id="Node000001" title="ST read callback: reads len bytes starting at register reg." alt="" coords="197,29,309,57"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="281,14,272,10,253,8,235,10,225,15,223,20,227,30,222,28,217,20,221,11,233,5,253,3,274,5,286,14"/>
+<area shape="rect" id="Node000002" href="$classIMU__ISM6HGx.html#a308f0d9ba86e053605581d300e9d2580" title="Resets the chip, checks WHO_AM_I, and applies the config." alt="" coords="5,29,149,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,43,149,46,149,41,184,43"/>
+</map>

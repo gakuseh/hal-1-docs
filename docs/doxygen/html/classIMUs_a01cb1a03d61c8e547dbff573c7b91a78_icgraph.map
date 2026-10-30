@@ -1,0 +1,12 @@
+<map id="IMUs::Init" name="IMUs::Init">
+<area shape="rect" id="Node000001" title="Initializes BMI323 A, plus B and C if tmr_on." alt="" coords="293,57,376,85"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#a2e7fd4eb34d4f3dd2e8ab0376d01d1cf" title="Inits the three BMI323s and reads them every tick forever, toggling the LED." alt="" coords="120,5,245,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,52,225,36,225,31,281,52"/>
+<area shape="rect" id="Node000003" href="$classSensors.html#adea9ecd9a2315082d6fd583cac1dd89e" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="132,57,233,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,72,234,74,233,69,280,71"/>
+<area shape="rect" id="Node000005" href="$classTEST.html#a905b440f1c81bd25d397fd71e814e7df" title="Logs voted IMU readings to the SD card as fast as it can, forever." alt="" coords="121,109,244,137"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="281,90,226,111,224,106,276,91"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="5,57,72,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="114,73,73,74,71,69,118,70"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="61,42,54,38,38,36,24,38,16,42,14,48,18,56,13,57,9,48,12,39,22,33,39,31,56,33,66,41"/>
+</map>

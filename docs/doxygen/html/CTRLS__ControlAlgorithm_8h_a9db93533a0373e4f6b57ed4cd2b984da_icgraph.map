@@ -1,0 +1,17 @@
+<map id="Tr" name="Tr">
+<area shape="rect" id="Node000001" title="Transpose." alt="" coords="533,32,572,60"/>
+<area shape="poly" id="edge9_Node000001_Node000001" title=" " alt="" coords="571,16,565,13,553,11,541,13,534,17,533,23,536,33,531,30,527,23,530,14,539,8,553,5,567,8,576,17"/>
+<area shape="rect" id="Node000002" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="380,5,485,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="516,38,485,34,486,28,521,38"/>
+<area shape="rect" id="Node000006" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="380,57,485,85"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="521,53,486,63,485,57,516,53"/>
+<area shape="rect" id="Node000003" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="219,5,317,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,19,317,22,317,17,367,19"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="5,32,156,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,29,157,38,156,32,206,28"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="111,17,101,13,80,11,61,13,51,17,48,23,53,31,48,32,43,23,47,14,60,7,81,5,103,8,116,16"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="369,52,314,36,314,31,375,52"/>
+<area shape="rect" id="Node000007" href="$classEKF.html#a2cc366e902a4cdfd9b42b1c6fed90c19" title="Prediction only. Call when no new IMU sample is available." alt="" coords="204,57,332,85"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="362,71,332,74,332,69,367,71"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="186,61,156,59,156,53,191,60"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="TEST::SERVO_TEST" name="TEST::SERVO_TEST">
+<area shape="rect" id="Node000001" title="Inits both servos, then cycles them through 90/−33°, −45/45° and 0/0° forever." alt="" coords="5,48,149,76"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a86ff496255536cb316929054364d5533" title="Starts PWM, centres both servos, records the zero reference, and checks they hold position." alt="" coords="197,75,366,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,72,184,79,179,81,149,77"/>
+<area shape="rect" id="Node000006" href="$classServo__Axon__Mini__MKII.html#a407534f1678520e15b865b4e19183922" title="Commands both servos and refreshes the feedback data." alt="" coords="197,5,366,50"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="148,48,184,43,179,46,150,53"/>
+<area shape="rect" id="Node000003" href="$classServo__Axon__Mini__MKII.html#a4d466fa0f16934d6c9f20dc7681c6606" title="Writes both PWM compare registers for input plus the configured offsets (deg)." alt="" coords="414,5,583,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="353,72,409,56,414,55,354,77"/>
+<area shape="rect" id="Node000004" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="414,75,583,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="366,94,401,97,396,97,366,100"/>
+<area shape="rect" id="Node000005" href="$classServo__Axon__Mini__MKII.html#a9b94dc6c6032de01fec44324fad5d840" title="Reads both feedback voltages from ADC3 and smooths them." alt="" coords="631,105,801,150"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="356,117,414,129,518,136,613,136,618,136,518,141,414,134,356,123"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="584,106,618,114,613,113,583,112"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="366,25,401,27,396,28,367,30"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="354,48,414,69,409,69,353,53"/>
+</map>

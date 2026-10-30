@@ -1,0 +1,34 @@
+<map id="Physics::eom" name="Physics::eom">
+<area shape="rect" id="Node000001" title="Full nonlinear equations of motion, ẋ = f(t, x, u)." alt="" coords="5,341,113,369"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a58a6ca0015fce48e0f19193f647d3c26" title="Air&#45;relative velocity in the body frame, using the config&#39;s fixed wind. Only jacobianB() uses this." alt="" coords="161,29,363,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,340,63,289,78,216,91,176,108,137,131,100,159,68,167,63,165,68,163,72,135,103,113,139,96,178,83,217,69,290,64,341"/>
+<area shape="rect" id="Node000003" href="$classPhysics.html#ac01d0b9305fcdceb47f4ac536df769f2" title="Canard roll moment (N·m) for airspeed v_mag and deflection zeta_rad: coeff · v² · ζ(deg)." alt="" coords="174,81,350,109"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="59,341,68,298,85,238,114,175,134,145,159,120,168,115,165,119,162,124,139,149,119,177,90,240,73,299,65,342"/>
+<area shape="rect" id="Node000004" href="$classPhysics.html#ab44c89c1ea9d5f2bfb8dbf98fa8d8fbb" title="CG position (m from nose) at time t." alt="" coords="203,133,321,161"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="61,340,73,306,92,260,120,213,138,191,159,172,190,157,186,161,162,176,142,194,125,216,97,263,78,308,67,342"/>
+<area shape="rect" id="Node000005" href="$classPhysics.html#a424fee50bd57b77d8992de2ea08e5dc8" title="Drag coefficient from the power&#45;on table before burnout and the power&#45;off table after." alt="" coords="179,185,344,213"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="65,340,100,283,127,251,159,224,173,218,170,222,162,228,131,255,104,286,70,342"/>
+<area shape="rect" id="Node000007" href="$classPhysics.html#ad8b7fdc8a349e0ae5cb5766c6176306c" title="Rate of change of pitch/yaw inertia (kg·m²/s). Constant during the burn, 0 after." alt="" coords="164,237,360,265"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="72,340,110,307,159,275,180,268,176,272,162,280,113,311,77,343"/>
+<area shape="rect" id="Node000008" href="$classPhysics.html#a61f0c4901c95f3d6d6551eba4d32a129" title="Rate of change of roll inertia (kg·m²/s). Constant during the burn, 0 after." alt="" coords="167,289,356,317"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="111,339,192,319,188,323,114,344"/>
+<area shape="rect" id="Node000009" href="$classPhysics.html#ac5d49d6de81d12d4c6dda5d753a2c391" title="Pitch/yaw inertia (kg·m²) at time t: linear from I_0 to I_f during the burn." alt="" coords="175,341,348,369"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="112,353,161,353,157,357,114,357"/>
+<area shape="rect" id="Node000010" href="$classPhysics.html#a9ef9fe2b0b4522587cf5dba812c40673" title="Roll inertia (kg·m²) at time t: linear from I_3_0 to I_3_f during the burn." alt="" coords="179,393,345,421"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="112,366,192,387,188,390,114,371"/>
+<area shape="rect" id="Node000011" href="$classPhysics.html#a2a028113acca283aa67fe33dc89a9de4" title="Mass (kg) at time t: linear from m_0 down by m_prop during the burn, then m_f." alt="" coords="195,445,328,473"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="74,367,113,399,162,430,183,440,178,442,159,435,110,403,75,372"/>
+<area shape="rect" id="Node000012" href="$classPhysics.html#a8b4e31aebf7fc2ac2167792e7e3f5351" title="Thrust (N) from the thrust table. 0 before ignition, after burnout, or outside the table." alt="" coords="192,497,332,525"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="67,367,104,424,131,456,162,482,180,493,175,494,159,487,127,459,100,427,67,372"/>
+<area shape="rect" id="Node000013" href="$classPhysics.html#a83fa4d24f42f37f8b008ee394bdf6c9a" title="World&#45;to&#45;body rotation matrix (DCM) from a unit quaternion." alt="" coords="204,549,320,577"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="64,367,78,403,97,448,125,495,142,516,162,534,192,551,186,552,159,539,138,520,120,498,92,450,73,405,64,372"/>
+<area shape="rect" id="Node000014" href="$classPhysics.html#abd84ccc109ebafa0623e09635863f87f" title="Speed of sound (m/s) in air at T_kelvin: √(1.4 · 287.05 · T)." alt="" coords="176,601,348,629"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="62,367,73,411,90,470,119,533,139,562,162,587,169,593,164,593,159,590,134,565,114,536,85,472,68,413,62,372"/>
+<area shape="rect" id="Node000015" href="$classPhysics.html#a8d61fa8350afd429a567754af06ba87c" title="Atmosphere and wind at alt_m, interpolated from the built&#45;in weather profile." alt="" coords="164,653,360,681"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="61,367,69,420,83,493,96,533,113,571,135,607,163,639,169,645,163,644,159,642,131,610,108,574,91,534,78,495,63,421,61,372"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="231,29,227,20,231,11,243,5,262,3,282,5,295,13,290,15,281,10,262,8,244,10,235,15,232,20,237,29"/>
+<area shape="rect" id="Node000006" href="$CTRLS__ControlAlgorithm_8cpp.html#a78e8e43288992cf5de6ea07393f6825f" title="Piecewise&#45;linear table lookup with binary search. Clamps outside the table." alt="" coords="411,341,457,369"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="341,211,365,224,387,247,405,273,427,327,422,326,400,276,383,250,361,228,342,216"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="408,344,400,336,402,325,413,317,434,315,460,319,467,325,469,333,464,331,462,328,458,324,434,320,415,322,406,328,405,334,413,344"/>
+<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="331,498,361,482,383,460,400,434,423,386,427,382,405,437,387,464,365,487,333,503"/>
+</map>

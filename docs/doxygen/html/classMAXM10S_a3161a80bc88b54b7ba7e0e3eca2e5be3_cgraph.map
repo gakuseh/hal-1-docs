@@ -1,0 +1,5 @@
+<map id="MAXM10S::Init" name="MAXM10S::Init">
+<area shape="rect" id="Node000001" title="Releases the module from reset, checks it answers, and sends the config." alt="" coords="5,5,122,33"/>
+<area shape="rect" id="Node000002" href="$classMAXM10S.html#a4e375764aea2560c4c1702d6077764fc" title="Sends a raw UBX message." alt="" coords="170,5,324,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,17,157,19,152,19,122,22"/>
+</map>

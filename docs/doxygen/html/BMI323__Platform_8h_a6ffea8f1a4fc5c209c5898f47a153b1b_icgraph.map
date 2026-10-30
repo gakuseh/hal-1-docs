@@ -1,0 +1,19 @@
+<map id="BMI_CS_Select" name="BMI_CS_Select">
+<area shape="rect" id="Node000001" title=" " alt="" coords="496,68,614,96"/>
+<area shape="poly" id="edge11_Node000001_Node000001" title=" " alt="" coords="582,52,573,49,555,47,538,49,528,53,526,59,530,69,525,66,521,59,525,50,536,43,555,41,575,44,587,53"/>
+<area shape="rect" id="Node000002" href="$BMI323__Platform_8cpp.html#a8f6e26c22bf491413443d1717cbc3d60" title="Bosch read callback: reads len bytes starting at register reg." alt="" coords="326,29,447,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="478,65,448,60,448,54,484,65"/>
+<area shape="rect" id="Node000010" href="$BMI323__Platform_8cpp.html#a9a23c93134c07b67a8898f7a96238b6f" title="Bosch write callback: writes len bytes starting at register reg." alt="" coords="325,105,448,133"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="484,98,449,108,448,103,478,99"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="414,14,405,10,387,8,369,10,360,15,358,20,362,30,357,28,352,20,356,11,368,5,387,3,407,5,419,14"/>
+<area shape="rect" id="Node000003" href="$BMI323__Platform_8h.html#ae77400bc95aedaa59ff32f7a93d0538d" title=" " alt="" coords="139,36,274,64"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="308,47,275,50,274,45,313,45"/>
+<area shape="rect" id="Node000004" href="$classSIMU__BMI323.html#ab9082994737bfa62561bd481fd10b761" title="Selects the chip&#45;select pin, initializes the chip, and applies the flight config." alt="" coords="137,93,277,121"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="334,62,249,95,247,90,329,63"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="232,21,224,17,207,15,191,17,182,21,180,27,184,36,179,35,174,27,178,18,189,12,207,9,226,12,238,21"/>
+<area shape="rect" id="Node000005" href="$classIMUs.html#a01cb1a03d61c8e547dbff573c7b91a78" title="Initializes BMI323 A, plus B and C if tmr_on." alt="" coords="5,93,89,121"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="118,108,89,110,89,105,124,107"/>
+<area shape="poly" id="edge9_Node000010_Node000003" title=" " alt="" coords="332,100,244,67,245,62,337,99"/>
+<area shape="poly" id="edge10_Node000010_Node000004" title=" " alt="" coords="306,114,277,115,277,109,312,114"/>
+<area shape="poly" id="edge8_Node000010_Node000010" title=" " alt="" coords="414,89,405,86,387,84,369,86,360,91,358,96,362,106,357,104,352,96,356,87,368,81,387,79,407,81,419,91"/>
+</map>

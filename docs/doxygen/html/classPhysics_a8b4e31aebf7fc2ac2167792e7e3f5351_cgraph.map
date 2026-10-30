@@ -1,0 +1,6 @@
+<map id="Physics::getThrust" name="Physics::getThrust">
+<area shape="rect" id="Node000001" title="Thrust (N) from the thrust table. 0 before ignition, after burnout, or outside the table." alt="" coords="5,29,146,57"/>
+<area shape="rect" id="Node000002" href="$CTRLS__ControlAlgorithm_8cpp.html#a78e8e43288992cf5de6ea07393f6825f" title="Piecewise&#45;linear table lookup with binary search. Clamps outside the table." alt="" coords="194,29,240,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,41,181,43,175,43,146,46"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="192,28,188,20,191,11,201,5,217,3,234,5,244,14,239,13,232,10,217,8,203,10,195,14,193,20,196,30"/>
+</map>

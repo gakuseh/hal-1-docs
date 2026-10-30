@@ -1,0 +1,5 @@
+<map id="BMI_Data" name="BMI_Data">
+<area shape="rect" id="Node000001" title="One IMU reading in the sensor&#39;s own axes." alt="" coords="34,128,118,156"/>
+<area shape="rect" id="Node000002" href="$classVector3D.html" title=" " alt="" coords="5,5,147,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,47,79,128,73,127,74,50"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="inv6" name="inv6">
+<area shape="rect" id="Node000001" title="Inverts a 6×6 matrix by LU decomposition with partial pivoting." alt="" coords="503,29,553,57"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="547,13,541,10,528,8,516,10,509,14,507,20,510,30,506,27,502,20,505,11,514,5,528,3,543,5,552,14"/>
+<area shape="rect" id="Node000002" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="350,29,455,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="485,43,456,46,455,41,491,43"/>
+<area shape="rect" id="Node000003" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="204,29,302,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="331,43,303,46,303,41,337,43"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="5,29,156,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="185,43,156,46,156,41,191,43"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="108,14,99,10,80,8,63,10,53,15,51,20,55,29,50,29,46,20,49,11,61,5,81,3,101,5,113,14"/>
+</map>

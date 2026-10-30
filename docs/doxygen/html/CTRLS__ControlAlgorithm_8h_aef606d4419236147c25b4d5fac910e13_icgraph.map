@@ -1,0 +1,26 @@
+<map id="eye" name="eye">
+<area shape="rect" id="Node000001" title="N×N identity matrix." alt="" coords="668,75,713,102"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="708,58,702,55,690,53,679,55,673,59,672,65,674,75,670,73,666,66,669,56,677,50,690,48,704,50,713,59"/>
+<area shape="rect" id="Node000002" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="380,48,485,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="670,61,648,37,619,16,597,10,575,8,530,16,489,32,456,50,454,45,487,27,529,11,575,3,598,5,621,11,652,33,675,62"/>
+<area shape="rect" id="Node000006" href="$CTRLS__ControlAlgorithm_8cpp.html#a5e8c77b08e862c08220a00825d1e451e" title="Inverts a 6×6 matrix by LU decomposition with partial pivoting." alt="" coords="552,49,601,77"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="649,80,602,71,602,66,655,80"/>
+<area shape="rect" id="Node000007" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="380,100,485,128"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="649,93,486,111,486,106,655,92"/>
+<area shape="rect" id="Node000009" href="$classEKF.html#a844dfbc174f4ee653ae9d26cb87752d9" title="Resets the state to cfg.x0 and the covariances to their initial values." alt="" coords="533,151,620,178"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="658,110,600,152,598,147,653,112"/>
+<area shape="rect" id="Node000003" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="219,48,317,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,62,318,64,317,59,367,61"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="5,100,156,128"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,81,134,102,132,97,206,78"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="111,85,101,81,80,79,61,81,51,85,48,91,53,99,48,100,43,91,47,81,60,75,81,73,103,76,116,84"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="533,63,486,65,485,60,539,62"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="594,33,588,30,576,28,565,30,559,34,558,40,561,50,556,48,553,40,555,31,563,25,577,23,590,25,599,34"/>
+<area shape="poly" id="edge12_Node000007_Node000003" title=" " alt="" coords="369,95,314,79,314,73,375,94"/>
+<area shape="rect" id="Node000008" href="$classEKF.html#a2cc366e902a4cdfd9b42b1c6fed90c19" title="Prediction only. Call when no new IMU sample is available." alt="" coords="204,100,332,128"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="362,114,333,116,332,111,367,113"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="186,115,157,116,155,111,191,113"/>
+<area shape="poly" id="edge14_Node000009_Node000004" title=" " alt="" coords="515,163,375,158,203,142,143,131,143,125,204,136,375,153,521,163"/>
+<area shape="rect" id="Node000010" href="$classEKF.html#a06bd8cb4136a8092c4c068448cdd027a" title="Stores the model and config and calls reset()." alt="" coords="394,201,472,229"/>
+<area shape="poly" id="edge15_Node000009_Node000010" title=" " alt="" coords="523,183,473,204,472,199,518,184"/>
+</map>

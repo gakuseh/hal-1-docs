@@ -1,0 +1,6 @@
+<map id="DataUpdate::getVerticalVelocity" name="DataUpdate::getVerticalVelocity">
+<area shape="rect" id="Node000001" title="Vertical velocity (m/s) from barometric altitude differences." alt="" coords="180,29,411,57"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ab07cea460334195cb8d85b2b61026c34" title="Data task: filtering, attitude, vertical velocity, and the flight state machine." alt="" coords="5,29,132,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,43,132,46,132,41,167,43"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="106,14,94,10,68,8,45,10,32,15,29,20,35,28,29,29,23,20,28,11,44,5,69,3,95,5,111,14"/>
+</map>

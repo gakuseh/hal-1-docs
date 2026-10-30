@@ -1,0 +1,15 @@
+<map id="Magnetometer::Magnetometer" name="Magnetometer::Magnetometer">
+<area shape="rect" id="Node000001" title="Binds the ST driver to spi. Does not touch hardware." alt="" coords="5,83,227,111"/>
+<area shape="rect" id="Node000002" href="$classMagnetometer.html#ab87221076be5e5ba43ff87e98ec5a084" title="ST delay callback. Uses HAL_Delay(), which busy&#45;waits." alt="" coords="293,5,474,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,80,282,53,278,56,173,85"/>
+<area shape="rect" id="Node000003" href="$classMagnetometer.html#a37159722d649da7762cd1dc77d522010" title="ST read callback. Sends reg | 0x80, then reads len bytes." alt="" coords="275,143,492,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,109,306,138,301,140,181,114"/>
+<area shape="rect" id="Node000006" href="$classMagnetometer.html#af2c02a7e4d810961f29e1ed777ab2110" title="ST write callback. Builds the frame in a stack buffer and sends it." alt="" coords="293,75,474,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="227,94,280,96,275,98,228,100"/>
+<area shape="rect" id="Node000004" href="$classMagnetometer.html#a93ecf842bbcce0b2ba9986cf9e2b517c" title="Drives chip select CS1 high." alt="" coords="540,86,714,114"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="446,140,491,129,549,118,554,117,493,134,446,145"/>
+<area shape="rect" id="Node000005" href="$classMagnetometer.html#a435d54d948ac469f4c96d9242ee7a2bd" title="Drives chip select CS1 low." alt="" coords="542,139,712,167"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="492,153,529,155,524,155,493,158"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="474,95,527,98,522,99,475,101"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="475,115,551,135,546,135,474,121"/>
+</map>

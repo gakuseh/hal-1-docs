@@ -1,0 +1,13 @@
+<map id="Telemetry::Reconfigure" name="Telemetry::Reconfigure">
+<area shape="rect" id="Node000001" title="Writes a new module config to flash and stores it in des_cfg." alt="" coords="5,55,177,82"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="225,55,411,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,66,212,68,206,69,177,71"/>
+<area shape="poly" id="edge7_Node000002_Node000002" title=" " alt="" coords="284,53,279,46,283,36,297,30,318,28,341,31,354,40,349,39,339,36,318,33,298,35,287,40,284,45,289,55"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="459,29,563,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,54,441,52,446,52,411,59"/>
+<area shape="rect" id="Node000004" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="611,55,776,82"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="411,66,599,68,593,69,411,71"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="479,28,474,20,478,11,491,5,511,3,533,5,546,14,541,14,531,10,511,8,492,10,482,15,480,20,484,30"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="564,48,599,55,593,55,564,53"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="662,53,657,46,661,36,673,30,694,28,715,31,728,40,723,39,714,36,693,33,675,35,665,40,662,45,666,55"/>
+</map>

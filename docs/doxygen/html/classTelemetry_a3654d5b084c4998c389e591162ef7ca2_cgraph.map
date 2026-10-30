@@ -1,0 +1,27 @@
+<map id="Telemetry::receiveCommands" name="Telemetry::receiveCommands">
+<area shape="rect" id="Node000001" title="Reads one GND frame from the module and applies it. GND → FC data path." alt="" coords="5,75,221,102"/>
+<area shape="rect" id="Node000002" href="$classTelemetry.html#a2eeb017c5dd374e66167df07cd87a118" title="Finds and validates a frame in rx_buffer and copies out its payload." alt="" coords="270,11,441,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,72,288,41,283,44,169,77"/>
+<area shape="rect" id="Node000004" href="$classTelemetry.html#a0c204f32e7b59dc0b680ae670d1adc70" title="Applies a GND command byte." alt="" coords="269,75,442,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,86,256,88,250,89,222,91"/>
+<area shape="rect" id="Node000009" href="$Ebyte__E22__900T22S_8cpp.html#a184feb4e2b67a80948b29d7e6bddded4" title="Blocking read of one incoming frame from the module." alt="" coords="276,151,435,178"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="160,100,297,144,292,147,160,106"/>
+<area shape="rect" id="Node000003" href="$classTelemetry.html#a1687664924337d0f5778d1458419b60f" title="16&#45;bit additive checksum: the byte sum, wrapping. Not a CRC." alt="" coords="512,5,673,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="441,20,499,21,493,22,442,25"/>
+<area shape="rect" id="Node000005" href="$Ebyte__E22__900T22S_8cpp.html#a38c3d2ad138b41d57d8ef13e493de685" title="Changes the module&#39;s channel by rewriting REG2 (not saved to flash)." alt="" coords="490,81,694,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="442,88,477,92,472,92,443,94"/>
+<area shape="poly" id="edge9_Node000005_Node000005" title=" " alt="" coords="552,80,545,72,550,63,566,57,592,55,620,57,636,66,631,66,619,62,592,60,567,62,554,67,550,72,556,82"/>
+<area shape="rect" id="Node000006" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="977,105,1081,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="695,98,964,115,959,116,695,103"/>
+<area shape="rect" id="Node000007" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="1129,105,1293,133"/>
+<area shape="poly" id="edge10_Node000005_Node000007" title=" " alt="" coords="667,78,752,66,856,56,969,55,1026,59,1082,67,1127,80,1170,99,1165,98,1125,85,1080,72,1025,65,969,61,856,62,752,71,668,83"/>
+<area shape="rect" id="Node000008" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="742,156,929,184"/>
+<area shape="poly" id="edge11_Node000005_Node000008" title=" " alt="" coords="640,107,776,151,770,151,639,112"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="997,104,992,96,996,87,1009,81,1029,79,1051,81,1064,91,1058,89,1049,86,1029,84,1010,86,1000,91,997,96,1002,106"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1082,117,1116,119,1111,119,1082,122"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="1179,104,1174,96,1178,87,1191,81,1211,79,1233,81,1246,91,1241,89,1231,86,1211,84,1192,86,1182,91,1180,96,1184,106"/>
+<area shape="poly" id="edge12_Node000008_Node000006" title=" " alt="" coords="891,153,959,137,964,136,891,158"/>
+<area shape="poly" id="edge13_Node000008_Node000007" title=" " alt="" coords="929,160,1081,142,1125,137,1131,136,1081,147,929,165"/>
+<area shape="poly" id="edge14_Node000008_Node000008" title=" " alt="" coords="802,154,797,147,801,138,814,131,836,129,858,132,872,141,867,140,857,137,835,135,816,137,805,141,802,147,807,157"/>
+<area shape="poly" id="edge16_Node000009_Node000009" title=" " alt="" coords="315,149,308,142,314,132,329,126,355,124,383,127,400,136,394,135,382,132,355,129,331,131,317,136,314,141,320,151"/>
+</map>

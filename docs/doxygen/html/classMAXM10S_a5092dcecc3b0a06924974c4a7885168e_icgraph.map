@@ -1,0 +1,8 @@
+<map id="MAXM10S::update" name="MAXM10S::update">
+<area shape="rect" id="Node000001" title="Reads everything the module has buffered and parses it." alt="" coords="368,29,508,57"/>
+<area shape="rect" id="Node000002" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="193,29,320,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,43,320,46,320,41,355,43"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ac1eede4a9ca0bf8cda1c392aa09bee67" title="Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz." alt="" coords="5,29,145,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,43,145,46,145,41,179,43"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="104,14,95,10,75,8,56,10,46,15,44,20,48,29,43,29,38,20,42,11,55,5,75,3,97,5,110,14"/>
+</map>

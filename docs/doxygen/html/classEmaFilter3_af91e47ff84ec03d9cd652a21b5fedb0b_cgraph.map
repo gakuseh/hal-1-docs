@@ -1,0 +1,5 @@
+<map id="EmaFilter3::update" name="EmaFilter3::update">
+<area shape="rect" id="Node000001" title="Filters x, y and z in place." alt="" coords="5,5,149,33"/>
+<area shape="rect" id="Node000002" href="$classEmaFilter.html#ab17959df687d5b1074cb6ef6b50e377e" title="Adds a sample and returns the filtered value, y = αx + (1 − α)y." alt="" coords="197,5,332,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,17,184,19,178,19,149,22"/>
+</map>

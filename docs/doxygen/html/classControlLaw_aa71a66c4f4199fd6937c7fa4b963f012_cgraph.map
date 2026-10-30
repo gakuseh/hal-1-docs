@@ -1,0 +1,12 @@
+<map id="ControlLaw::gainSchedule_" name="ControlLaw::gainSchedule_">
+<area shape="rect" id="Node000001" title="Gain K = I3 · λ / (∂M/∂ζ) for the current airspeed." alt="" coords="5,108,202,136"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a58a6ca0015fce48e0f19193f647d3c26" title="Air&#45;relative velocity in the body frame, using the config&#39;s fixed wind. Only jacobianB() uses this." alt="" coords="264,29,466,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,105,249,67,284,60,279,62,250,72,142,110"/>
+<area shape="rect" id="Node000003" href="$classPhysics.html#a1ae9cf014b2dfeb31b115f79bb6279a7" title="∂M/∂ζ (N·m per rad) at airspeed v_mag. ControlLaw divides by this to set its gain." alt="" coords="250,81,481,109"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="201,109,237,108,231,109,203,114"/>
+<area shape="rect" id="Node000004" href="$classPhysics.html#a9ef9fe2b0b4522587cf5dba812c40673" title="Roll inertia (kg·m²) at time t: linear from I_3_0 to I_3_f during the burn." alt="" coords="282,133,448,161"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="202,129,269,137,264,138,202,134"/>
+<area shape="rect" id="Node000005" href="$classPhysics.html#a8d61fa8350afd429a567754af06ba87c" title="Atmosphere and wind at alt_m, interpolated from the built&#45;in weather profile." alt="" coords="267,185,464,213"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="143,134,250,170,285,181,279,181,249,175,142,139"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="321,28,314,20,319,11,337,5,365,3,396,5,414,14,409,14,395,10,365,8,338,10,323,15,319,20,326,29"/>
+</map>

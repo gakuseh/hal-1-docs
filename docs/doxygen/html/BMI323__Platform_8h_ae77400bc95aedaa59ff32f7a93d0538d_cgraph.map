@@ -1,0 +1,17 @@
+<map id="BMI_CS_DeSelect" name="BMI_CS_DeSelect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,141,133"/>
+<area shape="poly" id="edge10_Node000001_Node000001" title=" " alt="" coords="41,105,36,96,40,87,53,81,73,79,95,81,108,89,103,91,93,86,73,84,54,86,44,91,41,96,46,104"/>
+<area shape="rect" id="Node000002" href="$BMI323__Platform_8cpp.html#a65987fc5fcb0a00ff338b980b57cdb9b" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="189,29,324,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,102,188,67,207,62,202,65,190,72,109,107"/>
+<area shape="rect" id="Node000003" href="$BMI323__Platform_8cpp.html#a8f6e26c22bf491413443d1717cbc3d60" title="Bosch read callback: reads len bytes starting at register reg." alt="" coords="196,105,317,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="141,117,183,118,178,120,142,122"/>
+<area shape="rect" id="Node000005" href="$BMI323__Platform_8cpp.html#a9a23c93134c07b67a8898f7a96238b6f" title="Bosch write callback: writes len bytes starting at register reg." alt="" coords="195,181,318,209"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="109,131,209,173,205,176,108,136"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="226,28,221,20,225,11,237,5,256,3,277,5,290,14,284,14,275,10,256,8,238,10,229,15,226,20,231,29"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="226,104,221,96,225,87,237,81,256,79,277,81,290,90,284,90,275,86,256,84,238,86,229,91,226,96,231,106"/>
+<area shape="rect" id="Node000004" href="$BMI323__Platform_8h.html#a6ffea8f1a4fc5c209c5898f47a153b1b" title=" " alt="" coords="372,144,489,172"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="317,130,360,141,354,142,317,135"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="400,142,395,135,399,126,411,119,431,117,451,120,464,129,459,128,450,125,431,123,413,125,403,129,401,135,405,145"/>
+<area shape="poly" id="edge9_Node000005_Node000004" title=" " alt="" coords="318,179,354,174,359,173,319,185"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="226,180,221,172,225,163,237,157,256,155,277,157,290,166,284,166,275,162,256,160,238,162,229,167,226,172,231,182"/>
+</map>

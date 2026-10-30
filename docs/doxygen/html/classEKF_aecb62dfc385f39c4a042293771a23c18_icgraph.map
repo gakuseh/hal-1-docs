@@ -1,0 +1,14 @@
+<map id="EKF::predict_" name="EKF::predict_">
+<area shape="rect" id="Node000001" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="489,32,595,60"/>
+<area shape="rect" id="Node000002" href="$classEKF.html#a2cc366e902a4cdfd9b42b1c6fed90c19" title="Prediction only. Call when no new IMU sample is available." alt="" coords="313,5,441,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="471,35,442,32,442,27,477,35"/>
+<area shape="rect" id="Node000005" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="328,57,426,85"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="477,56,427,66,426,61,471,57"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="115,32,265,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="295,31,266,38,265,32,300,30"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="214,16,206,13,190,11,174,13,166,17,164,23,168,32,163,31,158,23,162,14,173,8,190,5,208,8,219,16"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,32,67,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,47,67,48,67,43,101,45"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="60,17,52,13,36,11,20,13,12,17,10,23,14,31,9,32,5,23,8,14,19,8,36,5,54,8,65,16"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="310,63,265,59,266,53,316,63"/>
+</map>

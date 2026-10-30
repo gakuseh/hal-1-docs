@@ -2,10 +2,25 @@
 // Created by dyrel on 2/28/2026.
 //
 
+/**
+ * @file interrupt_override.cpp
+ * @ingroup tasks
+ * @brief The application's GPIO interrupt callback.
+ */
+
 #include "main.h"
 
 extern volatile bool e22_data_ready;
 
+/**
+ * @brief HAL callback for every EXTI line (overrides the HAL's weak default).
+ *
+ * The only active branch sets #e22_data_ready on a radio AUX rising edge,
+ * which nothing acts on. The IMU and barometer interrupt branches are empty,
+ * and the ISM6HG256X branch is commented out.
+ *
+ * @param GPIO_Pin The pin that fired.
+ */
 extern "C" void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     // if (GPIO_Pin == ISM_INT_Pin)  // ISM6HGx not used this flight

@@ -1,0 +1,8 @@
+<map id="SensorFilters" name="SensorFilters">
+<area shape="rect" id="Node000001" title="The filters applied to each sensor frame." alt="" coords="5,274,110,301"/>
+<area shape="rect" id="Node000002" href="$classEmaFilter.html" title="Single&#45;channel EMA. Seeds itself with the first sample to avoid a start&#45;up transient." alt="" coords="16,5,99,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,46,52,109,51,178,59,273,53,273,46,178,46,108,54,51"/>
+<area shape="rect" id="Node000003" href="$classEmaFilter3.html" title="Three independent EMA channels with the same alpha, for a 3&#45;axis signal." alt="" coords="156,151,247,178"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="82,42,191,149,186,151,81,47"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,190,75,275,72,271,172,187"/>
+</map>

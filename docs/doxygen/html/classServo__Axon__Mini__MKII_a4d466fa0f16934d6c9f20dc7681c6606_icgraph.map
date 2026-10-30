@@ -1,0 +1,28 @@
+<map id="Servo_Axon_Mini_MKII::Actuate" name="Servo_Axon_Mini_MKII::Actuate">
+<area shape="rect" id="Node000001" title="Writes both PWM compare registers for input plus the configured offsets (deg)." alt="" coords="535,114,705,159"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a86ff496255536cb316929054364d5533" title="Starts PWM, centres both servos, records the zero reference, and checks they hold position." alt="" coords="318,45,487,90"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,109,475,93,475,87,536,109"/>
+<area shape="rect" id="Node000006" href="$classServo__Axon__Mini__MKII.html#a8181c2289fbf24d885af2d7330d153fb" title="Changes the trim and immediately re&#45;sends the last command." alt="" coords="318,114,487,159"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="517,137,488,139,487,134,523,136"/>
+<area shape="rect" id="Node000007" href="$classServo__Axon__Mini__MKII.html#a407534f1678520e15b865b4e19183922" title="Commands both servos and refreshes the feedback data." alt="" coords="318,184,487,228"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="536,163,476,185,474,180,531,165"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="5,29,72,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,48,270,46,162,42,73,44,71,39,162,36,270,41,305,46"/>
+<area shape="rect" id="Node000004" href="$classSensors.html#adea9ecd9a2315082d6fd583cac1dd89e" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="144,55,246,82"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="300,69,247,71,245,66,305,67"/>
+<area shape="rect" id="Node000005" href="$classTEST.html#a68118d6312a5385c98cb4faf8bbc003b" title="Inits both servos, then cycles them through 90/−33°, −45/45° and 0/0° forever." alt="" coords="123,109,266,137"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="301,95,250,111,248,106,306,93"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="63,15,55,10,38,8,23,10,14,14,12,20,16,28,11,29,7,20,10,11,21,5,39,3,57,5,68,12"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="127,60,73,51,71,46,131,56"/>
+<area shape="poly" id="edge16_Node000007_Node000005" title=" " alt="" coords="328,178,232,140,232,135,333,177"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#ab85808c9cd01e8dc25add722198590e9" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="150,191,240,218"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="300,206,240,207,240,202,305,205"/>
+<area shape="rect" id="Node000010" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="120,267,270,294"/>
+<area shape="poly" id="edge13_Node000007_Node000010" title=" " alt="" coords="327,233,237,269,235,263,322,234"/>
+<area shape="poly" id="edge12_Node000008_Node000008" title=" " alt="" coords="219,175,211,171,195,169,179,171,170,176,168,181,172,191,167,190,163,182,166,172,177,166,195,164,213,166,225,175"/>
+<area shape="rect" id="Node000009" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="8,228,69,256"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="133,221,70,237,69,232,136,217"/>
+<area shape="poly" id="edge11_Node000009_Node000009" title=" " alt="" coords="63,213,55,209,38,207,23,209,14,213,12,219,16,227,11,228,7,219,10,210,21,204,39,201,57,204,68,211"/>
+<area shape="poly" id="edge14_Node000010_Node000009" title=" " alt="" coords="119,264,69,252,70,247,124,261"/>
+<area shape="poly" id="edge15_Node000010_Node000010" title=" " alt="" coords="219,251,211,247,195,245,179,247,170,252,168,257,172,267,167,265,163,258,166,248,177,242,195,240,213,242,225,251"/>
+</map>

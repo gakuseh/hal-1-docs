@@ -1,0 +1,13 @@
+<map id="transmit_e22_900t22s" name="transmit_e22_900t22s">
+<area shape="rect" id="Node000001" title="Hands bytes to the module for transmission." alt="" coords="642,48,809,76"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="763,32,751,29,725,27,702,29,688,33,685,39,691,49,686,46,680,39,685,29,700,23,726,21,752,24,769,33"/>
+<area shape="rect" id="Node000002" href="$classTelemetry.html#af40b1f663cd54fddc814276e4b99d292" title="Frames payload into tx_buffer and transmits it." alt="" coords="397,5,594,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="630,45,574,36,574,31,635,45"/>
+<area shape="rect" id="Node000007" href="$Ebyte__E22__900T22S_8cpp.html#a1f5b1f4f6df639135387f8ce2168c18a" title="Prepends a fixed&#45;point header and transmits." alt="" coords="422,81,569,126"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="632,79,570,93,570,87,627,79"/>
+<area shape="rect" id="Node000003" href="$classTelemetry.html#aa6e91efed2d7243cc87a2a1b90f45900" title="Sends one telemetry frame. FC → GND data path." alt="" coords="194,5,349,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,20,350,22,349,17,384,19"/>
+<area shape="rect" id="Node000004" href="$classTelemetry.html#aaf6bfe0a83c596e07009d8434d4f9ab1" title="Runs one Radio&#45;task cycle: receive if a window is due, otherwise send." alt="" coords="5,5,146,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="176,20,147,22,145,17,180,18"/>
+<area shape="poly" id="edge6_Node000007_Node000007" title=" " alt="" coords="531,65,519,62,496,59,475,61,462,66,457,72,457,82,453,79,451,71,459,62,474,56,496,54,520,57,536,66"/>
+</map>

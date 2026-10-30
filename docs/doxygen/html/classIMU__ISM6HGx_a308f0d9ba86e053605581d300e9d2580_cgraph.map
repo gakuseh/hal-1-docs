@@ -1,0 +1,23 @@
+<map id="IMU_ISM6HGx::Init" name="IMU_ISM6HGx::Init">
+<area shape="rect" id="Node000001" title="Resets the chip, checks WHO_AM_I, and applies the config." alt="" coords="5,144,149,172"/>
+<area shape="rect" id="Node000002" href="$ISM6__Platform_8cpp.html#a0c4b7836d5fefbd5dba380dd181662b2" title="ST delay callback. Calls osDelay(), so it yields to the scheduler." alt="" coords="197,29,368,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,142,137,105,195,67,214,61,210,65,198,72,140,109,96,145"/>
+<area shape="rect" id="Node000003" href="$ISM6__Platform_8cpp.html#a5619ddf0b8e6fcbfca505c81014dbebb" title="ST read callback: reads len bytes starting at register reg." alt="" coords="226,105,338,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="148,142,213,131,209,134,150,147"/>
+<area shape="rect" id="Node000006" href="$ISM6__Platform_8cpp.html#a17b346626d6aab881c0b91131e4ce0a8" title="ST write callback: writes len bytes starting at register reg." alt="" coords="225,181,340,209"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="149,168,212,181,207,183,149,174"/>
+<area shape="rect" id="Node000007" href="$ISM6__Platform_8cpp.html#ac559e0eebc02eac2e3d941ed21453cbd" title="Does nothing. CubeMX already configures SPI3 and the chip&#45;select pin." alt="" coords="230,257,335,285"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="105,170,244,248,240,251,103,175"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="250,29,245,20,249,11,262,5,282,3,305,5,318,14,313,14,303,10,282,8,263,10,253,15,250,20,255,29"/>
+<area shape="poly" id="edge8_Node000003_Node000003" title=" " alt="" coords="250,104,245,96,249,87,262,81,282,79,305,81,318,90,313,90,303,86,282,84,263,86,253,91,250,96,255,105"/>
+<area shape="rect" id="Node000004" href="$ISM6__Platform_8cpp.html#aedfc412aa1c418a4f4c84682650c0e9e" title="Drives the ISM6HG256X chip select high (deselected)." alt="" coords="416,105,522,133"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="338,117,403,118,398,120,339,122"/>
+<area shape="rect" id="Node000005" href="$ISM6__Platform_8cpp.html#ad3744c27f3fff97f3c11ed97d3b037f2" title="Drives the ISM6HG256X chip select low (selected)." alt="" coords="418,181,520,209"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="334,131,369,143,431,174,425,174,367,148,334,136"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="437,104,432,96,436,87,449,81,469,79,491,81,505,90,499,90,490,86,469,84,450,86,439,91,437,96,442,106"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="437,180,432,172,436,163,449,157,469,155,491,157,505,166,499,166,490,162,469,160,450,162,439,167,437,172,442,182"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="318,178,417,140,422,138,320,183"/>
+<area shape="poly" id="edge11_Node000006_Node000005" title=" " alt="" coords="340,193,405,195,400,196,340,198"/>
+<area shape="poly" id="edge12_Node000006_Node000006" title=" " alt="" coords="250,180,245,172,249,163,262,157,282,155,305,157,318,166,313,166,303,162,282,160,263,162,253,167,250,172,255,182"/>
+<area shape="poly" id="edge14_Node000007_Node000007" title=" " alt="" coords="250,256,245,248,249,239,262,233,282,231,305,233,318,242,313,242,303,238,282,236,263,238,253,243,250,248,255,258"/>
+</map>

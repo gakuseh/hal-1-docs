@@ -1,0 +1,5 @@
+<map id="Servo_Axon_Mini_MKII::SetOffset" name="Servo_Axon_Mini_MKII::SetOffset">
+<area shape="rect" id="Node000001" title="Changes the trim and immediately re&#45;sends the last command." alt="" coords="5,5,175,50"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a4d466fa0f16934d6c9f20dc7681c6606" title="Writes both PWM compare registers for input plus the configured offsets (deg)." alt="" coords="223,5,392,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,25,210,27,205,28,175,30"/>
+</map>

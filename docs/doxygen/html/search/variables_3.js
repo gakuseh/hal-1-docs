@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['c_0',['C',['../structBaro__Unified_1_1BMP__Status.html#a03ac76b6bf7fdda3e27c2e48a6dddf50',1,'Baro_Unified::BMP_Status::C'],['../structIMUsStatus.html#ad785312522458bbe083beda522daacd3',1,'IMUsStatus::C']]],
+  ['c_5fldw_1',['C_ldw',['../classPhysics.html#af1f01abfffe9794472e0da999c83d169',1,'Physics']]],
+  ['callsign_2',['callsign',['../structtelemetryData.html#a5d11f44a782ef984382253e6cf03f190',1,'telemetryData']]],
+  ['canard_5fcn_3',['canard_cn',['../structRocketConfig.html#a101bac007bd538b719bffc9f9e013d1b',1,'RocketConfig']]],
+  ['canard_5fcp_4',['canard_cp',['../structRocketConfig.html#a7ff85d984b7a3ff4ed433da90c40a65c',1,'RocketConfig']]],
+  ['canard_5fdir_5f1_5',['canard_dir_1',['../structRocketConfig.html#a0f7efc19aa7f911f962be080fa033f08',1,'RocketConfig']]],
+  ['canard_5fdir_5f2_6',['canard_dir_2',['../structRocketConfig.html#a0aadd7607c6a8ffecc3a96ec74c527d9',1,'RocketConfig']]],
+  ['canard_5fmoment_5fcoeff_5fper_5fdeg_7',['canard_moment_coeff_per_deg',['../structRocketConfig.html#a404f4ceea204e89cfd3e23e936f696c3',1,'RocketConfig']]],
+  ['canard_5fplane_5fangle_5fdeg_8',['canard_plane_angle_deg',['../structRocketConfig.html#aa215b178f2f968dd321464fcac62deed',1,'RocketConfig']]],
+  ['cfg_9',['cfg',['../classPhysics.html#abf1eddf9e6b1578508930a4b442011fd',1,'Physics']]],
+  ['cfg_5f_10',['cfg_',['../classControlLaw.html#a6e90dcd3c019ff4f60c967d94cbe6b3b',1,'ControlLaw::cfg_'],['../classEKF.html#abb63c2b5a5ecf585c13b8cebf21a64f0',1,'EKF::cfg_']]],
+  ['cnalpha_5ffin_11',['Cnalpha_fin',['../structRocketConfig.html#adee275821ecc82a4f5b12c910d0311e8',1,'RocketConfig']]],
+  ['commandbyte_12',['CommandByte',['../structGndStationData.html#ad65e6b691b14e36e8135b757b9bb3920',1,'GndStationData']]],
+  ['commandresponsebyte_13',['CommandResponseByte',['../structtelemetryData.html#a45b9800770d55fbea4d0f8a3bac31b7c',1,'telemetryData']]],
+  ['config_14',['config',['../classServo__Axon__Mini__MKII.html#a50e54cc722c7600885694bc4514cb029',1,'Servo_Axon_Mini_MKII::config'],['../classSIMU__BMI323.html#a0fc11782e489aab0fb54a1b32d02ec85',1,'SIMU_BMI323::config']]],
+  ['cr_15',['Cr',['../structRocketConfig.html#acbf7f7b076ea6812b66c3e86de4b220f',1,'RocketConfig']]],
+  ['cs_5fpin_16',['cs_pin',['../structbmp3__spi__intf.html#a18cbd5b62d83088cbde2def3bc9f1633',1,'bmp3_spi_intf::cs_pin'],['../structBMIobjPtr.html#ad0aed2e1b0197eeab9e7da13e2e51dbd',1,'BMIobjPtr::cs_pin']]],
+  ['cs_5fport_17',['cs_port',['../structbmp3__spi__intf.html#a74b9060b8e621946b075264fe59a92d2',1,'bmp3_spi_intf::cs_port'],['../structBMIobjPtr.html#ac37e2cfa00a6fe360c99a1e683d1132a',1,'BMIobjPtr::cs_port']]],
+  ['ct_18',['Ct',['../structRocketConfig.html#ac5183bc271c51ef32303f3772b2ab786',1,'RocketConfig']]],
+  ['ctrlindicationhandle_19',['CTRLIndicationHandle',['../main_8cpp.html#a445a0006bbd79c9d5e06b376e672b1d6',1,'main.cpp']]],
+  ['ctrls_5ft_20',['CTRLs_t',['../main_8cpp.html#a94db76b1bdc226e46c90a02dfc5cd6ae',1,'main.cpp']]],
+  ['currentangle_21',['currentAngle',['../structDATA__Axon__Mini__MKII.html#aedee0ec02583f846411fd11e69c9b6d4',1,'DATA_Axon_Mini_MKII']]],
+  ['currs1_22',['currS1',['../structServoAngles.html#a9aeb88bb837e1939cd541f3b52bca4f4',1,'ServoAngles']]],
+  ['currs2_23',['currS2',['../structServoAngles.html#ab30ddb2f6ecd8858b55eff13ce49cacf',1,'ServoAngles']]]
+];

@@ -1,0 +1,5 @@
+<map id="Baro_Unified::Baro_Unified" name="Baro_Unified::Baro_Unified">
+<area shape="rect" id="Node000001" title="Binds the three sensors to SPI2 and their chip selects. Does not touch hardware." alt="" coords="195,5,338,50"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#ae19cacfbe1157460fda27634a8826b3e" title="Standalone radio link: sends barometer altitude through Telemetry::Update() every 10 ms forever." alt="" coords="5,14,147,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,28,147,30,147,25,181,27"/>
+</map>

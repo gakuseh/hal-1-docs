@@ -1,0 +1,5 @@
+<map id="EmaFilter3" name="EmaFilter3">
+<area shape="rect" id="Node000001" title="Three independent EMA channels with the same alpha, for a 3&#45;axis signal." alt="" coords="5,151,96,178"/>
+<area shape="rect" id="Node000002" href="$classEmaFilter.html" title="Single&#45;channel EMA. Seeds itself with the first sample to avoid a start&#45;up transient." alt="" coords="9,5,92,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,48,53,150,48,150,48,49"/>
+</map>

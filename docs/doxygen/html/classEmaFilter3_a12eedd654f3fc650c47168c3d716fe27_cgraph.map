@@ -1,0 +1,5 @@
+<map id="EmaFilter3::seed" name="EmaFilter3::seed">
+<area shape="rect" id="Node000001" title="Sets all three outputs directly." alt="" coords="5,5,135,33"/>
+<area shape="rect" id="Node000002" href="$classEmaFilter.html#a6492fb7af597cb717cbe57a1918addea" title="Sets the filter output directly." alt="" coords="183,5,304,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,17,170,19,165,19,135,22"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Physics::getDragCoeff" name="Physics::getDragCoeff">
+<area shape="rect" id="Node000001" title="Drag coefficient from the power&#45;on table before burnout and the power&#45;off table after." alt="" coords="5,29,171,57"/>
+<area shape="rect" id="Node000002" href="$CTRLS__ControlAlgorithm_8cpp.html#a78e8e43288992cf5de6ea07393f6825f" title="Piecewise&#45;linear table lookup with binary search. Clamps outside the table." alt="" coords="219,29,265,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,41,206,43,201,43,171,46"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="216,29,210,21,213,12,224,5,242,3,262,6,272,16,267,15,260,11,242,8,226,10,218,15,216,21,221,31"/>
+</map>

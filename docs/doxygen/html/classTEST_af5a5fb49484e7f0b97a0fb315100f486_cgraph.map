@@ -1,0 +1,18 @@
+<map id="TEST::SD_TEST" name="TEST::SD_TEST">
+<area shape="rect" id="Node000001" title="Writes 10 test rows to the SD card and closes it, then blinks slowly on success or quickly on failure..." alt="" coords="5,181,123,209"/>
+<area shape="rect" id="Node000002" href="$SDCard_8cpp.html#a4af76b13a171132637a4854efb336517" title="Closes the log file and unmounts the card. Call before power&#45;down." alt="" coords="191,29,273,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,180,110,126,138,95,169,68,180,63,176,67,172,72,142,99,114,130,76,182"/>
+<area shape="rect" id="Node000003" href="$SDCard_8cpp.html#a346736d3ccef647c316f163dc1fc1a87" title="Mounts the card and opens HAL1_LOG.TXT for appending." alt="" coords="198,105,266,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="94,179,170,143,186,138,182,141,172,148,97,183"/>
+<area shape="rect" id="Node000004" href="$SDCard_8cpp.html#adcc936b8992555bfbb10f15d9843953b" title="Appends one GPS fix as a CSV row: lat,lon,alt,hh,mm,ss." alt="" coords="184,181,280,209"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="122,193,171,194,167,197,124,198"/>
+<area shape="rect" id="Node000005" href="$SDCard_8cpp.html#af0afb0df06242afd1b5e0eade5211a7d" title="Appends msg without a newline, then flushes to the card." alt="" coords="179,257,284,285"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="97,207,187,249,183,252,97,212"/>
+<area shape="rect" id="Node000006" href="$SDCard_8cpp.html#aef86bc73dd1505b57a0e652f700a570b" title="Appends msg and a newline, then flushes to the card." alt="" coords="171,333,293,361"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="80,207,172,295,204,323,199,323,169,298,78,212"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="202,29,198,20,201,11,213,5,232,3,252,5,264,13,259,15,250,10,232,8,215,10,205,15,203,20,207,29"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="202,105,198,96,201,87,213,81,232,79,252,81,264,90,259,90,250,86,232,84,215,86,205,91,203,96,207,105"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="202,180,198,172,201,163,213,157,232,155,252,157,264,166,259,166,250,162,232,160,215,162,205,167,203,172,207,181"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="202,256,198,248,201,239,213,233,232,231,252,233,264,242,259,242,250,238,232,236,215,238,205,243,203,248,207,258"/>
+<area shape="poly" id="edge10_Node000006_Node000006" title=" " alt="" coords="202,332,198,324,201,315,213,309,232,307,252,309,264,318,259,318,250,314,232,312,215,314,205,319,203,324,207,334"/>
+</map>

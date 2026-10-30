@@ -1,0 +1,7 @@
+<map id="ControlLaw::updateRollEffectivenessSign" name="ControlLaw::updateRollEffectivenessSign">
+<area shape="rect" id="Node000001" title="Roll effectiveness monitor: flips the gain sign if the canards act backwards." alt="" coords="5,32,294,60"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#ac01d0b9305fcdceb47f4ac536df769f2" title="Canard roll moment (N·m) for airspeed v_mag and deflection zeta_rad: coeff · v² · ζ(deg)." alt="" coords="342,5,518,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,29,329,29,323,29,294,35"/>
+<area shape="rect" id="Node000003" href="$classPhysics.html#a9ef9fe2b0b4522587cf5dba812c40673" title="Roll inertia (kg·m²) at time t: linear from I_3_0 to I_3_f during the burn." alt="" coords="347,57,513,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="294,56,334,62,329,62,294,62"/>
+</map>

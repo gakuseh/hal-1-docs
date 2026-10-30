@@ -1,0 +1,18 @@
+<map id="lerp" name="lerp">
+<area shape="rect" id="Node000001" title="Piecewise&#45;linear table lookup with binary search. Clamps outside the table." alt="" coords="789,56,835,84"/>
+<area shape="poly" id="edge9_Node000001_Node000001" title=" " alt="" coords="837,41,830,37,812,35,796,37,788,41,786,47,791,58,786,55,780,48,783,38,794,32,812,29,832,32,842,43"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a424fee50bd57b77d8992de2ea08e5dc8" title="Drag coefficient from the power&#45;on table before burnout and the power&#45;off table after." alt="" coords="575,29,741,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="771,63,741,60,741,55,776,63"/>
+<area shape="rect" id="Node000012" href="$classPhysics.html#a8b4e31aebf7fc2ac2167792e7e3f5351" title="Thrust (N) from the thrust table. 0 before ignition, after burnout, or outside the table." alt="" coords="588,81,728,109"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="776,76,729,86,728,81,771,76"/>
+<area shape="rect" id="Node000003" href="$classPhysics.html#a420be790289e6d5617c41c3123572bff" title="Full nonlinear equations of motion, ẋ = f(t, x, u)." alt="" coords="420,56,527,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="562,57,528,65,527,59,557,58"/>
+<area shape="rect" id="Node000004" href="$classPhysics.html#a5f0e88b94556c5fe9d033769aa3a42b2" title="Numerical Jacobian ∂f/∂x by central differences (step 1e&#45;5, 20 eom() calls)." alt="" coords="194,5,336,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="402,53,325,36,325,31,407,53"/>
+<area shape="rect" id="Node000005" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="5,31,111,58"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="404,68,111,50,111,45,405,63"/>
+<area shape="rect" id="Node000010" href="$classPhysics.html#ac95a25705b5f690f7530691e8c24f92f" title="Predicted IMU reading for state x." alt="" coords="159,107,372,134"/>
+<area shape="poly" id="edge6_Node000003_Node000010" title=" " alt="" coords="407,86,326,109,325,103,402,87"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,31,112,41,110,36,181,28"/>
+<area shape="poly" id="edge8_Node000012_Node000003" title=" " alt="" coords="570,83,528,80,528,75,575,83"/>
+</map>

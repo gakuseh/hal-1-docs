@@ -1,0 +1,6 @@
+<map id="EKF::reset" name="EKF::reset">
+<area shape="rect" id="Node000001" title="Resets the state to cfg.x0 and the covariances to their initial values." alt="" coords="5,29,92,57"/>
+<area shape="rect" id="Node000002" href="$CTRLS__ControlAlgorithm_8h.html#aef606d4419236147c25b4d5fac910e13" title="N×N identity matrix." alt="" coords="140,29,185,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,41,127,43,122,43,92,46"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="142,28,138,20,141,11,149,5,162,3,176,5,185,14,180,13,174,10,162,8,151,10,145,14,144,20,146,30"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="ISM_SPI_Write" name="ISM_SPI_Write">
+<area shape="rect" id="Node000001" title="ST write callback: writes len bytes starting at register reg." alt="" coords="5,68,120,96"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="34,68,30,59,34,50,45,44,63,41,82,44,93,52,88,53,80,49,62,47,46,49,38,53,36,59,40,67"/>
+<area shape="rect" id="Node000002" href="$ISM6__Platform_8cpp.html#aedfc412aa1c418a4f4c84682650c0e9e" title="Drives the ISM6HG256X chip select high (deselected)." alt="" coords="168,29,274,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,65,155,59,150,61,121,70"/>
+<area shape="rect" id="Node000003" href="$ISM6__Platform_8cpp.html#ad3744c27f3fff97f3c11ed97d3b037f2" title="Drives the ISM6HG256X chip select low (selected)." alt="" coords="170,105,272,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="120,93,157,103,152,104,120,98"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="193,28,189,20,192,11,203,5,221,3,240,5,251,14,246,14,238,10,221,8,205,10,196,14,194,20,198,30"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="193,104,189,96,192,87,203,81,221,79,240,81,251,90,246,90,238,86,221,84,205,86,196,90,194,96,198,106"/>
+</map>

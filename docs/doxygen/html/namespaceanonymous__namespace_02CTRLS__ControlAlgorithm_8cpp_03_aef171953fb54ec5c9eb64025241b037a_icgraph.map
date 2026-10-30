@@ -1,0 +1,13 @@
+<map id="anonymous_namespace{CTRLS_ControlAlgorithm::cpp}::copyTable" name="anonymous_namespace{CTRLS_ControlAlgorithm::cpp}::copyTable">
+<area shape="rect" id="Node000001" title="Copies n floats from src to dst." alt="" coords="579,29,768,91"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="712,15,698,11,673,8,652,10,637,15,630,21,629,31,625,27,626,19,635,10,651,5,674,3,700,5,717,15"/>
+<area shape="rect" id="Node000002" href="$CTRLS__ControlAlgorithm_8cpp.html#adf16f315c89b28c9674f10ae17552935" title="Loads the Control Freak flight parameters into cfg." alt="" coords="313,46,531,74"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="561,60,532,63,532,58,566,60"/>
+<area shape="poly" id="edge7_Node000002_Node000002" title=" " alt="" coords="460,31,448,27,422,25,398,27,385,32,381,37,387,47,382,45,376,37,381,28,397,22,422,20,449,22,466,31"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="115,46,265,74"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="295,60,265,63,265,58,300,60"/>
+<area shape="poly" id="edge6_Node000003_Node000003" title=" " alt="" coords="214,30,206,27,190,25,174,27,166,31,164,37,168,47,163,45,158,37,162,28,173,22,190,20,208,22,219,31"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,46,67,74"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="97,61,67,63,67,58,101,59"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="60,31,52,27,36,25,20,27,12,31,10,37,14,45,9,46,5,37,8,28,19,22,36,20,54,22,65,30"/>
+</map>

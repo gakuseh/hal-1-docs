@@ -1,0 +1,5 @@
+<map id="MAXM10S" name="MAXM10S">
+<area shape="rect" id="Node000001" title="MAX&#45;M10S GPS: reads NMEA over I2C and parses it with TinyGPSPlus." alt="" coords="36,106,124,134"/>
+<area shape="rect" id="Node000002" href="$structMAXM10S_1_1gpsData.html" title="Latest GPS solution. Fields keep their last valid values until updated." alt="" coords="5,5,155,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,47,83,106,77,105,78,50"/>
+</map>

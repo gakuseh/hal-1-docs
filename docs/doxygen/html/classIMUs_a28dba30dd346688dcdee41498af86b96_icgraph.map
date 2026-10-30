@@ -1,0 +1,14 @@
+<map id="IMUs::TMR_Compute" name="IMUs::TMR_Compute">
+<area shape="rect" id="Node000001" title="Votes Raw_BMI into Voted_BMI, acceleration and rate separately." alt="" coords="525,57,683,85"/>
+<area shape="rect" id="Node000002" href="$classIMUs.html#a070624199b10aee0a831102b08c54168" title="Reads each active sensor and recomputes the voted output." alt="" coords="368,57,477,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="507,71,478,74,478,69,512,71"/>
+<area shape="rect" id="Node000003" href="$classTEST.html#a2e7fd4eb34d4f3dd2e8ab0376d01d1cf" title="Inits the three BMI323s and reads them every tick forever, toggling the LED." alt="" coords="194,5,319,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="359,52,303,36,303,31,364,52"/>
+<area shape="rect" id="Node000004" href="$classTEST.html#a905b440f1c81bd25d397fd71e814e7df" title="Logs voted IMU readings to the SD card as fast as it can, forever." alt="" coords="195,57,318,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="350,71,318,74,318,69,355,71"/>
+<area shape="rect" id="Node000005" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="193,109,320,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="364,90,304,111,302,106,359,91"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#ac1eede4a9ca0bf8cda1c392aa09bee67" title="Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz." alt="" coords="5,109,145,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="174,123,145,126,145,121,179,123"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="104,94,95,90,75,88,56,90,46,95,44,100,48,109,43,109,38,100,42,91,55,85,75,83,97,85,110,94"/>
+</map>

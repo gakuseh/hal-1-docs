@@ -1,0 +1,11 @@
+<map id="reset_e22_900t22s" name="reset_e22_900t22s">
+<area shape="rect" id="Node000001" title="Sends the software reset command (CF) in CONFIG mode, then returns to TRANS." alt="" coords="5,55,150,82"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="47,54,43,46,46,36,58,30,78,28,98,31,110,39,105,39,96,36,77,33,60,35,50,40,48,45,52,54"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="198,29,302,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,55,185,53,180,53,151,60"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="350,55,514,82"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="150,66,335,66,334,71,150,71"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="220,28,215,20,219,11,231,5,250,3,270,5,283,14,278,14,269,10,250,8,232,10,223,15,220,20,225,30"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="303,48,337,55,332,55,303,53"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="400,53,395,46,399,36,412,30,432,28,454,31,467,40,462,39,452,36,432,33,413,35,403,40,401,45,405,55"/>
+</map>

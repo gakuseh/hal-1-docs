@@ -1,0 +1,7 @@
+<map id="CTRLs_PID" name="CTRLs_PID">
+<area shape="rect" id="Node000001" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="115,29,205,57"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="179,13,173,10,160,8,148,10,141,14,139,20,142,30,137,28,134,20,137,11,146,5,160,3,175,5,184,14"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,29,67,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,44,67,46,67,41,102,43"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="55,14,49,10,36,8,24,10,17,14,15,20,19,28,13,29,10,20,13,11,22,5,36,3,51,5,60,13"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="SIMU_BMI323::Update" name="SIMU_BMI323::Update">
+<area shape="rect" id="Node000001" title="Reads a new sample if one is ready." alt="" coords="5,32,172,60"/>
+<area shape="rect" id="Node000002" href="$classSIMU__BMI323.html#ad1188accb8ec5d8fca4cd04cd7f933a9" title="Converts a raw gyroscope value to deg/s." alt="" coords="220,5,408,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,33,207,32,202,33,173,39"/>
+<area shape="rect" id="Node000003" href="$classSIMU__BMI323.html#a2ca95ceeed9ac7fc3e0f55c017980137" title="Converts a raw accelerometer value to g." alt="" coords="227,57,400,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,53,215,60,209,60,172,58"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="transmit_fixed_e22_900t22s" name="transmit_fixed_e22_900t22s">
+<area shape="rect" id="Node000001" title="Prepends a fixed&#45;point header and transmits." alt="" coords="5,29,153,74"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="40,28,38,19,45,10,59,5,79,3,101,5,116,13,110,14,99,10,79,8,60,10,48,15,44,21,45,29"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#a8122bbbdfaa894cd8fd02a95a747ef35" title="Hands bytes to the module for transmission." alt="" coords="201,38,367,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,49,188,51,182,52,153,54"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="248,36,243,29,247,19,261,13,284,11,308,14,323,23,317,22,307,19,284,16,263,18,251,23,248,29,253,38"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="415,38,579,66"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="367,49,402,52,397,52,367,54"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="460,36,455,29,459,19,474,13,497,11,522,14,537,23,532,22,521,19,497,16,475,18,463,23,460,29,465,38"/>
+</map>

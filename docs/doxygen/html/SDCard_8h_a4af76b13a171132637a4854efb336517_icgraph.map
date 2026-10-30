@@ -1,0 +1,9 @@
+<map id="SD_Close" name="SD_Close">
+<area shape="rect" id="Node000001" title="Closes the log file and unmounts the card. Call before power&#45;down." alt="" coords="171,56,253,84"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="235,40,227,37,212,35,197,37,189,41,187,47,190,56,186,54,181,47,185,38,195,32,212,29,229,32,240,41"/>
+<area shape="rect" id="Node000002" href="$SDCard_8h.html#a0261fabf1a97d56293678d322b6c7323" title="Was meant to open HAL1_DYN.TXT for dynamics&#45;model logging." alt="" coords="17,29,111,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="153,61,111,54,111,49,158,59"/>
+<area shape="rect" id="Node000003" href="$classTEST.html#af5a5fb49484e7f0b97a0fb315100f486" title="Writes 10 test rows to the SD card and closes it, then blinks slowly on success or quickly on failure..." alt="" coords="5,81,123,109"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="152,80,123,88,122,82,158,79"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="87,14,80,10,64,8,49,10,41,14,39,20,43,29,38,29,34,20,37,11,47,5,64,3,81,5,92,13"/>
+</map>

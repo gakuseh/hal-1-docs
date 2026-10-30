@@ -1,0 +1,22 @@
+<map id="IMUs::Update" name="IMUs::Update">
+<area shape="rect" id="Node000001" title="Reads each active sensor and recomputes the voted output." alt="" coords="5,59,115,87"/>
+<area shape="rect" id="Node000002" href="$classSIMU__BMI323.html#a79e55a71d2fad1a758592cbff1e543fa" title="Returns the last reading stored by Update()." alt="" coords="387,7,586,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,57,117,35,162,19,215,9,269,4,374,7,369,9,269,10,215,14,163,24,120,40,84,61"/>
+<area shape="rect" id="Node000003" href="$classIMUs.html#aaaad6c3a9ca6952dbf49d3c875cb7563" title="Copies sensor A into Voted_BMI." alt="" coords="163,33,339,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,63,149,59,145,62,116,68"/>
+<area shape="rect" id="Node000004" href="$classIMUs.html#a28dba30dd346688dcdee41498af86b96" title="Votes Raw_BMI into Voted_BMI, acceleration and rate separately." alt="" coords="172,85,330,112"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="115,78,159,85,155,87,116,83"/>
+<area shape="rect" id="Node000008" href="$classSIMU__BMI323.html#a698f2e92f79809c20963726d694d13b2" title="Reads a new sample if one is ready." alt="" coords="168,137,334,164"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="87,85,164,121,186,131,181,132,162,126,87,90"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="339,34,374,33,369,34,340,39"/>
+<area shape="rect" id="Node000005" href="$structTMR.html#ab9b86fe67efdfd28423537ab7291b8f4" title="Returns the mean of the two vectors closest to each other (Euclidean distance)." alt="" coords="442,85,531,112"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="330,96,429,98,424,99,330,101"/>
+<area shape="rect" id="Node000006" href="$structTMR.html#abf524eff6ccb00707c6d5804b65ce588" title="Component&#45;wise mean of a and b." alt="" coords="635,59,747,87"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="531,90,623,81,617,82,532,96"/>
+<area shape="rect" id="Node000007" href="$structTMR.html#a7e98d094b586379807ad8b61f46a4494" title="Euclidean distance between a and b." alt="" coords="634,111,748,139"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="531,101,622,116,616,116,531,107"/>
+<area shape="rect" id="Node000009" href="$classSIMU__BMI323.html#ad1188accb8ec5d8fca4cd04cd7f933a9" title="Converts a raw gyroscope value to deg/s." alt="" coords="392,137,581,164"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="334,148,379,150,374,151,335,153"/>
+<area shape="rect" id="Node000010" href="$classSIMU__BMI323.html#a2ca95ceeed9ac7fc3e0f55c017980137" title="Converts a raw accelerometer value to g." alt="" coords="400,189,573,216"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="317,162,408,185,403,185,317,168"/>
+</map>

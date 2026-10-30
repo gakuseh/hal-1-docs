@@ -1,0 +1,26 @@
+<map id="TEST::BARO_TEST" name="TEST::BARO_TEST">
+<area shape="rect" id="Node000001" title="Inits the three barometers and reads them every 100 ms forever, toggling the LED. Uses HAL_Delay() be..." alt="" coords="5,119,142,146"/>
+<area shape="rect" id="Node000002" href="$classBaro__Unified.html#a5a6cf187ffec80e7cacfdb936dcb1b46" title="Returns the last readings and voted result." alt="" coords="190,67,355,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,116,204,97,200,101,131,120"/>
+<area shape="rect" id="Node000003" href="$classBaro__Unified.html#af59decdc3768dfbe53c5036194122c5b" title="Initializes sensor A, plus B and C if TMR_Toggle." alt="" coords="205,119,340,146"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,130,192,131,188,134,143,135"/>
+<area shape="rect" id="Node000008" href="$classBaro__Unified.html#aab70ca9b194e21f968163555916a10e9" title="Reads each active sensor and recomputes the voted result." alt="" coords="192,184,352,212"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="118,144,215,177,211,180,118,150"/>
+<area shape="rect" id="Node000004" href="$classBarometer.html#a75dc1fad1d7c4c27ad8d392824df13c1" title="Initializes the chip and starts continuous measurement." alt="" coords="432,105,552,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="339,126,419,123,414,125,341,131"/>
+<area shape="rect" id="Node000005" href="$BMP3xx__platform_8cpp.html#ac582b5c347d1c88e9831b289184c8527" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="631,29,747,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="530,102,634,64,639,62,531,107"/>
+<area shape="rect" id="Node000006" href="$BMP3xx__platform_8cpp.html#adc0462790d480755a0b8a5a77b0208ad" title="Bosch read callback: reads len bytes starting at register reg_addr." alt="" coords="630,105,748,133"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="552,117,617,119,612,120,553,122"/>
+<area shape="rect" id="Node000007" href="$BMP3xx__platform_8cpp.html#a21cd941c1105c635ca650233e9445ad7" title="Bosch write callback: writes len bytes starting at register reg_addr." alt="" coords="629,181,749,209"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="546,131,582,143,649,174,644,174,580,148,545,136"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="655,28,649,20,654,11,667,5,689,3,712,5,726,14,721,14,711,10,689,8,669,10,658,15,655,20,660,30"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="655,104,649,96,654,87,667,81,689,79,712,81,726,90,721,90,711,86,689,84,669,86,658,91,655,96,660,106"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="655,180,649,172,654,163,667,157,689,155,712,157,726,166,721,166,711,162,689,160,669,162,658,167,655,172,660,182"/>
+<area shape="rect" id="Node000009" href="$classBarometer.html#a7d8bdbeb5edcc5ec0f5f500e23a6201b" title="Returns the last reading stored by Update()." alt="" coords="403,157,581,185"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="352,186,390,183,385,184,353,191"/>
+<area shape="rect" id="Node000010" href="$classBarometer.html#ab381d839adab7fd584aff2997b914bb0" title="Reads a new sample if one is ready and converts it to altitude." alt="" coords="420,209,565,237"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="353,204,407,213,402,213,353,210"/>
+<area shape="rect" id="Node000011" href="$structTMRFloat.html#a3c4e7d9153742e1a22ef173d2df057de" title="Returns the mean of the two values that agree most closely." alt="" coords="432,261,553,289"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="308,210,404,246,429,257,424,256,402,251,308,215"/>
+</map>

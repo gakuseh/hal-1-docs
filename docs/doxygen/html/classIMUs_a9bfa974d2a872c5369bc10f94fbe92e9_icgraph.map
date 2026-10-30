@@ -1,0 +1,10 @@
+<map id="IMUs::getVotedBMI" name="IMUs::getVotedBMI">
+<area shape="rect" id="Node000001" title="Returns the voted reading: acceleration in g, rate in deg/s, sensor axes." alt="" coords="368,32,514,60"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#a905b440f1c81bd25d397fd71e814e7df" title="Logs voted IMU readings to the SD card as fast as it can, forever." alt="" coords="195,5,318,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,33,319,31,319,25,355,33"/>
+<area shape="rect" id="Node000003" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="193,57,320,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="356,58,321,65,320,60,350,58"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ac1eede4a9ca0bf8cda1c392aa09bee67" title="Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz." alt="" coords="5,57,145,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,71,145,74,145,69,179,71"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="104,42,95,38,75,36,56,38,46,43,44,48,48,57,43,57,38,48,42,39,55,33,75,31,97,33,110,42"/>
+</map>

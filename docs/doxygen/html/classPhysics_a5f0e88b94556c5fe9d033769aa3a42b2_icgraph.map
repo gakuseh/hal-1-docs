@@ -1,0 +1,13 @@
+<map id="Physics::jacobianA" name="Physics::jacobianA">
+<area shape="rect" id="Node000001" title="Numerical Jacobian ∂f/∂x by central differences (step 1e&#45;5, 20 eom() calls)." alt="" coords="533,32,676,60"/>
+<area shape="rect" id="Node000002" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="380,32,485,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,46,486,48,486,43,520,46"/>
+<area shape="rect" id="Node000003" href="$classEKF.html#a2cc366e902a4cdfd9b42b1c6fed90c19" title="Prediction only. Call when no new IMU sample is available." alt="" coords="204,5,332,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,35,332,32,332,27,367,35"/>
+<area shape="rect" id="Node000006" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="219,57,317,85"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="367,56,317,66,317,61,362,57"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="5,32,156,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,31,157,38,156,33,191,30"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="111,17,101,13,80,11,61,13,51,17,48,23,53,31,48,32,43,23,47,14,60,7,81,5,103,8,116,16"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="201,63,156,59,156,53,206,62"/>
+</map>

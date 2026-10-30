@@ -1,0 +1,14 @@
+<map id="Barometer::Init" name="Barometer::Init">
+<area shape="rect" id="Node000001" title="Initializes the chip and starts continuous measurement." alt="" coords="491,57,611,85"/>
+<area shape="rect" id="Node000002" href="$classBaro__Unified.html#af59decdc3768dfbe53c5036194122c5b" title="Initializes sensor A, plus B and C if TMR_Toggle." alt="" coords="309,57,443,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,71,444,74,444,69,478,71"/>
+<area shape="rect" id="Node000003" href="$classTEST.html#af0852fded52be2baabe8202b799427ff" title="Inits the three barometers and reads them every 100 ms forever, toggling the LED. Uses HAL_Delay() be..." alt="" coords="122,5,258,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,53,242,36,243,31,312,52"/>
+<area shape="rect" id="Node000004" href="$classSensors.html#adea9ecd9a2315082d6fd583cac1dd89e" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="140,57,241,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="291,72,242,74,241,69,296,71"/>
+<area shape="rect" id="Node000006" href="$classTEST.html#ae19cacfbe1157460fda27634a8826b3e" title="Standalone radio link: sends barometer altitude through Telemetry::Update() every 10 ms forever." alt="" coords="120,109,261,137"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="312,89,243,111,242,106,307,90"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="5,57,72,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="122,73,72,74,71,69,126,69"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="62,42,55,38,38,36,23,38,15,42,13,48,17,56,11,57,7,48,11,39,21,33,39,31,56,33,67,41"/>
+</map>

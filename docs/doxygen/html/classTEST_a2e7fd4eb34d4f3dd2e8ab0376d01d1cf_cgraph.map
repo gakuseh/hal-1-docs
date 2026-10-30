@@ -1,0 +1,35 @@
+<map id="TEST::IMU_TEST" name="TEST::IMU_TEST">
+<area shape="rect" id="Node000001" title="Inits the three BMI323s and reads them every tick forever, toggling the LED." alt="" coords="5,157,131,185"/>
+<area shape="rect" id="Node000002" href="$classIMUs.html#aec51001dc082c98ad856fb24bd4d3f87" title="Constructs the sensor objects. Does not touch hardware." alt="" coords="186,105,281,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,155,174,136,171,140,116,159"/>
+<area shape="rect" id="Node000003" href="$classIMUs.html#a01cb1a03d61c8e547dbff573c7b91a78" title="Initializes BMI323 A, plus B and C if tmr_on." alt="" coords="192,157,275,185"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,169,178,170,174,173,132,174"/>
+<area shape="rect" id="Node000009" href="$classIMUs.html#a070624199b10aee0a831102b08c54168" title="Reads each active sensor and recomputes the voted output." alt="" coords="179,233,288,261"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="100,183,190,225,185,228,100,188"/>
+<area shape="rect" id="Node000004" href="$classSIMU__BMI323.html#ab9082994737bfa62561bd481fd10b761" title="Selects the chip&#45;select pin, initializes the chip, and applies the flight config." alt="" coords="354,119,494,146"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="274,160,341,148,336,151,277,165"/>
+<area shape="rect" id="Node000005" href="$BMI323__Platform_8cpp.html#a65987fc5fcb0a00ff338b980b57cdb9b" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="592,29,728,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="452,116,501,92,559,67,587,61,582,63,561,72,503,97,454,120"/>
+<area shape="rect" id="Node000006" href="$BMI323__Platform_8cpp.html#a8f6e26c22bf491413443d1717cbc3d60" title="Bosch read callback: reads len bytes starting at register reg." alt="" coords="599,105,721,133"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="494,126,586,123,581,124,495,131"/>
+<area shape="rect" id="Node000008" href="$BMI323__Platform_8cpp.html#a9a23c93134c07b67a8898f7a96238b6f" title="Bosch write callback: writes len bytes starting at register reg." alt="" coords="598,181,722,209"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="479,144,593,176,588,177,479,150"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="619,28,613,20,618,11,634,5,660,3,688,5,704,14,699,14,686,10,660,8,635,10,622,15,618,20,625,29"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="619,104,613,96,618,87,634,81,660,79,688,81,704,90,699,90,686,86,660,84,635,86,622,91,618,96,625,105"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="619,180,613,172,618,163,634,157,660,155,688,157,704,166,699,166,686,162,660,160,635,162,622,167,618,172,625,182"/>
+<area shape="rect" id="Node000010" href="$classSIMU__BMI323.html#a79e55a71d2fad1a758592cbff1e543fa" title="Returns the last reading stored by Update()." alt="" coords="560,233,760,261"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="281,230,336,219,424,213,513,219,577,230,572,231,512,224,424,218,336,224,283,235"/>
+<area shape="rect" id="Node000011" href="$classIMUs.html#aaaad6c3a9ca6952dbf49d3c875cb7563" title="Copies sensor A into Voted_BMI." alt="" coords="336,233,512,261"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="288,245,323,246,318,248,289,250"/>
+<area shape="rect" id="Node000012" href="$classIMUs.html#a28dba30dd346688dcdee41498af86b96" title="Votes Raw_BMI into Voted_BMI, acceleration and rate separately." alt="" coords="346,285,503,313"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="287,259,359,280,354,281,287,264"/>
+<area shape="rect" id="Node000016" href="$classSIMU__BMI323.html#a698f2e92f79809c20963726d694d13b2" title="Reads a new sample if one is ready." alt="" coords="341,337,507,365"/>
+<area shape="poly" id="edge16_Node000009_Node000016" title=" " alt="" coords="251,259,289,291,337,322,354,332,349,331,335,327,286,295,249,264"/>
+<area shape="poly" id="edge13_Node000011_Node000010" title=" " alt="" coords="513,245,547,247,542,248,513,250"/>
+<area shape="rect" id="Node000013" href="$structTMR.html#ab9b86fe67efdfd28423537ab7291b8f4" title="Returns the mean of the two vectors closest to each other (Euclidean distance)." alt="" coords="616,285,704,313"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="503,297,603,299,598,300,503,302"/>
+<area shape="rect" id="Node000017" href="$classSIMU__BMI323.html#ad1188accb8ec5d8fca4cd04cd7f933a9" title="Converts a raw gyroscope value to deg/s." alt="" coords="566,337,754,365"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="508,349,553,351,547,351,508,354"/>
+<area shape="rect" id="Node000018" href="$classSIMU__BMI323.html#a2ca95ceeed9ac7fc3e0f55c017980137" title="Converts a raw accelerometer value to g." alt="" coords="573,389,747,417"/>
+<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="491,363,582,385,576,385,490,368"/>
+</map>

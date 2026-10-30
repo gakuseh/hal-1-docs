@@ -1,0 +1,7 @@
+<map id="SD_LogDyn" name="SD_LogDyn">
+<area shape="rect" id="Node000001" title="Appends one dynamics line. Writes to HAL1_LOG.TXT through SD_LogNewline(), not to a separate file...." alt="" coords="147,29,242,57"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="216,13,209,10,194,8,180,10,172,14,170,20,174,30,169,28,165,20,168,11,178,5,194,3,211,5,222,14"/>
+<area shape="rect" id="Node000002" href="$SDCard_8h.html#a0261fabf1a97d56293678d322b6c7323" title="Was meant to open HAL1_DYN.TXT for dynamics&#45;model logging." alt="" coords="5,29,99,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,43,99,46,99,41,134,43"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="74,14,67,10,52,8,38,10,30,14,28,20,32,29,26,29,23,20,26,11,36,5,52,3,69,5,79,13"/>
+</map>

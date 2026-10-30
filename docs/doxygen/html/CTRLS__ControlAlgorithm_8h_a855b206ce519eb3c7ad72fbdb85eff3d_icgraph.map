@@ -1,0 +1,8 @@
+<map id="operator*" name="operator*">
+<area shape="rect" id="Node000001" title="Matrix product A·B." alt="" coords="137,32,220,60"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="199,16,192,13,178,11,165,13,158,17,156,23,160,32,155,31,151,23,154,14,163,8,178,5,194,8,204,17"/>
+<area shape="rect" id="Node000002" href="$CTRLS__ControlAlgorithm_8h.html#ae5764c9c7fd248830b34dd82aae1a83b" title="Scalar times matrix." alt="" coords="5,5,89,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="119,35,89,30,89,25,124,33"/>
+<area shape="rect" id="Node000003" href="$Vector3D_8h.html#a47fe8a69532bf8f21fc0d38102b9267f" title="Scalar times vector (scalar on the left)." alt="" coords="5,57,89,85"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="119,57,90,66,89,61,124,56"/>
+</map>

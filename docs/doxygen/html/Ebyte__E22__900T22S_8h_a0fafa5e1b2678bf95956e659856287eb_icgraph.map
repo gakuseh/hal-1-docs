@@ -1,0 +1,35 @@
+<map id="writeConfig_e22_900t22s" name="writeConfig_e22_900t22s">
+<area shape="rect" id="Node000001" title="Writes ADDH through REG3 to the module." alt="" coords="742,233,929,261"/>
+<area shape="poly" id="edge20_Node000001_Node000001" title=" " alt="" coords="876,218,863,214,835,212,810,214,796,219,793,224,799,234,794,232,787,224,793,215,809,209,836,207,864,209,881,218"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#a38c3d2ad138b41d57d8ef13e493de685" title="Changes the module&#39;s channel by rewriting REG2 (not saved to flash)." alt="" coords="490,29,694,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="818,219,797,187,769,146,734,106,693,72,670,60,669,55,696,68,738,102,773,143,802,184,823,221"/>
+<area shape="rect" id="Node000008" href="$Ebyte__E22__900T22S_8cpp.html#a03d4a1232d89add6ef432235dacd1dcd" title="Powers up the module, writes cfg to its flash, verifies it, and enters TRANS mode." alt="" coords="526,105,658,133"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="805,223,755,186,693,148,659,135,659,130,695,143,758,181,810,223"/>
+<area shape="rect" id="Node000011" href="$classTelemetry.html#af6639eac7b10509b1c85db6aa07688c1" title="Writes a new module config to flash and stores it in des_cfg." alt="" coords="506,157,678,185"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="779,228,694,200,651,188,651,183,695,195,784,227"/>
+<area shape="rect" id="Node000012" href="$Ebyte__E22__900T22S_8cpp.html#a2bfe7ffd3d369d4d296a0ad0ebc98f58" title="Changes the module address (not saved to flash)." alt="" coords="500,233,684,261"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="724,248,685,250,684,245,729,247"/>
+<area shape="rect" id="Node000013" href="$Ebyte__E22__900T22S_8cpp.html#ac8dd273f01033b71d784a5e39388971d" title="Changes the air data rate (REG0 bits 2–0, not saved to flash)." alt="" coords="516,309,668,354"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="781,266,660,311,658,306,776,267"/>
+<area shape="rect" id="Node000014" href="$Ebyte__E22__900T22S_8cpp.html#a79b4daf0807e14ebcca75ec915a06f68" title="Changes the transmit power (REG1 bits 1–0, not saved to flash)." alt="" coords="498,401,686,429"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="811,271,759,320,696,368,629,403,627,398,693,364,756,316,807,273"/>
+<area shape="rect" id="Node000015" href="$Ebyte__E22__900T22S_8cpp.html#a797ad76eeb2145c75593d160ead7220c" title="Changes the module&#39;s UART baud rate (REG0 bits 7–5, not saved to flash)." alt="" coords="492,477,692,505"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="822,273,772,356,737,402,696,443,665,464,633,479,632,474,663,459,693,438,733,398,768,353,818,276"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="631,14,619,10,592,8,567,10,554,15,550,20,557,29,551,29,545,20,550,11,566,5,592,3,620,5,636,14"/>
+<area shape="rect" id="Node000003" href="$classTelemetry.html#a0c204f32e7b59dc0b680ae670d1adc70" title="Applies a GND command byte." alt="" coords="269,29,442,57"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="472,44,443,46,441,41,477,42"/>
+<area shape="rect" id="Node000004" href="$classTelemetry.html#a3654d5b084c4998c389e591162ef7ca2" title="Reads one GND frame from the module and applies it. GND → FC data path." alt="" coords="5,29,221,57"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="251,45,223,45,220,41,255,42"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="631,90,619,86,592,84,567,86,554,91,550,96,557,105,551,104,545,96,550,87,566,81,592,79,620,81,636,90"/>
+<area shape="rect" id="Node000009" href="$classTelemetry.html#a9833810d2debc24750453ced597d7ea6" title="Configures the E22 module and leaves it in TRANS mode." alt="" coords="298,105,412,133"/>
+<area shape="poly" id="edge6_Node000008_Node000009" title=" " alt="" coords="508,120,414,122,412,117,513,118"/>
+<area shape="rect" id="Node000010" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="80,105,146,133"/>
+<area shape="poly" id="edge7_Node000009_Node000010" title=" " alt="" coords="281,121,148,122,146,117,285,117"/>
+<area shape="rect" id="Node000007" href="$classTEST.html#ae19cacfbe1157460fda27634a8826b3e" title="Standalone radio link: sends barometer altitude through Telemetry::Update() every 10 ms forever." alt="" coords="42,157,184,185"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="281,136,182,159,180,154,285,133"/>
+<area shape="poly" id="edge8_Node000010_Node000010" title=" " alt="" coords="155,98,155,93,148,89,113,84,86,86,72,92,71,98,82,107,77,109,66,100,68,88,85,81,113,79,150,84,159,90,161,98"/>
+<area shape="poly" id="edge13_Node000012_Node000012" title=" " alt="" coords="631,218,619,214,592,212,567,214,554,219,550,224,557,233,551,232,545,224,550,215,566,209,592,207,620,209,637,218"/>
+<area shape="poly" id="edge15_Node000013_Node000013" title=" " alt="" coords="629,294,616,290,592,287,570,289,556,294,551,300,552,310,547,307,546,299,553,290,569,284,592,282,618,285,635,294"/>
+<area shape="poly" id="edge17_Node000014_Node000014" title=" " alt="" coords="631,386,619,382,592,380,567,382,554,387,550,392,557,402,552,400,545,392,550,383,566,377,592,375,620,377,636,386"/>
+<area shape="poly" id="edge19_Node000015_Node000015" title=" " alt="" coords="631,462,619,458,592,456,567,458,554,463,550,468,556,478,552,476,545,468,550,459,566,453,592,451,620,453,636,462"/>
+</map>

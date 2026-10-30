@@ -1,0 +1,24 @@
+<map id="Telemetry::Init" name="Telemetry::Init">
+<area shape="rect" id="Node000001" title="Configures the E22 module and leaves it in TRANS mode." alt="" coords="5,62,120,90"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="582,149,687,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,59,180,32,233,19,291,9,353,3,415,5,477,15,536,36,565,55,589,81,623,135,618,134,585,84,561,60,533,41,476,20,415,10,353,9,292,14,234,24,181,37,100,64"/>
+<area shape="rect" id="Node000004" href="$Ebyte__E22__900T22S_8cpp.html#a03d4a1232d89add6ef432235dacd1dcd" title="Powers up the module, writes cfg to its flash, verifies it, and enters TRANS mode." alt="" coords="168,125,300,152"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="102,87,182,117,178,120,103,93"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="603,147,598,140,602,130,614,124,635,122,656,124,669,134,664,133,655,129,634,127,616,129,606,134,603,139,608,149"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="735,174,899,202"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="687,167,722,174,717,174,687,172"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="785,172,780,165,784,155,797,149,817,147,839,150,852,159,846,158,837,155,817,153,798,154,788,159,785,165,790,175"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="300,140,569,157,565,160,301,145"/>
+<area shape="poly" id="edge12_Node000004_Node000003" title=" " alt="" coords="247,150,288,196,317,219,349,236,404,251,462,258,521,258,578,253,684,231,764,208,769,207,685,236,579,258,521,264,462,264,403,257,347,241,314,223,285,200,245,155"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="204,123,199,116,203,106,215,100,234,98,254,100,267,109,261,109,253,105,234,103,216,105,207,110,204,115,209,125"/>
+<area shape="rect" id="Node000005" href="$Ebyte__E22__900T22S_8cpp.html#a14cd46771d93456372de769e3d00e59c" title="Reads ADDH through REG3 from the module." alt="" coords="350,199,532,227"/>
+<area shape="poly" id="edge8_Node000004_Node000005" title=" " alt="" coords="275,150,388,193,383,194,274,155"/>
+<area shape="rect" id="Node000006" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="348,74,534,102"/>
+<area shape="poly" id="edge13_Node000004_Node000006" title=" " alt="" coords="292,121,369,105,364,107,294,127"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="496,196,565,180,570,179,497,201"/>
+<area shape="poly" id="edge11_Node000005_Node000003" title=" " alt="" coords="533,204,722,194,717,194,533,210"/>
+<area shape="poly" id="edge10_Node000005_Node000005" title=" " alt="" coords="408,198,402,190,407,181,420,175,441,173,464,175,478,184,473,183,463,180,441,178,421,180,410,184,408,190,412,200"/>
+<area shape="poly" id="edge14_Node000006_Node000002" title=" " alt="" coords="486,100,535,117,590,142,585,142,533,122,486,105"/>
+<area shape="poly" id="edge15_Node000006_Node000003" title=" " alt="" coords="535,85,610,93,688,110,741,134,787,165,782,164,738,139,686,116,610,98,535,91"/>
+<area shape="poly" id="edge16_Node000006_Node000006" title=" " alt="" coords="407,73,402,65,407,55,420,49,441,47,464,50,478,59,473,58,463,55,441,53,421,54,410,59,408,65,413,74"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="BMI3_SPI_Read" name="BMI3_SPI_Read">
+<area shape="rect" id="Node000001" title="Bosch read callback: reads len bytes starting at register reg." alt="" coords="5,29,127,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="36,29,32,20,36,11,47,5,66,3,86,5,98,14,93,14,84,10,66,8,49,10,40,15,37,20,42,29"/>
+<area shape="rect" id="Node000002" href="$BMI323__Platform_8h.html#a6ffea8f1a4fc5c209c5898f47a153b1b" title=" " alt="" coords="175,29,292,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="127,41,161,43,156,43,127,46"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="204,28,199,20,203,11,215,5,233,3,253,5,265,14,260,14,252,10,233,8,216,10,207,15,205,20,209,30"/>
+</map>

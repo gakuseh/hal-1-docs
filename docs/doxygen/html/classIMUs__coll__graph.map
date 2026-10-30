@@ -1,0 +1,22 @@
+<map id="IMUs" name="IMUs">
+<area shape="rect" id="Node000001" title="Reads three BMI323 IMUs and votes them into one acceleration and rate." alt="" coords="327,397,382,424"/>
+<area shape="rect" id="Node000002" href="$classSIMU__BMI323.html" title="One BMI323 accelerometer and gyroscope, configured for flight." alt="" coords="101,251,213,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,292,187,334,201,354,218,371,244,386,273,396,329,408,324,408,272,402,242,391,215,375,197,357,182,336,164,296"/>
+<area shape="rect" id="Node000003" href="$structBMI__Data.html" title="One IMU reading in the sensor&#39;s own axes." alt="" coords="22,151,106,178"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="38,192,26,211,14,233,8,256,14,278,42,316,79,345,122,368,168,384,214,395,258,402,330,409,324,409,257,407,213,400,166,389,120,373,76,350,38,319,9,280,3,256,9,231,22,208,40,187"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,188,120,225,145,250,140,252,116,229,84,193"/>
+<area shape="rect" id="Node000004" href="$classVector3D.html" title=" " alt="" coords="116,5,257,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="146,43,129,59,110,82,93,107,72,151,67,149,89,105,105,79,125,55,149,39"/>
+<area shape="rect" id="Node000007" href="$structISM__Data.html" title="One averaged ISM6HG256X reading." alt="" coords="253,151,336,178"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="208,42,221,55,288,150,283,151,216,59,209,47"/>
+<area shape="rect" id="Node000005" href="$structBMIobjPtr.html" title="SPI context passed to the Bosch driver callbacks as intf_ptr." alt="" coords="130,151,214,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="169,191,162,252,157,250,166,196"/>
+<area shape="rect" id="Node000006" href="$classIMU__ISM6HGx.html" title="ISM6HG256X accelerometer, high&#45;g accelerometer and gyroscope." alt="" coords="237,251,352,279"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="296,292,302,332,315,371,337,397,332,395,311,374,297,333,293,296"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="324,186,339,201,358,226,370,248,384,302,389,338,384,374,369,398,366,394,379,372,384,338,379,304,365,250,354,229,335,204,324,191"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="296,192,297,252,292,250,293,196"/>
+<area shape="rect" id="Node000008" href="$structTMR.html" title="Two&#45;out&#45;of&#45;three voting for 3&#45;axis readings. Used for the IMUs." alt="" coords="493,251,544,279"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="502,290,465,333,420,375,382,399,380,394,417,371,462,329,497,292"/>
+<area shape="rect" id="Node000009" href="$structIMUsStatus.html" title="Per&#45;sensor status from IMUs::Init() and IMUs::Update(). 0 means OK." alt="" coords="569,251,665,279"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="613,293,596,337,582,358,564,375,530,389,481,399,382,410,382,405,480,394,529,384,561,370,578,354,591,334,608,296"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="get_rssi_e22_900t22s" name="get_rssi_e22_900t22s">
+<area shape="rect" id="Node000001" title="Asks the module for the RSSI of the last received packet." alt="" coords="5,29,168,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="50,29,44,20,49,11,63,5,87,3,111,5,126,14,121,14,110,10,86,8,65,10,53,15,50,20,55,29"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="216,29,380,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="168,41,203,43,197,43,168,46"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="261,28,256,20,260,11,275,5,298,3,323,5,338,14,332,14,321,10,298,8,276,10,264,15,261,20,266,30"/>
+</map>

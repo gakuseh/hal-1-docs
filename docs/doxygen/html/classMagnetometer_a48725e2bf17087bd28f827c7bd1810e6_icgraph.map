@@ -1,0 +1,5 @@
+<map id="Magnetometer::getRawData" name="Magnetometer::getRawData">
+<area shape="rect" id="Node000001" title="Returns the reading stored by the most recent Update()." alt="" coords="180,5,385,33"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#a5d8210e6ba9a61878d567bcbb92d2b5f" title="Inits the magnetometer and reads it every 100 ms forever, toggling the LED." alt="" coords="5,5,132,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,19,132,22,132,17,167,19"/>
+</map>

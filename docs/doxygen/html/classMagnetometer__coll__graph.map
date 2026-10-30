@@ -1,0 +1,5 @@
+<map id="Magnetometer" name="Magnetometer">
+<area shape="rect" id="Node000001" title="LIS2MDL magnetometer: 100 Hz continuous mode with temperature compensation." alt="" coords="5,106,123,134"/>
+<area shape="rect" id="Node000002" href="$structLIS2__Data.html" title="One magnetometer reading." alt="" coords="21,5,107,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,47,67,106,61,105,62,50"/>
+</map>

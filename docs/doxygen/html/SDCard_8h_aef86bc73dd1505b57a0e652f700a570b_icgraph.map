@@ -1,0 +1,23 @@
+<map id="SD_LogNewline" name="SD_LogNewline">
+<area shape="rect" id="Node000001" title="Appends msg and a newline, then flushes to the card." alt="" coords="345,157,467,185"/>
+<area shape="poly" id="edge10_Node000001_Node000001" title=" " alt="" coords="436,142,426,138,406,136,387,138,377,143,374,148,379,158,374,156,369,148,373,139,386,133,406,131,428,133,441,142"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="147,29,297,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="380,145,343,109,296,72,272,60,272,55,298,68,347,105,386,146"/>
+<area shape="rect" id="Node000004" href="$classTEST.html#a905b440f1c81bd25d397fd71e814e7df" title="Logs voted IMU readings to the SD card as fast as it can, forever." alt="" coords="160,81,284,109"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="359,151,296,124,265,112,265,107,298,119,364,150"/>
+<area shape="rect" id="Node000005" href="$SDCard_8cpp.html#a41f7fea3250425164e527397e5b7f46a" title="Appends one dynamics line. Writes to HAL1_LOG.TXT through SD_LogNewline(), not to a separate file...." alt="" coords="174,157,270,185"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="327,172,270,174,269,169,332,170"/>
+<area shape="rect" id="Node000007" href="$classTEST.html#af5a5fb49484e7f0b97a0fb315100f486" title="Writes 10 test rows to the SD card and closes it, then blinks slowly on success or quickly on failure..." alt="" coords="163,209,280,237"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="337,191,274,211,273,206,342,189"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#af81eaf13b94da88990231b5aeac8ec63" title="Logging task: writes three CSV&#45;style lines to the SD card every 10 ms." alt="" coords="176,285,268,313"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="375,194,299,251,245,287,243,283,295,246,370,195"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="249,15,240,10,222,8,204,10,195,15,193,20,197,29,192,29,187,20,191,11,203,5,222,3,242,5,254,13"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="21,29,83,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,45,84,46,82,41,133,41"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="79,15,71,10,52,8,35,10,25,15,23,20,27,28,22,29,18,20,21,11,33,5,52,3,72,5,84,13"/>
+<area shape="poly" id="edge9_Node000005_Node000005" title=" " alt="" coords="249,142,240,138,222,136,204,138,195,143,193,148,197,157,192,156,187,148,191,139,203,133,222,131,242,133,254,142"/>
+<area shape="rect" id="Node000006" href="$SDCard_8h.html#a0261fabf1a97d56293678d322b6c7323" title="Was meant to open HAL1_DYN.TXT for dynamics&#45;model logging." alt="" coords="5,157,99,185"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="156,173,100,174,98,169,161,170"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="79,143,71,138,52,136,35,138,25,143,23,148,27,156,22,157,18,148,21,139,33,133,52,131,72,133,84,141"/>
+<area shape="poly" id="edge13_Node000008_Node000008" title=" " alt="" coords="249,270,240,266,222,264,204,266,195,271,193,276,197,286,192,284,187,276,191,267,203,261,222,259,242,261,254,270"/>
+</map>

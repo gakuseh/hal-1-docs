@@ -1,0 +1,10 @@
+<map id="MICROS_DWT_DWT_Init" name="MICROS_DWT_DWT_Init">
+<area shape="rect" id="Node000001" title="Enables the DWT cycle counter and resets it to 0." alt="" coords="379,29,556,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="507,14,495,10,468,8,442,10,428,15,425,20,431,30,426,28,420,20,425,11,441,5,468,3,496,5,513,14"/>
+<area shape="rect" id="Node000002" href="$timing_8cpp.html#a28ac9499407d56ee59abe2709a28e829" title="Caches the core clock in MHz for micros() and enables the DWT counter. FC_Init() calls this first,..." alt="" coords="122,29,331,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="360,43,331,46,331,41,366,43"/>
+<area shape="poly" id="edge5_Node000002_Node000002" title=" " alt="" coords="256,14,247,10,226,8,207,10,197,15,194,20,199,30,194,28,189,20,193,11,206,5,226,3,248,5,262,14"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="7,29,74,57"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="103,44,74,46,74,41,109,43"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="70,15,61,10,40,8,21,10,11,15,8,20,13,28,8,30,3,20,7,11,20,5,40,3,62,5,76,14"/>
+</map>

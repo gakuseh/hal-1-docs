@@ -1,0 +1,9 @@
+<map id="Baro_Unified::Update" name="Baro_Unified::Update">
+<area shape="rect" id="Node000001" title="Reads each active sensor and recomputes the voted result." alt="" coords="5,57,166,85"/>
+<area shape="rect" id="Node000002" href="$classBarometer.html#a7d8bdbeb5edcc5ec0f5f500e23a6201b" title="Returns the last reading stored by Update()." alt="" coords="214,5,392,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,54,229,36,225,39,147,59"/>
+<area shape="rect" id="Node000003" href="$classBarometer.html#ab381d839adab7fd584aff2997b914bb0" title="Reads a new sample if one is ready and converts it to altitude." alt="" coords="230,57,376,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,69,217,70,212,72,166,74"/>
+<area shape="rect" id="Node000004" href="$structTMRFloat.html#a3c4e7d9153742e1a22ef173d2df057de" title="Returns the mean of the two values that agree most closely." alt="" coords="242,109,364,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="147,83,230,104,224,106,146,88"/>
+</map>

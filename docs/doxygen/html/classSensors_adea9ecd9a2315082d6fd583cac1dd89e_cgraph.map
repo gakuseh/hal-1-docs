@@ -1,0 +1,44 @@
+<map id="Sensors::Init" name="Sensors::Init">
+<area shape="rect" id="Node000001" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="5,309,107,337"/>
+<area shape="rect" id="Node000002" href="$classBaro__Unified.html#af59decdc3768dfbe53c5036194122c5b" title="Initializes sensor A, plus B and C if TMR_Toggle." alt="" coords="172,193,306,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,307,108,276,153,244,190,226,186,230,156,248,111,280,75,310"/>
+<area shape="rect" id="Node000007" href="$classIMUs.html#a01cb1a03d61c8e547dbff573c7b91a78" title="Initializes BMI323 A, plus B and C if tmr_on." alt="" coords="198,257,281,285"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="106,307,185,285,181,289,109,311"/>
+<area shape="rect" id="Node000013" href="$classMagnetometer.html#aae3f7b9977face4617454d1449fa7536" title="Checks WHO_AM_I, resets the chip, and starts 100 Hz continuous mode." alt="" coords="166,309,312,337"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="106,321,152,322,148,325,108,326"/>
+<area shape="rect" id="Node000014" href="$classMAXM10S.html#a3161a80bc88b54b7ba7e0e3eca2e5be3" title="Releases the module from reset, checks it answers, and sends the config." alt="" coords="181,361,298,389"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="107,335,175,355,171,358,108,340"/>
+<area shape="rect" id="Node000016" href="$classServo__Axon__Mini__MKII.html#a86ff496255536cb316929054364d5533" title="Starts PWM, centres both servos, records the zero reference, and checks they hold position." alt="" coords="155,421,324,466"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="73,335,111,366,156,398,179,413,174,414,153,403,108,370,74,340"/>
+<area shape="rect" id="Node000003" href="$classBarometer.html#a75dc1fad1d7c4c27ad8d392824df13c1" title="Initializes the chip and starts continuous measurement." alt="" coords="397,144,516,172"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,190,384,173,380,176,305,195"/>
+<area shape="rect" id="Node000004" href="$BMP3xx__platform_8cpp.html#ac582b5c347d1c88e9831b289184c8527" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="616,29,732,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="474,141,524,105,588,67,608,61,603,64,591,72,527,110,477,146"/>
+<area shape="rect" id="Node000005" href="$BMP3xx__platform_8cpp.html#adc0462790d480755a0b8a5a77b0208ad" title="Bosch read callback: reads len bytes starting at register reg_addr." alt="" coords="615,105,733,133"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="516,145,602,131,597,133,518,150"/>
+<area shape="rect" id="Node000006" href="$BMP3xx__platform_8cpp.html#a21cd941c1105c635ca650233e9445ad7" title="Bosch write callback: writes len bytes starting at register reg_addr." alt="" coords="614,181,734,209"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="516,165,601,182,596,183,517,171"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="636,28,631,20,635,11,650,5,674,3,700,5,715,14,710,14,698,10,674,8,651,10,639,15,636,20,642,29"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="636,104,631,96,635,87,650,81,674,79,700,81,715,90,710,90,698,86,674,84,651,86,639,91,636,96,642,105"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="636,180,631,172,635,163,650,157,674,155,700,157,715,166,710,166,698,162,674,160,651,162,639,167,636,172,642,181"/>
+<area shape="rect" id="Node000008" href="$classSIMU__BMI323.html#ab9082994737bfa62561bd481fd10b761" title="Selects the chip&#45;select pin, initializes the chip, and applies the flight config." alt="" coords="386,276,527,304"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="281,272,373,281,368,284,282,277"/>
+<area shape="rect" id="Node000009" href="$BMI323__Platform_8cpp.html#a65987fc5fcb0a00ff338b980b57cdb9b" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="606,257,742,285"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="526,281,593,278,588,279,528,286"/>
+<area shape="rect" id="Node000010" href="$BMI323__Platform_8cpp.html#a8f6e26c22bf491413443d1717cbc3d60" title="Bosch read callback: reads len bytes starting at register reg." alt="" coords="613,333,735,361"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="512,302,607,328,601,329,512,307"/>
+<area shape="rect" id="Node000012" href="$BMI323__Platform_8cpp.html#a9a23c93134c07b67a8898f7a96238b6f" title="Bosch write callback: writes len bytes starting at register reg." alt="" coords="612,409,736,437"/>
+<area shape="poly" id="edge15_Node000008_Node000012" title=" " alt="" coords="492,302,543,329,567,349,591,370,636,401,631,401,588,375,564,353,540,333,492,307"/>
+<area shape="poly" id="edge12_Node000009_Node000009" title=" " alt="" coords="636,256,631,248,635,239,650,233,674,231,700,233,715,242,710,242,698,238,674,236,651,238,639,243,636,248,642,258"/>
+<area shape="poly" id="edge14_Node000010_Node000010" title=" " alt="" coords="636,332,631,324,635,315,650,309,674,307,700,309,715,318,710,318,698,314,674,312,651,314,639,319,636,324,642,334"/>
+<area shape="poly" id="edge16_Node000012_Node000012" title=" " alt="" coords="637,408,631,400,635,391,650,385,674,383,700,385,715,394,710,394,698,390,674,388,651,390,639,395,636,400,641,410"/>
+<area shape="rect" id="Node000015" href="$classMAXM10S.html#a4e375764aea2560c4c1702d6077764fc" title="Sends a raw UBX message." alt="" coords="380,343,534,370"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="297,368,367,363,362,365,298,373"/>
+<area shape="rect" id="Node000017" href="$classServo__Axon__Mini__MKII.html#a4d466fa0f16934d6c9f20dc7681c6606" title="Writes both PWM compare registers for input plus the configured offsets (deg)." alt="" coords="372,394,541,439"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="324,430,359,428,354,429,325,435"/>
+<area shape="rect" id="Node000018" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="372,464,541,508"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="324,457,360,466,354,466,324,462"/>
+<area shape="rect" id="Node000019" href="$classServo__Axon__Mini__MKII.html#a9b94dc6c6032de01fec44324fad5d840" title="Reads both feedback voltages from ADC3 and smooths them." alt="" coords="589,482,759,527"/>
+<area shape="poly" id="edge24_Node000016_Node000019" title=" " alt="" coords="270,463,317,494,344,508,373,518,423,527,475,530,526,528,571,525,576,525,527,533,475,536,423,533,371,523,342,513,314,499,268,468"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="542,490,576,496,571,496,542,496"/>
+</map>

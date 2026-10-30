@@ -1,0 +1,11 @@
+<map id="writeConfig_e22_900t22s" name="writeConfig_e22_900t22s">
+<area shape="rect" id="Node000001" title="Writes ADDH through REG3 to the module." alt="" coords="5,55,192,82"/>
+<area shape="poly" id="edge6_Node000001_Node000001" title=" " alt="" coords="65,54,60,46,64,36,77,30,99,28,121,31,135,39,130,39,120,36,98,33,79,35,68,40,65,45,70,55"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="240,29,344,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,54,227,52,222,52,192,59"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="392,55,556,82"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="192,66,379,67,375,70,192,71"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="260,28,255,20,259,11,272,5,292,3,314,5,327,14,321,14,312,10,292,8,273,10,263,15,260,20,265,30"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="345,48,379,55,374,55,345,53"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="442,53,437,46,441,36,454,30,474,28,496,31,509,40,504,39,494,36,474,33,455,35,445,40,443,45,447,55"/>
+</map>

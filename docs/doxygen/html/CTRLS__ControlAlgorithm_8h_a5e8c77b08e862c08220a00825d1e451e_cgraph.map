@@ -1,0 +1,7 @@
+<map id="inv6" name="inv6">
+<area shape="rect" id="Node000001" title="Inverts a 6×6 matrix by LU decomposition with partial pivoting." alt="" coords="5,29,55,57"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="12,29,9,20,12,11,19,5,30,3,42,5,49,13,44,14,39,10,30,8,21,10,16,14,15,20,17,29"/>
+<area shape="rect" id="Node000002" href="$CTRLS__ControlAlgorithm_8h.html#aef606d4419236147c25b4d5fac910e13" title="N×N identity matrix." alt="" coords="103,29,148,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,41,90,42,85,44,55,46"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="108,28,105,20,107,11,114,5,125,3,137,5,145,14,139,13,135,10,125,8,116,10,112,14,110,20,112,30"/>
+</map>

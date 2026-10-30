@@ -1,0 +1,41 @@
+<map id="updateSensorTask" name="updateSensorTask">
+<area shape="rect" id="Node000001" title="Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz." alt="" coords="5,178,145,206"/>
+<area shape="poly" id="edge20_Node000001_Node000001" title=" " alt="" coords="43,178,38,169,42,159,55,153,75,151,97,154,109,161,104,164,95,159,75,156,56,158,46,163,44,169,48,177"/>
+<area shape="rect" id="Node000002" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="193,178,320,206"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,189,179,190,175,193,146,194"/>
+<area shape="rect" id="Node000003" href="$classServo__Axon__Mini__MKII.html#a1ec833f61698a190b5002a4991abedc4" title="Reads both feedback angles (deg from the Init() zero)." alt="" coords="368,5,537,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="264,176,304,121,333,89,366,60,376,56,372,60,370,64,337,93,309,124,269,179"/>
+<area shape="rect" id="Node000006" href="$classBaro__Unified.html#a5a6cf187ffec80e7cacfdb936dcb1b46" title="Returns the last readings and voted result." alt="" coords="370,74,535,102"/>
+<area shape="poly" id="edge4_Node000002_Node000006" title=" " alt="" coords="273,175,314,144,367,112,386,106,382,109,369,117,317,148,276,179"/>
+<area shape="rect" id="Node000007" href="$classMAXM10S.html#a4a33a1389aa55d9acc35a69ef1be11fb" title="Returns the latest solution." alt="" coords="379,126,526,154"/>
+<area shape="poly" id="edge5_Node000002_Node000007" title=" " alt="" coords="310,175,385,156,381,160,313,180"/>
+<area shape="rect" id="Node000008" href="$classIMUs.html#a9bfa974d2a872c5369bc10f94fbe92e9" title="Returns the voted reading: acceleration in g, rate in deg/s, sensor axes." alt="" coords="380,178,526,206"/>
+<area shape="poly" id="edge6_Node000002_Node000008" title=" " alt="" coords="320,189,366,190,362,193,322,194"/>
+<area shape="rect" id="Node000009" href="$classBaro__Unified.html#aab70ca9b194e21f968163555916a10e9" title="Reads each active sensor and recomputes the voted result." alt="" coords="372,230,533,258"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="311,204,386,224,381,226,312,209"/>
+<area shape="rect" id="Node000013" href="$classIMUs.html#a070624199b10aee0a831102b08c54168" title="Reads each active sensor and recomputes the voted output." alt="" coords="398,331,507,359"/>
+<area shape="poly" id="edge11_Node000002_Node000013" title=" " alt="" coords="276,203,424,321,419,322,275,209"/>
+<area shape="rect" id="Node000023" href="$classMAXM10S.html#a5092dcecc3b0a06924974c4a7885168e" title="Reads everything the module has buffered and parses it." alt="" coords="382,487,523,515"/>
+<area shape="poly" id="edge17_Node000002_Node000023" title=" " alt="" coords="268,204,370,369,437,474,431,474,366,372,265,208"/>
+<area shape="rect" id="Node000004" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="608,5,777,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="537,25,595,27,590,29,539,30"/>
+<area shape="rect" id="Node000010" href="$classBarometer.html#a7d8bdbeb5edcc5ec0f5f500e23a6201b" title="Returns the last reading stored by Update()." alt="" coords="603,126,782,154"/>
+<area shape="poly" id="edge8_Node000009_Node000010" title=" " alt="" coords="511,227,536,215,550,203,559,190,568,177,584,164,601,158,596,161,587,169,572,180,563,193,554,206,539,219,513,232"/>
+<area shape="rect" id="Node000011" href="$classBarometer.html#ab381d839adab7fd584aff2997b914bb0" title="Reads a new sample if one is ready and converts it to altitude." alt="" coords="620,178,765,206"/>
+<area shape="poly" id="edge9_Node000009_Node000011" title=" " alt="" coords="519,227,612,208,608,211,521,232"/>
+<area shape="rect" id="Node000012" href="$structTMRFloat.html#a3c4e7d9153742e1a22ef173d2df057de" title="Returns the mean of the two values that agree most closely." alt="" coords="632,230,753,258"/>
+<area shape="poly" id="edge10_Node000009_Node000012" title=" " alt="" coords="532,241,619,243,614,244,534,246"/>
+<area shape="rect" id="Node000014" href="$classSIMU__BMI323.html#a79e55a71d2fad1a758592cbff1e543fa" title="Returns the last reading stored by Update()." alt="" coords="848,306,1047,334"/>
+<area shape="poly" id="edge12_Node000013_Node000014" title=" " alt="" coords="507,330,585,317,713,311,834,314,829,315,713,316,586,322,509,335"/>
+<area shape="rect" id="Node000015" href="$classIMUs.html#aaaad6c3a9ca6952dbf49d3c875cb7563" title="Copies sensor A into Voted_BMI." alt="" coords="604,331,781,359"/>
+<area shape="poly" id="edge13_Node000013_Node000015" title=" " alt="" coords="507,342,591,344,586,346,508,348"/>
+<area shape="rect" id="Node000016" href="$classIMUs.html#a28dba30dd346688dcdee41498af86b96" title="Votes Raw_BMI into Voted_BMI, acceleration and rate separately." alt="" coords="614,383,771,411"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="508,354,613,379,608,380,508,359"/>
+<area shape="rect" id="Node000020" href="$classSIMU__BMI323.html#a698f2e92f79809c20963726d694d13b2" title="Reads a new sample if one is ready." alt="" coords="609,435,776,463"/>
+<area shape="poly" id="edge16_Node000013_Node000020" title=" " alt="" coords="474,357,525,388,586,420,610,430,605,430,584,425,522,393,474,362"/>
+<area shape="poly" id="edge14_Node000015_Node000014" title=" " alt="" coords="781,334,835,331,830,332,782,339"/>
+<area shape="rect" id="Node000024" href="$classMAXM10S.html#a54057d0a446c29bb567a21f30eadb13d" title="Reads the bytes&#45;waiting count." alt="" coords="585,487,800,515"/>
+<area shape="poly" id="edge18_Node000023_Node000024" title=" " alt="" coords="523,498,572,501,567,501,523,504"/>
+<area shape="rect" id="Node000025" href="$classMAXM10S.html#a346f957c4726833e29267cd6030e64b1" title="Reads numBytes (capped at RX_BUF_SIZE) into rxBuf." alt="" coords="607,539,778,567"/>
+<area shape="poly" id="edge19_Node000023_Node000025" title=" " alt="" coords="520,513,613,535,607,535,520,518"/>
+</map>

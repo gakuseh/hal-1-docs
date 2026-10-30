@@ -1,0 +1,13 @@
+<map id="ISM_CS_Low" name="ISM_CS_Low">
+<area shape="rect" id="Node000001" title="Drives the ISM6HG256X chip select low (selected)." alt="" coords="359,68,461,96"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="435,52,427,49,410,47,394,49,386,53,384,59,387,69,383,66,378,59,382,50,393,44,410,41,429,44,440,53"/>
+<area shape="rect" id="Node000002" href="$ISM6__Platform_8cpp.html#a5619ddf0b8e6fcbfca505c81014dbebb" title="ST read callback: reads len bytes starting at register reg." alt="" coords="198,29,310,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="341,66,310,60,310,54,346,65"/>
+<area shape="rect" id="Node000004" href="$ISM6__Platform_8cpp.html#a17b346626d6aab881c0b91131e4ce0a8" title="ST write callback: writes len bytes starting at register reg." alt="" coords="197,105,311,133"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="346,97,312,108,311,103,341,98"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="278,13,270,10,254,8,238,10,229,14,227,20,231,30,226,28,222,20,225,11,236,5,254,3,272,5,284,14"/>
+<area shape="rect" id="Node000003" href="$classIMU__ISM6HGx.html#a308f0d9ba86e053605581d300e9d2580" title="Resets the chip, checks WHO_AM_I, and applies the config." alt="" coords="5,68,149,96"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="180,60,144,70,143,65,185,58"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="179,104,146,99,146,94,184,104"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="278,89,270,86,254,84,238,86,229,90,227,96,231,106,226,104,222,96,225,87,236,81,254,79,272,81,284,90"/>
+</map>

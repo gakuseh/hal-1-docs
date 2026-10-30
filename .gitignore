@@ -1,5 +1,6 @@
 build
 mx.scratch
+/docs/doxygen-warnings.log
 !.settings
 /.idea/.gitignore
 /.idea/.name

@@ -1,0 +1,12 @@
+<map id="Physics::canardMomentJacobian" name="Physics::canardMomentJacobian">
+<area shape="rect" id="Node000001" title="∂M/∂ζ (N·m per rad) at airspeed v_mag. ControlLaw divides by this to set its gain." alt="" coords="702,56,934,84"/>
+<area shape="rect" id="Node000002" href="$classControlLaw.html#aa71a66c4f4199fd6937c7fa4b963f012" title="Gain K = I3 · λ / (∂M/∂ζ) for the current airspeed." alt="" coords="458,29,654,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="684,56,655,56,655,51,689,56"/>
+<area shape="rect" id="Node000006" href="$classPhysics.html#ab8d7b763c67f385c3a71f16f495e2b2e" title="Analytic ∂f/∂u. Only the roll&#45;rate row is non&#45;zero. Unused." alt="" coords="485,81,627,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="690,82,628,91,628,86,684,83"/>
+<area shape="rect" id="Node000003" href="$classControlLaw.html#a7105a49a6c01607205eacbbc8b3e985a" title="Computes the canard deflection. Call after the EKF step." alt="" coords="204,29,410,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,43,411,46,410,41,445,43"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="5,29,156,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,44,157,46,156,41,191,43"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="118,15,106,10,80,8,57,10,44,15,41,20,47,28,41,29,35,20,40,11,56,5,81,3,107,5,123,13"/>
+</map>

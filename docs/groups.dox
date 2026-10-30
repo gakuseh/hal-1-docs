@@ -1,0 +1,34 @@
+/**
+ * @defgroup tasks RTOS tasks
+ * @brief FreeRTOS task bodies, the boot sequence, and the flight state machine.
+ */
+
+/**
+ * @defgroup sensors Sensors
+ * @brief IMU, barometer, magnetometer and GPS drivers, and the Sensors aggregate.
+ */
+
+/**
+ * @defgroup estimation State estimation
+ * @brief Filtering, attitude, vertical velocity, and the controller's EKF.
+ */
+
+/**
+ * @defgroup controls Controls
+ * @brief The canard roll controller and the rocket model behind it.
+ */
+
+/**
+ * @defgroup actuation Actuation
+ * @brief The canard servo driver.
+ */
+
+/**
+ * @defgroup radio Radio
+ * @brief The telemetry protocol and the E22 LoRa module driver.
+ */
+
+/**
+ * @defgroup platform Platform and utilities
+ * @brief Timing, SD logging, constants, math helpers, and bench tests.
+ */

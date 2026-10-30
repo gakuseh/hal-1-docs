@@ -1,0 +1,5 @@
+<map id="Magnetometer::platform_delay" name="Magnetometer::platform_delay">
+<area shape="rect" id="Node000001" title="ST delay callback. Uses HAL_Delay(), which busy&#45;waits." alt="" coords="275,5,456,50"/>
+<area shape="rect" id="Node000002" href="$classMagnetometer.html#a0a55866d6368bae35b9d03df8a59eca5" title="Binds the ST driver to spi. Does not touch hardware." alt="" coords="5,14,227,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,28,227,30,227,25,262,28"/>
+</map>

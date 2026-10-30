@@ -1,0 +1,13 @@
+<map id="Telemetry::sendData" name="Telemetry::sendData">
+<area shape="rect" id="Node000001" title="Sends one telemetry frame. FC → GND data path." alt="" coords="5,44,161,72"/>
+<area shape="rect" id="Node000002" href="$classTelemetry.html#af40b1f663cd54fddc814276e4b99d292" title="Frames payload into tx_buffer and transmits it." alt="" coords="209,44,406,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,55,196,57,190,58,162,60"/>
+<area shape="rect" id="Node000003" href="$classTelemetry.html#a1687664924337d0f5778d1458419b60f" title="16&#45;bit additive checksum: the byte sum, wrapping. Not a CRC." alt="" coords="456,5,618,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="393,41,438,36,444,35,394,46"/>
+<area shape="rect" id="Node000004" href="$Ebyte__E22__900T22S_8cpp.html#a8122bbbdfaa894cd8fd02a95a747ef35" title="Hands bytes to the module for transmission." alt="" coords="454,81,620,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="397,70,441,79,436,79,396,75"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="500,80,495,72,499,63,514,57,537,55,562,57,577,66,572,66,561,62,537,60,515,62,503,67,500,72,505,82"/>
+<area shape="rect" id="Node000005" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="668,81,833,109"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="621,93,655,95,650,95,621,98"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="714,80,708,72,713,63,727,57,751,55,776,57,791,67,785,66,774,62,750,60,728,62,716,67,713,72,719,82"/>
+</map>

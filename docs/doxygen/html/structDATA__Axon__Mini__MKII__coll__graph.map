@@ -1,0 +1,7 @@
+<map id="DATA_Axon_Mini_MKII" name="DATA_Axon_Mini_MKII">
+<area shape="rect" id="Node000001" title="Commands, feedback and status for both servos." alt="" coords="71,195,238,223"/>
+<area shape="rect" id="Node000002" href="$structSAsym.html" title=" " alt="" coords="5,5,133,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,46,58,76,56,108,60,140,73,170,85,183,102,195,97,195,82,187,68,173,55,142,51,108,53,76,60,51"/>
+<area shape="rect" id="Node000003" href="$structSAsym.html" title=" " alt="" coords="177,5,302,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,47,237,109,228,142,213,173,200,187,185,197,182,192,196,183,208,170,223,140,232,108,239,51"/>
+</map>

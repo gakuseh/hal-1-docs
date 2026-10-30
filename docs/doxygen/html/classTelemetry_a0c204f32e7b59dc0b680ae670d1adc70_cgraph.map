@@ -1,0 +1,18 @@
+<map id="Telemetry::processCmd" name="Telemetry::processCmd">
+<area shape="rect" id="Node000001" title="Applies a GND command byte." alt="" coords="5,30,179,58"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#a38c3d2ad138b41d57d8ef13e493de685" title="Changes the module&#39;s channel by rewriting REG2 (not saved to flash)." alt="" coords="227,30,431,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,41,214,43,208,45,180,47"/>
+<area shape="poly" id="edge6_Node000002_Node000002" title=" " alt="" coords="288,29,282,21,287,12,303,6,329,4,357,6,373,15,368,15,355,11,329,9,304,11,290,16,287,21,293,30"/>
+<area shape="rect" id="Node000003" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="713,54,818,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,47,700,64,695,65,431,52"/>
+<area shape="rect" id="Node000004" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="866,54,1030,82"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="403,27,488,15,592,5,706,4,763,8,818,16,864,29,907,48,902,47,862,34,817,21,762,14,705,10,593,11,489,20,404,32"/>
+<area shape="rect" id="Node000005" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="479,105,665,133"/>
+<area shape="poly" id="edge8_Node000002_Node000005" title=" " alt="" coords="377,56,512,100,507,100,376,61"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="734,53,729,45,733,36,745,30,766,28,787,30,800,39,795,38,786,35,765,33,747,35,737,40,734,45,739,55"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="818,65,853,68,848,68,818,71"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="916,52,911,45,915,36,928,30,948,28,970,30,983,39,977,38,968,35,948,33,929,35,919,40,916,45,921,55"/>
+<area shape="poly" id="edge9_Node000005_Node000003" title=" " alt="" coords="627,102,696,86,701,85,628,107"/>
+<area shape="poly" id="edge10_Node000005_Node000004" title=" " alt="" coords="666,109,817,91,862,86,867,85,818,96,666,114"/>
+<area shape="poly" id="edge11_Node000005_Node000005" title=" " alt="" coords="539,103,533,96,538,86,551,80,572,78,595,81,609,90,604,89,594,86,572,84,552,86,541,90,539,96,543,106"/>
+</map>

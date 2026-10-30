@@ -1,0 +1,11 @@
+<map id="init_e22_900t22s" name="init_e22_900t22s">
+<area shape="rect" id="Node000001" title="Powers up the module, writes cfg to its flash, verifies it, and enters TRANS mode." alt="" coords="357,56,489,84"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="451,40,442,37,423,35,406,37,396,41,394,47,398,57,393,54,388,47,392,38,404,31,423,29,444,32,456,41"/>
+<area shape="rect" id="Node000002" href="$classTelemetry.html#a9833810d2debc24750453ced597d7ea6" title="Configures the E22 module and leaves it in TRANS mode." alt="" coords="195,56,309,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="339,70,310,72,309,67,344,70"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="43,29,109,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="177,60,110,51,110,45,181,58"/>
+<area shape="rect" id="Node000004" href="$classTEST.html#ae19cacfbe1157460fda27634a8826b3e" title="Standalone radio link: sends barometer altitude through Telemetry::Update() every 10 ms forever." alt="" coords="5,81,147,109"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="176,81,148,88,147,82,182,80"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="104,15,95,10,76,8,58,10,48,15,46,20,50,29,45,29,40,20,44,11,56,5,76,3,97,5,110,13"/>
+</map>

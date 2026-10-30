@@ -1,0 +1,7 @@
+<map id="MAXM10S::update" name="MAXM10S::update">
+<area shape="rect" id="Node000001" title="Reads everything the module has buffered and parses it." alt="" coords="5,32,146,60"/>
+<area shape="rect" id="Node000002" href="$classMAXM10S.html#a54057d0a446c29bb567a21f30eadb13d" title="Reads the bytes&#45;waiting count." alt="" coords="194,5,408,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,35,181,33,176,34,147,40"/>
+<area shape="rect" id="Node000003" href="$classMAXM10S.html#a346f957c4726833e29267cd6030e64b1" title="Reads numBytes (capped at RX_BUF_SIZE) into rxBuf." alt="" coords="215,57,386,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,51,202,59,197,60,146,56"/>
+</map>

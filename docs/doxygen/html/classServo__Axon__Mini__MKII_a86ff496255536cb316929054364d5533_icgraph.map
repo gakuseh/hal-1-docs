@@ -1,0 +1,11 @@
+<map id="Servo_Axon_Mini_MKII::Init" name="Servo_Axon_Mini_MKII::Init">
+<area shape="rect" id="Node000001" title="Starts PWM, centres both servos, records the zero reference, and checks they hold position." alt="" coords="311,46,480,91"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="5,29,72,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,48,263,46,158,42,73,44,72,39,158,36,263,41,298,47"/>
+<area shape="rect" id="Node000003" href="$classSensors.html#adea9ecd9a2315082d6fd583cac1dd89e" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="141,55,242,82"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="293,69,243,71,242,66,298,68"/>
+<area shape="rect" id="Node000004" href="$classTEST.html#a68118d6312a5385c98cb4faf8bbc003b" title="Inits both servos, then cycles them through 90/−33°, −45/45° and 0/0° forever." alt="" coords="120,107,263,134"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="299,93,249,109,248,104,294,94"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="63,15,55,10,38,8,23,10,15,14,13,20,16,28,11,29,7,20,11,11,21,5,39,3,57,5,68,13"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="124,59,72,51,72,46,128,56"/>
+</map>

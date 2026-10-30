@@ -1,0 +1,46 @@
+<map id="Sensors::Update" name="Sensors::Update">
+<area shape="rect" id="Node000001" title="Reads every sensor and publishes the results." alt="" coords="5,178,133,206"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a1ec833f61698a190b5002a4991abedc4" title="Reads both feedback angles (deg from the Init() zero)." alt="" coords="181,5,350,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,176,117,121,146,89,179,60,189,56,185,60,182,64,150,93,121,124,82,178"/>
+<area shape="rect" id="Node000005" href="$classBaro__Unified.html#a5a6cf187ffec80e7cacfdb936dcb1b46" title="Returns the last readings and voted result." alt="" coords="183,74,348,102"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="85,176,127,144,179,112,198,105,194,109,182,117,130,148,89,179"/>
+<area shape="rect" id="Node000006" href="$classMAXM10S.html#a4a33a1389aa55d9acc35a69ef1be11fb" title="Returns the latest solution." alt="" coords="192,126,339,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="123,175,198,156,194,160,126,179"/>
+<area shape="rect" id="Node000007" href="$classIMUs.html#a9bfa974d2a872c5369bc10f94fbe92e9" title="Returns the voted reading: acceleration in g, rate in deg/s, sensor axes." alt="" coords="192,178,338,206"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="132,189,179,190,175,193,135,194"/>
+<area shape="rect" id="Node000008" href="$classBaro__Unified.html#aab70ca9b194e21f968163555916a10e9" title="Reads each active sensor and recomputes the voted result." alt="" coords="185,230,346,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="123,204,198,224,194,227,125,209"/>
+<area shape="rect" id="Node000012" href="$classIMUs.html#a070624199b10aee0a831102b08c54168" title="Reads each active sensor and recomputes the voted output." alt="" coords="211,331,320,359"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="89,203,236,320,232,323,88,209"/>
+<area shape="rect" id="Node000022" href="$classMAXM10S.html#a5092dcecc3b0a06924974c4a7885168e" title="Reads everything the module has buffered and parses it." alt="" coords="195,487,336,515"/>
+<area shape="poly" id="edge20_Node000001_Node000022" title=" " alt="" coords="80,204,183,369,249,474,244,474,178,372,78,208"/>
+<area shape="rect" id="Node000003" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="420,5,590,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,25,407,26,403,29,352,30"/>
+<area shape="rect" id="Node000004" href="$classServo__Axon__Mini__MKII.html#a9b94dc6c6032de01fec44324fad5d840" title="Reads both feedback voltages from ADC3 and smooths them." alt="" coords="675,5,845,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="590,25,663,27,658,29,591,30"/>
+<area shape="rect" id="Node000009" href="$classBarometer.html#a7d8bdbeb5edcc5ec0f5f500e23a6201b" title="Returns the last reading stored by Update()." alt="" coords="416,126,594,154"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="323,227,349,215,363,203,372,190,381,177,397,164,413,158,409,161,399,169,385,180,376,193,367,206,351,219,326,231"/>
+<area shape="rect" id="Node000010" href="$classBarometer.html#ab381d839adab7fd584aff2997b914bb0" title="Reads a new sample if one is ready and converts it to altitude." alt="" coords="432,178,578,206"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="332,227,425,208,420,211,334,232"/>
+<area shape="rect" id="Node000011" href="$structTMRFloat.html#a3c4e7d9153742e1a22ef173d2df057de" title="Returns the mean of the two values that agree most closely." alt="" coords="444,230,566,258"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="345,241,431,243,426,245,346,246"/>
+<area shape="rect" id="Node000013" href="$classSIMU__BMI323.html#a79e55a71d2fad1a758592cbff1e543fa" title="Returns the last reading stored by Update()." alt="" coords="660,306,860,334"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="320,330,398,317,525,311,647,313,642,315,525,316,398,322,322,335"/>
+<area shape="rect" id="Node000014" href="$classIMUs.html#aaaad6c3a9ca6952dbf49d3c875cb7563" title="Copies sensor A into Voted_BMI." alt="" coords="417,331,593,359"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="320,342,404,344,399,346,321,348"/>
+<area shape="rect" id="Node000015" href="$classIMUs.html#a28dba30dd346688dcdee41498af86b96" title="Votes Raw_BMI into Voted_BMI, acceleration and rate separately." alt="" coords="426,383,584,411"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="320,354,426,379,421,380,321,359"/>
+<area shape="rect" id="Node000019" href="$classSIMU__BMI323.html#a698f2e92f79809c20963726d694d13b2" title="Reads a new sample if one is ready." alt="" coords="422,435,588,463"/>
+<area shape="poly" id="edge17_Node000012_Node000019" title=" " alt="" coords="287,357,337,388,399,420,423,430,417,430,397,425,335,393,286,362"/>
+<area shape="poly" id="edge14_Node000014_Node000013" title=" " alt="" coords="593,334,647,330,642,332,595,339"/>
+<area shape="rect" id="Node000016" href="$structTMR.html#ab9b86fe67efdfd28423537ab7291b8f4" title="Returns the mean of the two vectors closest to each other (Euclidean distance)." alt="" coords="716,383,804,411"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="584,394,703,397,698,397,584,400"/>
+<area shape="rect" id="Node000020" href="$classSIMU__BMI323.html#ad1188accb8ec5d8fca4cd04cd7f933a9" title="Converts a raw gyroscope value to deg/s." alt="" coords="666,435,854,463"/>
+<area shape="poly" id="edge18_Node000019_Node000020" title=" " alt="" coords="588,446,653,449,648,449,589,452"/>
+<area shape="rect" id="Node000021" href="$classSIMU__BMI323.html#a2ca95ceeed9ac7fc3e0f55c017980137" title="Converts a raw accelerometer value to g." alt="" coords="673,487,847,515"/>
+<area shape="poly" id="edge19_Node000019_Node000021" title=" " alt="" coords="577,461,676,483,671,484,577,466"/>
+<area shape="rect" id="Node000023" href="$classMAXM10S.html#a54057d0a446c29bb567a21f30eadb13d" title="Reads the bytes&#45;waiting count." alt="" coords="398,487,612,515"/>
+<area shape="poly" id="edge21_Node000022_Node000023" title=" " alt="" coords="336,498,385,501,380,501,336,504"/>
+<area shape="rect" id="Node000024" href="$classMAXM10S.html#a346f957c4726833e29267cd6030e64b1" title="Reads numBytes (capped at RX_BUF_SIZE) into rxBuf." alt="" coords="420,539,591,567"/>
+<area shape="poly" id="edge22_Node000022_Node000024" title=" " alt="" coords="333,513,425,535,420,535,332,518"/>
+</map>

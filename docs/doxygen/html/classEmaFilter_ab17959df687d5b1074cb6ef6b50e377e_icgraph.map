@@ -1,0 +1,11 @@
+<map id="EmaFilter::update" name="EmaFilter::update">
+<area shape="rect" id="Node000001" title="Adds a sample and returns the filtered value, y = αx + (1 − α)y." alt="" coords="567,29,703,57"/>
+<area shape="rect" id="Node000002" href="$classSensorFilters.html#a71f313763b88c1299b83daabcb97a730" title="Filters g_telemNow&#39;s altitude, acceleration and rates in place and copies them into g_SensorData." alt="" coords="180,29,328,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="549,44,328,46,328,41,554,43"/>
+<area shape="rect" id="Node000004" href="$classEmaFilter3.html#af91e47ff84ec03d9cd652a21b5fedb0b" title="Filters x, y and z in place." alt="" coords="376,55,519,82"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="555,54,520,61,520,56,549,55"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ab07cea460334195cb8d85b2b61026c34" title="Data task: filtering, attitude, vertical velocity, and the flight state machine." alt="" coords="5,29,132,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="161,44,132,46,132,41,167,43"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="98,14,89,10,68,8,49,10,39,15,36,20,41,29,36,29,31,20,35,11,48,5,69,3,91,5,104,14"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="358,57,328,55,328,50,363,57"/>
+</map>

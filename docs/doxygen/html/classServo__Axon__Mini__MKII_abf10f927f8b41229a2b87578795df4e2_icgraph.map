@@ -1,0 +1,35 @@
+<map id="Servo_Axon_Mini_MKII::readCurrentAngle" name="Servo_Axon_Mini_MKII::readCurrentAngle">
+<area shape="rect" id="Node000001" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="608,109,778,154"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#ae818d1ad600abab5f2b0dab261e2f67b" title="Relative error between the measured angle and trackedAngle. Unused." alt="" coords="391,5,560,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="635,102,559,65,534,53,534,48,561,60,640,101"/>
+<area shape="rect" id="Node000003" href="$classServo__Axon__Mini__MKII.html#a1ec833f61698a190b5002a4991abedc4" title="Reads both feedback angles (deg from the Init() zero)." alt="" coords="391,75,560,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="590,116,561,113,560,108,596,115"/>
+<area shape="rect" id="Node000006" href="$classServo__Axon__Mini__MKII.html#a86ff496255536cb316929054364d5533" title="Starts PWM, centres both servos, records the zero reference, and checks they hold position." alt="" coords="391,144,560,189"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="590,148,561,155,560,150,596,147"/>
+<area shape="rect" id="Node000010" href="$classServo__Axon__Mini__MKII.html#a407534f1678520e15b865b4e19183922" title="Commands both servos and refreshes the feedback data." alt="" coords="391,243,560,287"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="645,162,515,245,513,240,640,163"/>
+<area shape="rect" id="Node000004" href="$classSensors.html#a82fbdecccc603b1919e1c53869310091" title="Reads every sensor and publishes the results." alt="" coords="204,51,332,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="373,83,332,77,331,72,378,81"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#ac1eede4a9ca0bf8cda1c392aa09bee67" title="Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz." alt="" coords="5,51,145,79"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="186,67,146,67,144,63,191,63"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="107,37,96,32,75,30,55,32,44,36,42,42,47,50,41,51,36,42,41,33,54,27,75,25,98,27,111,35"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#adff52855476038c6b5d35b183150f9cd" title="Boot task (CubeMX&#39;s defaultTask): brings up every subsystem, then suspends itself." alt="" coords="42,140,108,168"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="373,146,343,144,268,140,193,144,109,152,107,147,192,138,268,135,343,138,378,144"/>
+<area shape="rect" id="Node000008" href="$classSensors.html#adea9ecd9a2315082d6fd583cac1dd89e" title="Initializes the IMUs, barometers, GPS, servos and magnetometer." alt="" coords="217,152,318,180"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="373,167,320,169,318,164,378,165"/>
+<area shape="rect" id="Node000009" href="$classTEST.html#a68118d6312a5385c98cb4faf8bbc003b" title="Inits both servos, then cycles them through 90/−33°, −45/45° and 0/0° forever." alt="" coords="196,204,340,232"/>
+<area shape="poly" id="edge11_Node000006_Node000009" title=" " alt="" coords="374,192,327,206,325,201,379,190"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="106,126,96,121,75,119,55,121,44,126,42,131,47,139,41,141,36,132,41,122,54,116,75,114,98,116,111,124"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="200,164,109,159,108,154,204,160"/>
+<area shape="poly" id="edge20_Node000010_Node000009" title=" " alt="" coords="373,243,333,235,332,230,379,242"/>
+<area shape="rect" id="Node000011" href="$main_8cpp.html#ab85808c9cd01e8dc25add722198590e9" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="223,280,313,308"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="373,280,314,291,313,285,378,278"/>
+<area shape="rect" id="Node000013" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="193,356,343,384"/>
+<area shape="poly" id="edge17_Node000010_Node000013" title=" " alt="" coords="419,294,298,358,296,353,414,295"/>
+<area shape="poly" id="edge16_Node000011_Node000011" title=" " alt="" coords="299,265,289,261,268,259,248,261,237,266,234,271,239,281,234,279,229,272,233,262,247,256,268,254,291,256,304,265"/>
+<area shape="rect" id="Node000012" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="44,318,106,346"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="206,308,107,328,105,323,209,304"/>
+<area shape="poly" id="edge15_Node000012_Node000012" title=" " alt="" coords="106,303,96,299,75,296,55,298,44,303,42,309,47,317,41,318,36,309,41,299,54,293,75,291,98,294,112,302"/>
+<area shape="poly" id="edge18_Node000013_Node000012" title=" " alt="" coords="179,354,106,340,106,335,183,352"/>
+<area shape="poly" id="edge19_Node000013_Node000013" title=" " alt="" coords="299,341,289,337,268,335,248,337,237,342,234,347,239,357,234,355,229,348,233,338,247,332,268,330,291,332,304,342"/>
+</map>

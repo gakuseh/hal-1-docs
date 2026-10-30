@@ -1,0 +1,7 @@
+<map id="Magnetometer::platform_write" name="Magnetometer::platform_write">
+<area shape="rect" id="Node000001" title="ST write callback. Builds the frame in a stack buffer and sends it." alt="" coords="5,24,187,68"/>
+<area shape="rect" id="Node000002" href="$classMagnetometer.html#a93ecf842bbcce0b2ba9986cf9e2b517c" title="Drives chip select CS1 high." alt="" coords="235,5,409,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,33,222,31,217,32,187,38"/>
+<area shape="rect" id="Node000003" href="$classMagnetometer.html#a435d54d948ac469f4c96d9242ee7a2bd" title="Drives chip select CS1 low." alt="" coords="237,57,406,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,53,224,60,219,60,187,59"/>
+</map>

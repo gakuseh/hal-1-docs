@@ -1,0 +1,7 @@
+<map id="changeMode" name="changeMode">
+<area shape="rect" id="Node000001" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="5,29,110,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="25,29,21,20,25,11,37,5,58,3,79,5,92,14,87,14,78,10,57,8,39,10,29,15,26,20,31,29"/>
+<area shape="rect" id="Node000002" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="158,29,322,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="110,41,145,43,140,43,110,46"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="208,28,203,20,207,11,220,5,240,3,262,5,275,14,269,14,260,10,240,8,221,10,211,15,208,20,213,30"/>
+</map>

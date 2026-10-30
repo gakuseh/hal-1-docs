@@ -1,0 +1,5 @@
+<map id="Magnetometer::platform_read" name="Magnetometer::platform_read">
+<area shape="rect" id="Node000001" title="ST read callback. Sends reg | 0x80, then reads len bytes." alt="" coords="275,5,492,33"/>
+<area shape="rect" id="Node000002" href="$classMagnetometer.html#a0a55866d6368bae35b9d03df8a59eca5" title="Binds the ST driver to spi. Does not touch hardware." alt="" coords="5,5,227,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,19,227,22,227,17,262,19"/>
+</map>

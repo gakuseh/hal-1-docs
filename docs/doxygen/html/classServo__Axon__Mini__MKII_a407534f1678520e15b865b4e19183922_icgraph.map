@@ -1,0 +1,15 @@
+<map id="Servo_Axon_Mini_MKII::Update" name="Servo_Axon_Mini_MKII::Update">
+<area shape="rect" id="Node000001" title="Commands both servos and refreshes the feedback data." alt="" coords="313,97,482,142"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ab85808c9cd01e8dc25add722198590e9" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="145,29,235,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="320,91,264,72,231,60,231,55,266,67,325,91"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="115,105,265,133"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="295,120,266,122,265,117,300,119"/>
+<area shape="rect" id="Node000005" href="$classTEST.html#a68118d6312a5385c98cb4faf8bbc003b" title="Inits both servos, then cycles them through 90/−33°, −45/45° and 0/0° forever." alt="" coords="118,157,262,185"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="301,144,249,159,248,154,296,144"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="214,14,206,10,190,8,174,10,166,14,164,20,168,29,162,28,158,20,162,11,173,5,190,3,208,5,219,13"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,68,67,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,60,68,77,66,72,131,56"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="60,53,52,49,36,47,20,49,12,53,10,59,14,67,9,68,5,59,8,50,19,44,36,41,54,44,65,51"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="113,103,68,92,67,87,117,100"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="214,90,206,86,190,84,174,86,166,90,164,96,168,106,162,104,158,96,162,87,173,81,190,79,208,81,219,90"/>
+</map>

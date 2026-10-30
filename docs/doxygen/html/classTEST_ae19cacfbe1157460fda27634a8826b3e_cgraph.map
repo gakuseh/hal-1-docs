@@ -1,0 +1,71 @@
+<map id="TEST::RADIO_TEST" name="TEST::RADIO_TEST">
+<area shape="rect" id="Node000001" title="Standalone radio link: sends barometer altitude through Telemetry::Update() every 10 ms forever." alt="" coords="5,344,147,372"/>
+<area shape="rect" id="Node000002" href="$classBaro__Unified.html#ae5a6335d68cdf4cef8884f781f8b6be7" title="Binds the three sensors to SPI2 and their chip selects. Does not touch hardware." alt="" coords="206,172,349,216"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,342,128,287,159,255,193,226,203,222,200,226,196,231,162,259,132,291,89,345"/>
+<area shape="rect" id="Node000003" href="$classBaro__Unified.html#a5a6cf187ffec80e7cacfdb936dcb1b46" title="Returns the last readings and voted result." alt="" coords="195,240,360,268"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,342,138,310,193,278,212,272,209,276,196,283,141,315,98,345"/>
+<area shape="rect" id="Node000004" href="$classBaro__Unified.html#af59decdc3768dfbe53c5036194122c5b" title="Initializes sensor A, plus B and C if TMR_Toggle." alt="" coords="210,292,344,320"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="131,341,208,322,204,326,134,345"/>
+<area shape="rect" id="Node000009" href="$classTelemetry.html#a9833810d2debc24750453ced597d7ea6" title="Configures the E22 module and leaves it in TRANS mode." alt="" coords="220,344,334,372"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="146,355,207,356,203,360,148,360"/>
+<area shape="rect" id="Node000015" href="$classTelemetry.html#a52f9548ef855738d450f241df5b04b96" title="Resets the sequence and receive state. Does not touch hardware; call Init()." alt="" coords="198,396,356,424"/>
+<area shape="poly" id="edge28_Node000001_Node000015" title=" " alt="" coords="132,370,208,390,204,393,134,375"/>
+<area shape="rect" id="Node000016" href="$classBaro__Unified.html#aab70ca9b194e21f968163555916a10e9" title="Reads each active sensor and recomputes the voted result." alt="" coords="197,448,358,476"/>
+<area shape="poly" id="edge29_Node000001_Node000016" title=" " alt="" coords="95,369,141,401,196,433,213,441,208,443,193,438,138,405,96,375"/>
+<area shape="rect" id="Node000020" href="$classTelemetry.html#aaf6bfe0a83c596e07009d8434d4f9ab1" title="Runs one Radio&#45;task cycle: receive if a window is due, otherwise send." alt="" coords="207,601,348,629"/>
+<area shape="poly" id="edge33_Node000001_Node000020" title=" " alt="" coords="90,370,258,588,253,590,87,374"/>
+<area shape="rect" id="Node000005" href="$classBarometer.html#a75dc1fad1d7c4c27ad8d392824df13c1" title="Initializes the chip and starts continuous measurement." alt="" coords="456,144,575,172"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="334,289,359,277,373,265,383,253,406,225,478,178,474,182,410,229,387,256,377,269,361,281,337,293"/>
+<area shape="rect" id="Node000006" href="$BMP3xx__platform_8cpp.html#ac582b5c347d1c88e9831b289184c8527" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="712,29,828,57"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="536,141,595,105,670,67,699,59,695,62,672,72,598,110,540,146"/>
+<area shape="rect" id="Node000007" href="$BMP3xx__platform_8cpp.html#adc0462790d480755a0b8a5a77b0208ad" title="Bosch read callback: reads len bytes starting at register reg_addr." alt="" coords="711,105,829,133"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="574,146,699,129,694,132,576,151"/>
+<area shape="rect" id="Node000008" href="$BMP3xx__platform_8cpp.html#a21cd941c1105c635ca650233e9445ad7" title="Bosch write callback: writes len bytes starting at register reg_addr." alt="" coords="710,181,830,209"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="575,164,697,183,693,185,576,169"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="735,29,730,20,735,11,748,5,770,3,794,5,808,14,802,14,792,10,770,8,749,10,738,15,735,20,741,29"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="735,104,730,96,735,87,748,81,770,79,794,81,808,90,802,90,792,86,770,84,749,86,738,91,735,96,741,105"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="735,180,730,172,735,163,748,157,770,155,794,157,808,166,802,166,792,162,770,160,749,162,738,167,735,172,741,181"/>
+<area shape="rect" id="Node000010" href="$Ebyte__E22__900T22S_8cpp.html#adec98df95bdde75dfcd8a21fafc85102" title="Sets M0/M1 for mode, then waits up to 200 ms for AUX to go high." alt="" coords="917,381,1021,409"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="324,341,359,329,383,317,407,306,536,263,591,245,642,232,693,226,747,228,805,242,870,269,899,288,923,314,957,368,952,367,919,317,896,292,867,274,803,247,746,234,694,231,643,237,592,250,538,268,409,311,385,322,361,334,327,346"/>
+<area shape="rect" id="Node000012" href="$Ebyte__E22__900T22S_8cpp.html#a03d4a1232d89add6ef432235dacd1dcd" title="Powers up the module, writes cfg to its flash, verifies it, and enters TRANS mode." alt="" coords="450,344,582,372"/>
+<area shape="poly" id="edge16_Node000009_Node000012" title=" " alt="" coords="334,355,436,356,432,359,336,360"/>
+<area shape="poly" id="edge13_Node000010_Node000010" title=" " alt="" coords="937,380,932,372,936,363,949,357,969,355,991,357,1004,366,998,366,989,362,969,360,950,362,940,367,937,372,942,382"/>
+<area shape="rect" id="Node000011" href="$Ebyte__E22__900T22S_8cpp.html#aacb392985d29f6e0f7bd99fa4b0ac73d" title="Waits for AUX to go high (module idle), polling every 1 ms." alt="" coords="1069,407,1233,434"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="1021,400,1056,407,1051,407,1022,405"/>
+<area shape="poly" id="edge15_Node000011_Node000011" title=" " alt="" coords="1119,405,1114,398,1118,388,1131,382,1151,380,1173,383,1186,392,1181,391,1171,388,1151,385,1132,387,1122,392,1120,397,1124,407"/>
+<area shape="poly" id="edge17_Node000012_Node000010" title=" " alt="" coords="582,361,903,388,899,391,582,366"/>
+<area shape="poly" id="edge23_Node000012_Node000011" title=" " alt="" coords="582,363,605,371,625,382,636,393,643,405,649,429,655,451,662,460,673,469,728,493,787,504,848,506,909,499,967,487,1021,471,1105,442,1110,440,1023,476,969,492,910,505,848,511,786,510,726,498,670,473,658,464,650,453,644,430,638,407,632,397,622,387,603,375,582,368"/>
+<area shape="poly" id="edge18_Node000012_Node000012" title=" " alt="" coords="475,343,468,335,474,325,490,319,516,317,544,320,560,328,555,329,542,325,516,323,491,325,477,329,474,335,480,344"/>
+<area shape="rect" id="Node000013" href="$Ebyte__E22__900T22S_8cpp.html#a14cd46771d93456372de769e3d00e59c" title="Reads ADDH through REG3 from the module." alt="" coords="679,307,861,334"/>
+<area shape="poly" id="edge19_Node000012_Node000013" title=" " alt="" coords="582,346,666,335,661,337,583,351"/>
+<area shape="rect" id="Node000014" href="$Ebyte__E22__900T22S_8cpp.html#a0fafa5e1b2678bf95956e659856287eb" title="Writes ADDH through REG3 to the module." alt="" coords="677,432,863,460"/>
+<area shape="poly" id="edge24_Node000012_Node000014" title=" " alt="" coords="581,370,624,382,727,425,722,426,622,387,581,375"/>
+<area shape="poly" id="edge20_Node000013_Node000010" title=" " alt="" coords="818,332,870,350,925,374,920,375,868,355,818,338"/>
+<area shape="poly" id="edge22_Node000013_Node000011" title=" " alt="" coords="861,318,941,325,1022,343,1075,367,1121,398,1116,397,1073,372,1020,348,940,330,862,323"/>
+<area shape="poly" id="edge21_Node000013_Node000013" title=" " alt="" coords="735,306,730,298,735,288,748,282,770,280,794,283,808,291,802,291,792,288,770,285,749,287,738,292,735,297,741,307"/>
+<area shape="poly" id="edge25_Node000014_Node000010" title=" " alt="" coords="826,429,904,411,899,413,828,434"/>
+<area shape="poly" id="edge26_Node000014_Node000011" title=" " alt="" coords="863,437,1056,426,1051,428,864,442"/>
+<area shape="poly" id="edge27_Node000014_Node000014" title=" " alt="" coords="735,431,730,423,735,413,748,407,770,405,794,408,808,417,802,417,792,413,770,411,749,413,738,417,735,423,741,432"/>
+<area shape="rect" id="Node000017" href="$classBarometer.html#a7d8bdbeb5edcc5ec0f5f500e23a6201b" title="Returns the last reading stored by Update()." alt="" coords="426,396,605,424"/>
+<area shape="poly" id="edge30_Node000016_Node000017" title=" " alt="" coords="343,445,436,426,431,429,345,450"/>
+<area shape="rect" id="Node000018" href="$classBarometer.html#ab381d839adab7fd584aff2997b914bb0" title="Reads a new sample if one is ready and converts it to altitude." alt="" coords="443,448,588,476"/>
+<area shape="poly" id="edge31_Node000016_Node000018" title=" " alt="" coords="357,459,430,461,425,463,359,464"/>
+<area shape="rect" id="Node000019" href="$structTMRFloat.html#a3c4e7d9153742e1a22ef173d2df057de" title="Returns the mean of the two values that agree most closely." alt="" coords="455,500,576,528"/>
+<area shape="poly" id="edge32_Node000016_Node000019" title=" " alt="" coords="344,474,443,497,438,498,345,479"/>
+<area shape="rect" id="Node000021" href="$Ebyte__E22__900T22S_8cpp.html#a49ae9b3337b5d5939b1e0f2ed620157a" title="Returns true if AUX is high (module idle)." alt="" coords="460,576,571,604"/>
+<area shape="poly" id="edge34_Node000020_Node000021" title=" " alt="" coords="348,605,447,596,442,598,349,610"/>
+<area shape="rect" id="Node000022" href="$classTelemetry.html#a3654d5b084c4998c389e591162ef7ca2" title="Reads one GND frame from the module and applies it. GND → FC data path." alt="" coords="408,628,623,656"/>
+<area shape="poly" id="edge36_Node000020_Node000022" title=" " alt="" coords="348,620,395,628,390,628,348,626"/>
+<area shape="rect" id="Node000028" href="$classTelemetry.html#aa6e91efed2d7243cc87a2a1b90f45900" title="Sends one telemetry frame. FC → GND data path." alt="" coords="438,689,593,717"/>
+<area shape="poly" id="edge41_Node000020_Node000028" title=" " alt="" coords="313,627,409,665,458,684,453,684,407,670,313,632"/>
+<area shape="poly" id="edge35_Node000021_Node000021" title=" " alt="" coords="475,575,468,567,474,557,490,551,516,549,544,552,560,561,555,561,542,557,516,555,491,557,477,561,474,567,480,576"/>
+<area shape="rect" id="Node000023" href="$classTelemetry.html#a2eeb017c5dd374e66167df07cd87a118" title="Finds and validates a frame in rx_buffer and copies out its payload." alt="" coords="684,561,856,589"/>
+<area shape="poly" id="edge37_Node000022_Node000023" title=" " alt="" coords="575,625,623,613,671,599,698,594,703,593,672,604,624,618,576,630"/>
+<area shape="rect" id="Node000025" href="$classTelemetry.html#a0c204f32e7b59dc0b680ae670d1adc70" title="Applies a GND command byte." alt="" coords="683,613,857,641"/>
+<area shape="poly" id="edge38_Node000022_Node000025" title=" " alt="" coords="623,633,670,633,665,633,624,638"/>
+<area shape="rect" id="Node000027" href="$Ebyte__E22__900T22S_8cpp.html#a184feb4e2b67a80948b29d7e6bddded4" title="Blocking read of one incoming frame from the module." alt="" coords="690,689,850,717"/>
+<area shape="poly" id="edge39_Node000022_Node000027" title=" " alt="" coords="576,654,698,685,692,685,576,659"/>
+<area shape="poly" id="edge40_Node000027_Node000027" title=" " alt="" coords="736,688,730,680,735,671,748,665,770,663,794,665,808,674,802,674,792,670,770,668,749,670,738,675,735,680,740,690"/>
+<area shape="rect" id="Node000029" href="$classTelemetry.html#af40b1f663cd54fddc814276e4b99d292" title="Frames payload into tx_buffer and transmits it." alt="" coords="671,741,869,769"/>
+<area shape="poly" id="edge42_Node000028_Node000029" title=" " alt="" coords="587,715,687,738,681,738,587,720"/>
+</map>

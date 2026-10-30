@@ -1,0 +1,54 @@
+<map id="Sensors" name="Sensors">
+<area shape="rect" id="Node000001" title="Owns every sensor driver and publishes their readings each cycle." alt="" coords="934,630,1007,657"/>
+<area shape="rect" id="Node000002" href="$classIMUs.html" title="Reads three BMI323 IMUs and votes them into one acceleration and rate." alt="" coords="722,250,777,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="768,289,964,629,958,629,766,294"/>
+<area shape="rect" id="Node000003" href="$classSIMU__BMI323.html" title="One BMI323 accelerometer and gyroscope, configured for flight." alt="" coords="366,132,478,160"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="492,151,566,164,642,188,694,217,735,249,729,250,691,221,640,193,565,169,494,156"/>
+<area shape="rect" id="Node000004" href="$structBMI__Data.html" title="One IMU reading in the sensor&#39;s own axes." alt="" coords="27,72,111,100"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="124,67,228,44,292,34,361,28,433,29,506,37,576,54,642,84,665,100,685,120,715,167,736,213,747,250,742,249,731,215,711,169,681,124,662,104,640,89,575,60,505,42,433,34,361,34,292,39,229,49,128,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,98,157,105,268,124,368,138,364,141,268,129,156,110,128,103"/>
+<area shape="rect" id="Node000006" href="$structBMIobjPtr.html" title="SPI context passed to the Bosch driver callbacks as intf_ptr." alt="" coords="27,151,111,179"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="125,164,210,164,302,161,368,154,363,158,303,166,210,170,128,169"/>
+<area shape="rect" id="Node000007" href="$classIMU__ISM6HGx.html" title="ISM6HG256X accelerometer, high&#45;g accelerometer and gyroscope." alt="" coords="365,256,479,284"/>
+<area shape="poly" id="edge5_Node000002_Node000007" title=" " alt="" coords="494,266,724,263,720,266,495,271"/>
+<area shape="rect" id="Node000008" href="$structISM__Data.html" title="One averaged ISM6HG256X reading." alt="" coords="27,226,111,253"/>
+<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="124,229,157,225,273,222,426,224,641,233,685,242,725,254,720,256,683,247,641,238,426,230,273,228,157,230,128,233"/>
+<area shape="poly" id="edge6_Node000007_Node000008" title=" " alt="" coords="125,246,157,250,366,266,362,270,156,255,128,251"/>
+<area shape="rect" id="Node000009" href="$structTMR.html" title="Two&#45;out&#45;of&#45;three voting for 3&#45;axis readings. Used for the IMUs." alt="" coords="397,308,447,336"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="461,318,545,310,640,295,724,272,720,275,642,301,545,316,464,323"/>
+<area shape="rect" id="Node000010" href="$structIMUsStatus.html" title="Per&#45;sensor status from IMUs::Init() and IMUs::Update(). 0 means OK." alt="" coords="374,362,470,389"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="484,372,561,363,601,354,640,341,667,327,693,309,736,276,732,280,696,314,670,331,642,346,603,359,562,368,486,377"/>
+<area shape="rect" id="Node000011" href="$classBaro__Unified.html" title="Reads three BMP390 barometers on SPI2 and votes each quantity." alt="" coords="697,546,802,573"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="815,576,911,610,946,629,941,629,909,615,815,581"/>
+<area shape="rect" id="Node000012" href="$classBarometer.html" title="One BMP390 barometer, configured for flight." alt="" coords="377,438,467,465"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="482,463,559,484,642,510,721,545,716,546,640,515,558,489,483,469"/>
+<area shape="rect" id="Node000013" href="$structbmp3__spi__intf.html" title="SPI context passed to the Bosch driver callbacks as intf_ptr." alt="" coords="12,382,126,409"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="140,400,303,422,379,439,374,442,302,428,142,405"/>
+<area shape="rect" id="Node000014" href="$structBMP__Data.html" title="One barometer reading." alt="" coords="25,499,113,527"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="116,491,156,478,215,467,275,459,378,452,374,455,275,464,216,472,157,484,119,495"/>
+<area shape="rect" id="Node000015" href="$structBARO__DATA.html" title="Readings from each barometer plus the voted result." alt="" coords="372,520,472,548"/>
+<area shape="poly" id="edge16_Node000015_Node000014" title=" " alt="" coords="95,534,125,555,158,570,197,580,229,583,261,579,302,570,326,560,374,546,370,549,328,565,303,575,262,584,229,588,196,586,156,575,122,560,97,539"/>
+<area shape="poly" id="edge15_Node000011_Node000015" title=" " alt="" coords="487,537,699,554,694,557,488,542"/>
+<area shape="rect" id="Node000016" href="$structBaro__Unified_1_1BMP__Status.html" title="Per&#45;sensor status codes from Barometer::Init() or Barometer::Update(). 0 means OK." alt="" coords="327,574,517,601"/>
+<area shape="poly" id="edge17_Node000011_Node000016" title=" " alt="" coords="532,585,641,578,699,570,694,572,641,583,533,590"/>
+<area shape="rect" id="Node000017" href="$classMAXM10S.html" title="MAX&#45;M10S GPS: reads NMEA over I2C and parses it with TinyGPSPlus." alt="" coords="706,630,793,657"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="808,641,936,643,931,644,809,646"/>
+<area shape="rect" id="Node000018" href="$structMAXM10S_1_1gpsData.html" title="Latest GPS solution. Fields keep their last valid values until updated." alt="" coords="347,626,496,653"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="511,639,541,639,708,642,703,644,541,645,513,644"/>
+<area shape="rect" id="Node000019" href="$classServo__Axon__Mini__MKII.html" title="Both canard servos: open&#45;loop PWM commands and analog angle feedback." alt="" coords="665,715,834,743"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="812,707,909,671,941,659,946,657,911,676,814,712"/>
+<area shape="rect" id="Node000020" href="$structCFG__Axon__Mini__MKII.html" title="Settings shared by both servos." alt="" coords="342,750,502,777"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="516,755,641,743,667,742,662,743,641,749,517,760"/>
+<area shape="rect" id="Node000021" href="$structSAsym.html" title=" " alt="" coords="5,734,133,761"/>
+<area shape="poly" id="edge26_Node000019_Node000021" title=" " alt="" coords="121,726,156,718,292,704,398,703,641,718,667,722,662,723,641,724,398,709,292,709,157,724,124,731"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="148,749,344,758,340,762,149,754"/>
+<area shape="rect" id="Node000022" href="$structDATA__Axon__Mini__MKII.html" title="Commands, feedback and status for both servos." alt="" coords="339,840,505,868"/>
+<area shape="poly" id="edge24_Node000022_Node000021" title=" " alt="" coords="80,774,94,801,110,829,131,856,158,876,195,889,227,889,260,882,302,875,363,868,358,869,303,881,261,888,227,895,194,894,155,880,128,859,106,832,89,804,80,779"/>
+<area shape="poly" id="edge23_Node000019_Node000022" title=" " alt="" coords="493,833,565,811,640,783,722,744,727,742,642,788,566,816,494,838"/>
+<area shape="rect" id="Node000023" href="$structSAsym.html" title=" " alt="" coords="6,935,132,963"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="134,964,174,970,218,971,262,964,301,945,312,931,313,915,314,897,325,879,342,870,347,868,329,883,319,899,318,916,316,933,304,949,264,969,219,976,174,975,133,969"/>
+<area shape="rect" id="Node000024" href="$classMagnetometer.html" title="LIS2MDL magnetometer: 100 Hz continuous mode with temperature compensation." alt="" coords="691,855,808,883"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="780,843,841,790,908,723,958,659,962,657,912,726,844,794,782,847"/>
+<area shape="rect" id="Node000025" href="$structLIS2__Data.html" title="One magnetometer reading." alt="" coords="379,892,465,920"/>
+<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="480,901,641,886,688,881,693,880,641,891,481,906"/>
+</map>

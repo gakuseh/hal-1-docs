@@ -1,0 +1,8 @@
+<map id="ControlLaw" name="ControlLaw">
+<area shape="rect" id="Node000001" title="Gain&#45;scheduled proportional roll&#45;rate damper for the canards." alt="" coords="25,207,120,234"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html" title="6&#45;DOF rocket model: time&#45;varying mass properties, aerodynamics, and equations of motion." alt="" coords="97,106,168,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,147,82,208,78,204,114,148"/>
+<area shape="rect" id="Node000003" href="$structRocketConfig.html" title="Rocket mass, geometry, aerodynamics, controller limits and EKF noise." alt="" coords="5,5,113,33"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="55,46,52,89,53,133,61,173,71,206,65,206,56,174,48,134,47,89,53,51"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,43,125,105,120,106,77,48"/>
+</map>

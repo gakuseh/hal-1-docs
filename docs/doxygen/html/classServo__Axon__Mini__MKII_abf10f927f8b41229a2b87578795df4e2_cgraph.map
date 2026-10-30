@@ -1,0 +1,5 @@
+<map id="Servo_Axon_Mini_MKII::readCurrentAngle" name="Servo_Axon_Mini_MKII::readCurrentAngle">
+<area shape="rect" id="Node000001" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="5,5,175,50"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a9b94dc6c6032de01fec44324fad5d840" title="Reads both feedback voltages from ADC3 and smooths them." alt="" coords="223,5,392,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,25,210,27,205,28,175,30"/>
+</map>

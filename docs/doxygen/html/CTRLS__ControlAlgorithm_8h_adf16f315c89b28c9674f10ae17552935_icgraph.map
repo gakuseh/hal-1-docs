@@ -1,0 +1,10 @@
+<map id="loadControlFreakRocketConfig" name="loadControlFreakRocketConfig">
+<area shape="rect" id="Node000001" title="Loads the Control Freak flight parameters into cfg." alt="" coords="313,29,531,57"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="460,14,448,10,422,8,398,10,385,15,381,20,387,30,382,28,376,20,381,11,397,5,422,3,449,5,466,14"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="115,29,265,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="295,43,265,46,265,41,300,43"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="214,13,206,10,190,8,174,10,166,14,164,20,167,30,163,28,158,20,162,11,173,5,190,3,208,5,219,14"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ac82805fce0c3f95037e4e5a8d297b99b" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,29,67,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,44,67,46,67,41,102,43"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="60,14,52,10,36,8,20,10,12,14,10,20,14,28,9,29,5,20,8,11,19,5,36,3,54,5,65,13"/>
+</map>

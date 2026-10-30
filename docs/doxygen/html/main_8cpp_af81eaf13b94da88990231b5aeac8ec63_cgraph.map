@@ -1,0 +1,7 @@
+<map id="SDLogTask" name="SDLogTask">
+<area shape="rect" id="Node000001" title="Logging task: writes three CSV&#45;style lines to the SD card every 10 ms." alt="" coords="5,29,97,57"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="23,29,19,20,23,11,34,5,51,3,69,5,81,13,75,14,67,10,51,8,35,10,27,14,25,20,29,29"/>
+<area shape="rect" id="Node000002" href="$SDCard_8cpp.html#aef86bc73dd1505b57a0e652f700a570b" title="Appends msg and a newline, then flushes to the card." alt="" coords="145,29,267,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,41,132,43,126,43,97,46"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="178,28,174,20,178,11,188,5,206,3,224,5,235,14,230,13,222,10,206,8,190,10,182,14,179,20,183,30"/>
+</map>

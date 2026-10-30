@@ -1,0 +1,17 @@
+<map id="Physics::eom" name="Physics::eom">
+<area shape="rect" id="Node000001" title="Full nonlinear equations of motion, ẋ = f(t, x, u)." alt="" coords="596,56,704,84"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a5f0e88b94556c5fe9d033769aa3a42b2" title="Numerical Jacobian ∂f/∂x by central differences (step 1e&#45;5, 20 eom() calls)." alt="" coords="370,5,513,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="578,53,501,36,502,31,584,53"/>
+<area shape="rect" id="Node000003" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="182,55,287,82"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="579,72,288,71,287,66,582,68"/>
+<area shape="rect" id="Node000008" href="$classPhysics.html#ac95a25705b5f690f7530691e8c24f92f" title="Predicted IMU reading for state x." alt="" coords="335,107,548,134"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="584,86,502,109,501,103,578,87"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,38,288,59,287,53,369,36"/>
+<area shape="rect" id="Node000004" href="$classEKF.html#a2cc366e902a4cdfd9b42b1c6fed90c19" title="Prediction only. Call when no new IMU sample is available." alt="" coords="5,55,134,82"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="164,69,134,71,134,66,169,68"/>
+<area shape="rect" id="Node000007" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="20,107,119,134"/>
+<area shape="poly" id="edge4_Node000003_Node000007" title=" " alt="" coords="176,87,117,109,115,104,171,88"/>
+<area shape="rect" id="Node000009" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="182,107,287,134"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="316,121,287,123,287,118,322,120"/>
+<area shape="poly" id="edge8_Node000009_Node000007" title=" " alt="" coords="164,121,119,123,119,118,169,120"/>
+</map>

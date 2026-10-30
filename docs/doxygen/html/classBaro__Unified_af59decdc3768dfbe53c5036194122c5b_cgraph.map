@@ -1,0 +1,14 @@
+<map id="Baro_Unified::Init" name="Baro_Unified::Init">
+<area shape="rect" id="Node000001" title="Initializes sensor A, plus B and C if TMR_Toggle." alt="" coords="5,105,140,133"/>
+<area shape="rect" id="Node000002" href="$classBarometer.html#a75dc1fad1d7c4c27ad8d392824df13c1" title="Initializes the chip and starts continuous measurement." alt="" coords="188,105,307,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,117,174,118,169,120,140,122"/>
+<area shape="rect" id="Node000003" href="$BMP3xx__platform_8cpp.html#ac582b5c347d1c88e9831b289184c8527" title="Bosch delay callback: busy&#45;waits on the DWT cycle counter." alt="" coords="357,29,472,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="278,102,354,67,366,65,370,63,356,72,280,107"/>
+<area shape="rect" id="Node000004" href="$BMP3xx__platform_8cpp.html#adc0462790d480755a0b8a5a77b0208ad" title="Bosch read callback: reads len bytes starting at register reg_addr." alt="" coords="356,105,473,133"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="307,117,343,119,338,120,308,122"/>
+<area shape="rect" id="Node000005" href="$BMP3xx__platform_8cpp.html#a21cd941c1105c635ca650233e9445ad7" title="Bosch write callback: writes len bytes starting at register reg_addr." alt="" coords="355,181,474,209"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="281,131,371,174,366,175,279,136"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="385,28,381,20,384,11,396,5,415,3,435,5,447,14,441,14,433,10,415,8,398,10,388,15,386,20,390,30"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="385,104,381,96,384,87,396,81,415,79,435,81,447,90,441,90,433,86,415,84,398,86,388,91,386,96,390,106"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="385,180,381,172,384,163,396,157,415,155,435,157,447,167,442,165,433,162,415,160,398,162,388,167,386,172,390,182"/>
+</map>

@@ -1,0 +1,78 @@
+<map id="CTRLs" name="CTRLs">
+<area shape="rect" id="Node000001" title="Entry point of the CTRLs task, defined in main.cpp." alt="" coords="5,387,67,415"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="9,387,5,378,8,369,19,363,36,361,54,363,65,370,60,373,52,368,36,366,20,368,12,372,10,378,14,386"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ab85808c9cd01e8dc25add722198590e9" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="145,216,235,244"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="47,386,167,253,165,258,52,388"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a73ee0c973678410144b140fd7e30db94" title="Main roll controller: EKF plus gain&#45;scheduled control law, in its own loop." alt="" coords="115,424,265,452"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="66,406,117,419,113,422,69,411"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="162,216,158,208,162,198,173,192,190,190,208,192,219,200,214,202,206,197,190,195,174,197,166,202,164,207,168,216"/>
+<area shape="rect" id="Node000003" href="$classServo__Axon__Mini__MKII.html#a407534f1678520e15b865b4e19183922" title="Commands both servos and refreshes the feedback data." alt="" coords="372,75,542,119"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="204,215,250,176,312,136,359,118,356,122,314,141,253,180,208,218"/>
+<area shape="rect" id="Node000004" href="$classServo__Axon__Mini__MKII.html#a4d466fa0f16934d6c9f20dc7681c6606" title="Writes both PWM compare registers for input plus the configured offsets (deg)." alt="" coords="663,75,832,119"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="541,95,650,96,645,98,544,99"/>
+<area shape="rect" id="Node000005" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="663,5,832,50"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="541,75,650,50,646,53,544,79"/>
+<area shape="poly" id="edge37_Node000007_Node000003" title=" " alt="" coords="195,423,311,137,333,121,359,111,356,115,335,126,315,140,199,425"/>
+<area shape="poly" id="edge16_Node000007_Node000007" title=" " alt="" coords="162,424,158,416,162,406,173,400,190,398,208,400,219,408,214,410,206,405,190,403,174,405,166,410,164,415,168,424"/>
+<area shape="rect" id="Node000008" href="$classPhysics.html#a58a6ca0015fce48e0f19193f647d3c26" title="Air&#45;relative velocity in the body frame, using the config&#39;s fixed wind. Only jacobianB() uses this." alt="" coords="894,234,1096,262"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="194,423,252,288,286,218,300,193,311,180,334,170,361,162,428,155,509,157,597,166,775,195,923,229,918,231,774,201,596,171,508,163,428,161,362,167,335,175,315,184,305,196,291,220,257,290,199,425"/>
+<area shape="rect" id="Node000009" href="$classControlLaw.html#a7105a49a6c01607205eacbbc8b3e985a" title="Computes the canard deflection. Call after the EKF step." alt="" coords="354,322,560,349"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="207,422,254,390,312,360,341,352,337,355,314,365,256,395,211,426"/>
+<area shape="rect" id="Node000013" href="$classPhysics.html#a8d61fa8350afd429a567754af06ba87c" title="Atmosphere and wind at alt_m, interpolated from the built&#45;in weather profile." alt="" coords="897,394,1093,421"/>
+<area shape="poly" id="edge47_Node000007_Node000013" title=" " alt="" coords="265,433,882,410,880,414,266,438"/>
+<area shape="rect" id="Node000014" href="$structRocketConfig.html#a46526d58b1aaea76f500e59bcf0c65c0" title="Fills the derived fields. Call once after setting everything else." alt="" coords="346,551,569,579"/>
+<area shape="poly" id="edge15_Node000007_Node000014" title=" " alt="" coords="204,450,251,494,281,517,314,536,335,545,330,547,312,541,278,521,247,498,204,455"/>
+<area shape="rect" id="Node000015" href="$CTRLS__ControlAlgorithm_8cpp.html#adf16f315c89b28c9674f10ae17552935" title="Loads the Control Freak flight parameters into cfg." alt="" coords="348,499,566,527"/>
+<area shape="poly" id="edge17_Node000007_Node000015" title=" " alt="" coords="242,450,392,493,388,496,243,455"/>
+<area shape="rect" id="Node000017" href="$timing_8cpp.html#adb94fbd930038e1510574dd4bcf07fe1" title="Milliseconds since boot (HAL_GetTick())." alt="" coords="428,703,486,731"/>
+<area shape="poly" id="edge21_Node000007_Node000017" title=" " alt="" coords="195,450,210,493,234,550,268,611,290,639,315,664,338,680,363,692,416,710,410,711,361,697,335,685,311,668,286,643,264,614,229,552,205,495,195,455"/>
+<area shape="rect" id="Node000018" href="$main_8cpp.html#a60f36b3e5fd25af636a30206bddd2f0e" title="Vertical (world z) velocity in m/s from the EKF state: the body velocity rotated into the world frame..." alt="" coords="364,627,550,655"/>
+<area shape="poly" id="edge23_Node000007_Node000018" title=" " alt="" coords="199,450,244,517,277,555,315,588,345,606,380,621,375,622,343,611,311,593,273,559,240,520,199,455"/>
+<area shape="rect" id="Node000020" href="$classEKF.html#a2cc366e902a4cdfd9b42b1c6fed90c19" title="Prediction only. Call when no new IMU sample is available." alt="" coords="393,895,521,923"/>
+<area shape="poly" id="edge26_Node000007_Node000020" title=" " alt="" coords="192,450,199,520,216,623,231,680,252,738,280,793,315,842,347,868,385,890,380,889,344,873,311,845,275,795,247,740,226,682,210,624,193,521,191,455"/>
+<area shape="rect" id="Node000037" href="$classControlLaw.html#a3857a667643fff875c0119a63d68ad3d" title="Clears the rate limiter and the effectiveness monitor (sign back to +1)." alt="" coords="390,194,525,222"/>
+<area shape="poly" id="edge32_Node000007_Node000037" title=" " alt="" coords="193,423,206,384,230,332,265,278,286,253,312,232,341,217,376,209,372,213,343,222,314,237,290,257,269,281,234,335,211,386,198,425"/>
+<area shape="rect" id="Node000038" href="$classEKF.html#a844dfbc174f4ee653ae9d26cb87752d9" title="Resets the state to cfg.x0 and the covariances to their initial values." alt="" coords="704,690,791,718"/>
+<area shape="poly" id="edge33_Node000007_Node000038" title=" " alt="" coords="192,450,200,509,218,590,233,632,254,674,281,710,315,740,352,761,386,772,417,776,449,773,517,757,601,740,692,718,687,720,602,745,518,762,450,778,417,781,384,778,350,766,311,745,277,714,249,676,228,635,212,591,195,510,191,455"/>
+<area shape="rect" id="Node000039" href="$SDCard_8cpp.html#aef86bc73dd1505b57a0e652f700a570b" title="Appends msg and a newline, then flushes to the card." alt="" coords="396,270,518,297"/>
+<area shape="poly" id="edge35_Node000007_Node000039" title=" " alt="" coords="198,423,242,366,274,334,312,308,345,294,383,287,379,290,347,299,314,313,278,338,246,369,203,425"/>
+<area shape="rect" id="Node000040" href="$classEKF.html#a1d50197cf503e19c2949bbb7effb4215" title="One prediction and correction. Call when a fresh IMU sample is available." alt="" coords="408,804,506,832"/>
+<area shape="poly" id="edge38_Node000007_Node000040" title=" " alt="" coords="192,450,199,514,216,604,232,653,253,701,280,746,315,784,332,796,351,805,395,817,390,818,350,810,329,801,311,788,276,749,248,704,227,655,211,605,194,514,191,455"/>
+<area shape="rect" id="Node000046" href="$classControlLaw.html#a0658a83a2ece1e01cea84a35fe5f1f63" title="Roll effectiveness monitor: flips the gain sign if the canards act backwards." alt="" coords="313,374,601,401"/>
+<area shape="poly" id="edge44_Node000007_Node000046" title=" " alt="" coords="264,422,367,403,363,407,267,426"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="952,233,946,225,951,215,968,209,995,207,1024,210,1041,218,1036,219,1023,215,995,212,969,214,955,219,951,225,958,234"/>
+<area shape="rect" id="Node000010" href="$classControlLaw.html#aa71a66c4f4199fd6937c7fa4b963f012" title="Gain K = I3 · λ / (∂M/∂ζ) for the current airspeed." alt="" coords="649,271,846,299"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="539,319,651,301,647,304,542,324"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="843,268,886,263,881,266,845,273"/>
+<area shape="rect" id="Node000012" href="$classPhysics.html#a9ef9fe2b0b4522587cf5dba812c40673" title="Roll inertia (kg·m²) at time t: linear from I_3_0 to I_3_f during the burn." alt="" coords="912,310,1078,337"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="840,297,899,308,894,309,841,302"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="814,297,847,309,872,327,895,347,957,386,952,386,892,351,869,331,844,314,815,302"/>
+<area shape="poly" id="edge20_Node000015_Node000015" title=" " alt="" coords="411,499,404,490,410,480,428,475,457,473,488,475,507,483,502,484,487,480,457,478,429,480,414,485,410,490,417,499"/>
+<area shape="rect" id="Node000016" href="$namespaceanonymous__namespace_02CTRLS__ControlAlgorithm_8cpp_03.html#aef171953fb54ec5c9eb64025241b037a" title="Copies n floats from src to dst." alt="" coords="653,499,842,561"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="566,517,640,523,635,525,567,522"/>
+<area shape="poly" id="edge19_Node000016_Node000016" title=" " alt="" coords="699,498,700,489,709,480,725,475,748,473,773,476,791,485,786,485,772,481,747,478,726,480,712,485,705,491,704,501"/>
+<area shape="poly" id="edge22_Node000017_Node000017" title=" " alt="" coords="425,709,408,701,404,694,407,688,424,679,457,677,486,679,504,685,510,695,501,705,498,701,505,694,501,689,485,684,457,682,425,685,411,691,410,694,412,697,431,709"/>
+<area shape="poly" id="edge24_Node000018_Node000018" title=" " alt="" coords="411,626,404,618,410,608,428,603,457,601,488,603,507,611,502,612,487,608,457,606,429,608,414,613,410,618,417,627"/>
+<area shape="rect" id="Node000019" href="$classPhysics.html#a83fa4d24f42f37f8b008ee394bdf6c9a" title="World&#45;to&#45;body rotation matrix (DCM) from a unit quaternion." alt="" coords="689,627,806,655"/>
+<area shape="poly" id="edge25_Node000018_Node000019" title=" " alt="" coords="550,638,677,640,672,642,551,644"/>
+<area shape="rect" id="Node000021" href="$classEKF.html#abd49d91bf52b8c53822443a9c3738789" title="Renormalizes the quaternion part of xhat, or resets it to identity if its norm is near zero." alt="" coords="896,895,1094,923"/>
+<area shape="poly" id="edge27_Node000020_Node000021" title=" " alt="" coords="522,917,650,932,748,937,845,932,906,926,911,926,846,937,748,942,649,937,522,922"/>
+<area shape="rect" id="Node000022" href="$classEKF.html#aecb62dfc385f39c4a042293771a23c18" title="Euler&#45;integrates xhat over dt and propagates P with F = I + A·dt." alt="" coords="695,895,800,923"/>
+<area shape="poly" id="edge28_Node000020_Node000022" title=" " alt="" coords="522,906,682,909,677,909,522,912"/>
+<area shape="poly" id="edge31_Node000022_Node000021" title=" " alt="" coords="801,906,883,909,878,909,801,912"/>
+<area shape="rect" id="Node000034" href="$CTRLS__ControlAlgorithm_8h.html#aef606d4419236147c25b4d5fac910e13" title="N×N identity matrix." alt="" coords="972,742,1018,770"/>
+<area shape="poly" id="edge29_Node000022_Node000034" title=" " alt="" coords="771,892,957,778,962,777,773,897"/>
+<area shape="poly" id="edge30_Node000034_Node000034" title=" " alt="" coords="969,749,950,741,946,734,947,727,963,718,995,715,1023,718,1040,724,1043,735,1033,746,1030,741,1038,734,1036,728,1022,723,995,720,964,723,952,730,951,733,954,737,975,750"/>
+<area shape="poly" id="edge34_Node000038_Node000034" title=" " alt="" coords="791,710,959,748,954,748,791,715"/>
+<area shape="poly" id="edge36_Node000039_Node000039" title=" " alt="" coords="411,270,404,261,410,251,428,245,457,243,488,246,507,254,502,255,487,251,457,248,429,250,414,255,410,261,417,269"/>
+<area shape="poly" id="edge42_Node000040_Node000021" title=" " alt="" coords="507,824,846,881,897,892,892,892,845,886,507,829"/>
+<area shape="poly" id="edge43_Node000040_Node000022" title=" " alt="" coords="504,830,688,890,683,890,504,835"/>
+<area shape="rect" id="Node000041" href="$classEKF.html#ad39f8290faac547886faa514bec9f945" title="Rail constraint: zeroes pitch/yaw rate and lateral velocity, keeps v3 ≥ 0, and locks the quaternion t..." alt="" coords="653,794,842,822"/>
+<area shape="poly" id="edge39_Node000040_Node000041" title=" " alt="" coords="506,814,641,811,635,812,507,819"/>
+<area shape="rect" id="Node000042" href="$classEKF.html#a79735dcccae3c39533f272fe9e3551ce" title="Measurement update with gain limiting and a Joseph&#45;form covariance update." alt="" coords="695,742,800,770"/>
+<area shape="poly" id="edge40_Node000040_Node000042" title=" " alt="" coords="506,805,682,769,677,771,507,810"/>
+<area shape="poly" id="edge41_Node000042_Node000034" title=" " alt="" coords="801,753,959,755,954,756,801,758"/>
+<area shape="poly" id="edge46_Node000046_Node000012" title=" " alt="" coords="601,382,721,375,845,360,935,341,930,343,846,365,721,380,603,387"/>
+<area shape="rect" id="Node000024" href="$classPhysics.html#ac01d0b9305fcdceb47f4ac536df769f2" title="Canard roll moment (N·m) for airspeed v_mag and deflection zeta_rad: coeff · v² · ζ(deg)." alt="" coords="659,323,836,351"/>
+<area shape="poly" id="edge45_Node000046_Node000024" title=" " alt="" coords="539,371,651,353,647,355,542,376"/>
+</map>

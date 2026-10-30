@@ -1,0 +1,117 @@
+# Doxygen configuration for HAL-1-SW.
+#
+# Run `doxygen` from the repository root. Output goes to docs/doxygen/html,
+# which is committed so the docs can be read without Doxygen installed;
+# commit it again after regenerating. `python3 docs/view_docs.py` serves it
+# in a browser. Warnings go to docs/doxygen-warnings.log (gitignored).
+#
+# Tested with Doxygen 1.18 and Graphviz 16. Graphviz (`dot`) draws the call
+# graphs. Doxygen 1.18 draws the Mermaid diagrams in ARCHITECTURE.md in the
+# browser with mermaid.js, loaded from a CDN.
+# Only settings that differ from Doxygen's defaults are listed; run
+# `doxygen -g full.cfg` to see every option.
+
+#---------------------------------------------------------------------------
+# Project
+#---------------------------------------------------------------------------
+PROJECT_NAME           = "HAL-1 Flight Software"
+PROJECT_BRIEF          = "Flight computer firmware for the Control Freak rocket"
+OUTPUT_DIRECTORY       = docs/doxygen
+STRIP_FROM_PATH        = .
+FULL_PATH_NAMES        = YES
+
+#---------------------------------------------------------------------------
+# Input: first-party code only
+#---------------------------------------------------------------------------
+INPUT                  = docs/ARCHITECTURE.md \
+                         docs/groups.dox \
+                         Core/Inc \
+                         Core/Src
+USE_MDFILE_AS_MAINPAGE = docs/ARCHITECTURE.md
+FILE_PATTERNS          = *.h *.hpp *.c *.cpp *.md *.dox
+RECURSIVE              = YES
+
+# Vendored libraries and files that are not compiled.
+EXCLUDE                = Core/Inc/BMP3_SensorAPI-master \
+                         Core/Inc/sht4x-5.3.0 \
+                         Core/Inc/EBYTE_E22-main \
+                         Core/Inc/Buzzer.h \
+                         Core/Inc/Initial_conditions.hpp \
+                         Core/Src/Buzzer.cpp \
+                         Core/Src/Flight_Computer_State.cpp \
+                         Core/Src/Math/TMR.cpp
+
+# Vendor drivers and CubeMX-generated files.
+EXCLUDE_PATTERNS       = */bmi3.* */bmi3_defs.h */bmi323.* */bmi323_defs.h \
+                         */bmp3.* */bmp3_defs.h \
+                         */ism6hg256x_reg.* */lis2mdl_reg.* \
+                         */TinyGPSPlus.* \
+                         */stm32h7xx_* */system_stm32h7xx.c \
+                         */FreeRTOSConfig.h */u_cfg_override.h \
+                         */sd_diskio.* */syscalls.c */sysmem.c \
+                         */Core/Inc/main.h */Core/Src/main.c \
+                         */Core/Src/freertos.c \
+                         */adc.* */gpio.* */i2c.* */spi.* */tim.* \
+                         */usart.* */usb_otg.*
+
+#---------------------------------------------------------------------------
+# What to extract
+#---------------------------------------------------------------------------
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_ANON_NSPACES   = YES
+DISTRIBUTE_GROUP_DOC   = YES
+BUILTIN_STL_SUPPORT    = YES
+MARKDOWN_ID_STYLE      = GITHUB
+TOC_INCLUDE_HEADINGS   = 3
+
+#---------------------------------------------------------------------------
+# Preprocessor
+#---------------------------------------------------------------------------
+ENABLE_PREPROCESSING   = YES
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = Core/Inc
+PREDEFINED             = __cplusplus \
+                         STM32H753xx \
+                         USE_HAL_DRIVER
+
+#---------------------------------------------------------------------------
+# Cross-references and source browsing
+#---------------------------------------------------------------------------
+SOURCE_BROWSER         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+#---------------------------------------------------------------------------
+# Warnings
+#---------------------------------------------------------------------------
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+WARN_LOGFILE           = docs/doxygen-warnings.log
+
+#---------------------------------------------------------------------------
+# Output
+#---------------------------------------------------------------------------
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+GENERATE_LATEX         = NO
+
+#---------------------------------------------------------------------------
+# Graphs (need Graphviz)
+#---------------------------------------------------------------------------
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = NO
+INCLUDED_BY_GRAPH      = NO
+DIRECTORY_GRAPH        = NO
+MAX_DOT_GRAPH_DEPTH    = 3
+DOT_GRAPH_MAX_NODES    = 60

@@ -1,0 +1,6 @@
+<map id="ISM_platform_MSdelay" name="ISM_platform_MSdelay">
+<area shape="rect" id="Node000001" title="ST delay callback. Calls osDelay(), so it yields to the scheduler." alt="" coords="197,29,368,57"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="316,14,305,10,282,8,261,10,249,15,247,20,252,30,247,28,241,20,246,11,260,5,282,3,307,5,321,14"/>
+<area shape="rect" id="Node000002" href="$classIMU__ISM6HGx.html#a308f0d9ba86e053605581d300e9d2580" title="Resets the chip, checks WHO_AM_I, and applies the config." alt="" coords="5,29,149,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,43,149,46,149,41,184,43"/>
+</map>

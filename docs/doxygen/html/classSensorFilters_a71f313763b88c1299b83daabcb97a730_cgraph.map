@@ -1,0 +1,8 @@
+<map id="SensorFilters::apply" name="SensorFilters::apply">
+<area shape="rect" id="Node000001" title="Filters g_telemNow&#39;s altitude, acceleration and rates in place and copies them into g_SensorData." alt="" coords="5,31,154,58"/>
+<area shape="rect" id="Node000002" href="$classEmaFilter3.html#af91e47ff84ec03d9cd652a21b5fedb0b" title="Filters x, y and z in place." alt="" coords="202,5,345,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,32,189,30,183,31,155,37"/>
+<area shape="rect" id="Node000003" href="$classEmaFilter.html#ab17959df687d5b1074cb6ef6b50e377e" title="Adds a sample and returns the filtered value, y = αx + (1 − α)y." alt="" coords="393,31,528,58"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="154,42,378,42,377,47,154,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,26,380,33,375,33,345,32"/>
+</map>

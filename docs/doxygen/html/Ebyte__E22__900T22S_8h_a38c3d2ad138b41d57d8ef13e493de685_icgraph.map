@@ -1,0 +1,10 @@
+<map id="changeOpFreq_e22_900t22s" name="changeOpFreq_e22_900t22s">
+<area shape="rect" id="Node000001" title="Changes the module&#39;s channel by rewriting REG2 (not saved to flash)." alt="" coords="678,29,883,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="820,14,807,10,780,8,756,10,742,15,739,20,745,30,740,28,733,20,739,11,755,5,781,3,808,5,825,14"/>
+<area shape="rect" id="Node000002" href="$classTelemetry.html#a0c204f32e7b59dc0b680ae670d1adc70" title="Applies a GND command byte." alt="" coords="457,29,630,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="660,43,631,46,631,41,665,43"/>
+<area shape="rect" id="Node000003" href="$classTelemetry.html#a3654d5b084c4998c389e591162ef7ca2" title="Reads one GND frame from the module and applies it. GND → FC data path." alt="" coords="194,29,409,57"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="439,43,410,46,410,41,444,43"/>
+<area shape="rect" id="Node000004" href="$classTelemetry.html#aaf6bfe0a83c596e07009d8434d4f9ab1" title="Runs one Radio&#45;task cycle: receive if a window is due, otherwise send." alt="" coords="5,29,146,57"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="176,43,146,46,146,41,181,43"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="EKF::EKF" name="EKF::EKF">
+<area shape="rect" id="Node000001" title="Stores the model and config and calls reset()." alt="" coords="5,29,84,57"/>
+<area shape="rect" id="Node000002" href="$classEKF.html#a844dfbc174f4ee653ae9d26cb87752d9" title="Resets the state to cfg.x0 and the covariances to their initial values." alt="" coords="132,29,218,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,41,119,43,114,44,84,46"/>
+<area shape="rect" id="Node000003" href="$CTRLS__ControlAlgorithm_8h.html#aef606d4419236147c25b4d5fac910e13" title="N×N identity matrix." alt="" coords="266,29,311,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,41,253,43,248,43,218,46"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="268,27,265,20,267,11,275,5,289,3,303,5,311,14,306,13,300,10,289,8,278,10,272,14,270,20,273,30"/>
+</map>

@@ -2,6 +2,31 @@
 // Created by dyrel on 2/7/2026.
 //
 
+/**
+ * @file main.cpp
+ * @ingroup tasks
+ * @brief FreeRTOS task bodies and the flight state machine.
+ *
+ * MX_FREERTOS_Init() in freertos.c creates these tasks:
+ *
+ * | Task         | Entry                    | Priority    | Stack |
+ * |--------------|--------------------------|-------------|-------|
+ * | defaultTask  | FC_Init()                | Normal      | 4 KB  |
+ * | Radio        | Radio()                  | Realtime    | 4 KB  |
+ * | updateSensor | updateSensorTask()       | Realtime    | 4 KB  |
+ * | updateData   | updateDataTask()         | Realtime    | 4 KB  |
+ * | CTRLs        | CTRLs()                  | Realtime    | 12 KB |
+ * | SDLog        | SDLogTask()              | AboveNormal | 2 KB  |
+ * | ICTare       | Initial_Condition_Tare() | BelowNormal | 512 B |
+ *
+ * Every task except FC_Init() waits for #initDone. Data moves between them
+ * through g_telemNow, g_SensorData and g_gndData under g_ctrls_sensor_mutex,
+ * and the sensor pipeline is chained with task notifications:
+ * updateSensorTask() → updateDataTask() → CTRLs().
+ *
+ * @see docs/ARCHITECTURE.md
+ */
+
 #include "tim.h"
 #include "cmsis_os.h"
 #include "constants.h"
@@ -11,18 +36,19 @@
 #include "FlightComputer_SENSORS.h"
 #include "CTRLS_Controls.h"
 
-TaskHandle_t updateDataTaskHandle;
-TaskHandle_t CTRLIndicationHandle;
+TaskHandle_t updateDataTaskHandle;  ///< updateData task. updateSensorTask() notifies it after each frame.
+TaskHandle_t CTRLIndicationHandle;  ///< CTRLs task. updateDataTask() notifies it after each frame.
 
 
 // ======================= THREADS =========================
 
-Sensors S;
-Telemetry telem;
-Servo_Axon_Mini_MKII Servos;
+Sensors S;                      ///< Every sensor. FC_Init() initializes it; updateSensorTask() updates it.
+Telemetry telem;                ///< The radio link. FC_Init() initializes it; the Radio task runs it.
+Servo_Axon_Mini_MKII Servos;    ///< The canard servos the CTRLs task commands. Sensors has its own instance for feedback.
 
-static volatile bool initDone = false;
+static volatile bool initDone = false;  ///< Set by FC_Init() once every subsystem is up. Every other task waits for it.
 
+/// @brief Vertical (world z) velocity in m/s from the EKF state: the body velocity rotated into the world frame.
 static float modelVerticalVelocityMS(const StateVec& x)
 {
     float R[3][3];
@@ -30,13 +56,25 @@ static float modelVerticalVelocityMS(const StateVec& x)
     return R[0][2]*x(3,0) + R[1][2]*x(4,0) + R[2][2]*x(5,0);
 }
 
+/**
+ * @brief Boot task (CubeMX's defaultTask): brings up every subsystem, then suspends itself.
+ *
+ * Starts the DWT timer and turns the user LED on, then initializes, in order,
+ * the sensors, the radio, the servos and the SD card. Each step retries every
+ * 100 ms until it succeeds; the LED blinks while the SD card is retrying.
+ * When all four are up it sets #initDone, toggles the LED, and suspends.
+ *
+ * @warning Every step retries forever, so one missing piece (no SD card, a GPS
+ *          that never answers, servos not attached) keeps every other task,
+ *          the radio included, from starting.
+ */
 extern "C" void FC_Init(void*) {
     MICROS_DWT_Timebase_Init();
 
     HAL_GPIO_WritePin(USR_LED_GPIO_Port, USR_LED_Pin, GPIO_PIN_SET);
 
     // Retry until every sensor (IMU A/B/C, baro A/B/C, GPS) reports success.
-    // Radio init is handled independently in the Radio task.
+    // Radio init comes next, here in FC_Init; the Radio task only waits for initDone.
     while (S.Init() != STATUS_OK)
         osDelay(100);
 
@@ -58,6 +96,11 @@ extern "C" void FC_Init(void*) {
 }
 
 
+/**
+ * @brief Sensor task: reads every sensor, then wakes updateDataTask(). Up to about 500 Hz.
+ *
+ * Each loop calls Sensors::Update(), notifies the updateData task, and sleeps 2 ms.
+ */
 extern "C" void updateSensorTask(void*) {
     while (!initDone) osDelay(10);
 
@@ -71,20 +114,44 @@ extern "C" void updateSensorTask(void*) {
 #include "FlightComputer_DATAUPDATE.h"
 #include "DataFilter.h"
 
-extern telemetryData g_telemNow;
-extern telemetryData g_telemPrev;
-extern GndStationData g_gndData;
+extern telemetryData g_telemNow;    ///< Latest sensor, attitude and servo values, shared between tasks under g_ctrls_sensor_mutex.
+extern telemetryData g_telemPrev;   ///< Copy of g_telemNow from the Radio task's last loop. Written, never read.
+extern GndStationData g_gndData;    ///< Servo trim from the last GND command, set by Telemetry::receiveCommands().
 extern osMutexId_t g_ctrls_sensor_mutex;
 
-bool STATE_IGNITION  = false;
-bool STATE_BURNOUT   = false;
-bool STATE_BACKUP_PID = true; // default to on; cleared when ignition is latched
-bool ALLOW_ACTUATION  = false;
-uint32_t CTRLs_t      = 0;   // kernel tick at ignition moment (0 = pre-launch)
+bool STATE_IGNITION  = false;  ///< Latched by updateDataTask() when ignition is detected.
+bool STATE_BURNOUT   = false;   ///< Latched by updateDataTask() when burnout is detected.
+bool STATE_BACKUP_PID = true; ///< true selects CTRLs_PID(). Cleared when ignition latches, which selects CTRLs_STATESPACE().
+bool ALLOW_ACTUATION  = false;  ///< Gates the CTRLs task. Set at burnout unless locked out; cleared by any lockout.
+uint32_t CTRLs_t      = 0;   ///< Kernel tick at ignition (0 = pre-launch). Written but never read.
 
-static volatile bool g_request_tare = false; // set by Initial_Condition_Tare, consumed by updateDataTask
-static float g_alt_pad_m = 0.0f; // MSL altitude of launch pad; applied at radio snapshot, not in g_telemNow
+static volatile bool g_request_tare = false; ///< Set by Initial_Condition_Tare(); updateDataTask() performs the tare and clears it.
+static float g_alt_pad_m = 0.0f; ///< Pad altitude (barometric, MSL) recorded by the tare. The Radio task subtracts it so altitude goes out as AGL.
 
+/**
+ * @brief Data task: filtering, attitude, vertical velocity, and the flight state machine.
+ *
+ * Woken by updateSensorTask() after each frame (100 ms timeout). Holding
+ * g_ctrls_sensor_mutex, it performs a pending pad tare, updates g_dt, filters
+ * the frame with SensorFilters::apply(), runs the attitude estimator, and
+ * computes vertical velocity. Then it runs the latched state machine:
+ *
+ * - **Ignition:** vertical acceleration above #LIFTOFF_ACCEL_G for
+ *   #IGNITION_SUSTAIN_MS. Sets #STATE_IGNITION and clears #STATE_BACKUP_PID.
+ * - **Burnout:** vertical acceleration below #BURNOUT_ACCEL_G for
+ *   #BURNOUT_SUSTAIN_MS. Sets #STATE_BURNOUT and, unless locked out,
+ *   #ALLOW_ACTUATION.
+ * - **Lockout (permanent until the next tare):** |pitch| above
+ *   #MAX_PITCH_ANGLE_DEG at any time, or after burnout |vertical velocity|
+ *   below #MIN_ACTUATION_VEL_MS or more than #MAX_ACTUATION_DURATION_MS
+ *   elapsed. Clears #ALLOW_ACTUATION and g_ctrls_enabled.
+ *
+ * Finally it notifies the CTRLs task.
+ *
+ * The pad tare resets the attitude estimator, records #g_alt_pad_m, and resets
+ * the state machine, which includes clearing g_ctrls_enabled. See the bug note
+ * on g_ctrls_enabled: nothing sets it again afterwards.
+ */
 extern "C" void updateDataTask(void*)
 {
     while (!initDone) osDelay(10);
@@ -191,6 +258,14 @@ extern "C" void updateDataTask(void*)
 }
 
 
+/**
+ * @brief Radio task: sends telemetry and listens for ground-station commands.
+ *
+ * Each loop copies g_telemNow into telem.HALOutData (and g_telemPrev) under
+ * g_ctrls_sensor_mutex, subtracting #g_alt_pad_m so altitude goes out as AGL,
+ * then calls Telemetry::Update() and toggles the user LED. There is no sleep
+ * in the loop; Telemetry::Update() paces it through the E22's busy waits.
+ */
 extern "C" void Radio(void*)
 {
     while (!initDone)
@@ -216,8 +291,20 @@ extern "C" void Radio(void*)
 
 
 
-extern GPS_Data g_GPS;
+extern GPS_Data g_GPS;  ///< Latest GPS fix, written by Sensors::Update() and logged by SDLogTask().
 
+/**
+ * @brief Logging task: writes three CSV-style lines to the SD card every 10 ms.
+ *
+ * After a header, each loop logs SENS1 (position, altitude, vertical velocity,
+ * temperature), SENS2 (acceleration, rates, attitude, servo commands, RSSI,
+ * pyro flags) and GPS (position, UTC time, satellites, HDOP). g_telemNow is
+ * copied under the mutex; g_GPS is copied without it.
+ *
+ * @note Each SD_LogNewline() syncs to the card, so the real rate is limited by
+ *       how fast the card syncs. The task gets no CPU during the radio's 2 s
+ *       receive window.
+ */
 extern "C" void SDLogTask(void*) {
     while (!initDone)
         osDelay(10);
@@ -276,6 +363,20 @@ extern "C" void SDLogTask(void*) {
 
 // ------------- BACKUP PID CONTROLLER IF INITIAL ACCEL NOT DETECTED -------------
 
+/**
+ * @brief Backup roll damper: one proportional step, then wait for the next frame.
+ *
+ * The CTRLs task calls it when actuation is allowed (after burnout) but
+ * ignition was never latched, so #STATE_BACKUP_PID is still set. It commands
+ * both canards to −0.30° per deg/s of roll rate, limited to ±7°, writes the
+ * command plus GND trim into g_telemNow.servoTarget1/2, waits up to 10 ms for
+ * the next frame, and returns.
+ *
+ * @bug The dead-band constant is π/180 (1 deg/s expressed in rad/s) but it is
+ *      compared with a rate in deg/s, so the dead-band is about 0.017 deg/s
+ *      instead of 1 deg/s. The comment above it says 6 deg/s.
+ * @note Does not check g_ctrls_enabled, so GND command 217 does not stop it.
+ */
 void CTRLs_PID()
 {
     // Proportional-only roll-rate damper.
@@ -339,6 +440,33 @@ void CTRLs_PID()
 
 
 // ------------------------- STATE SPACE MODEL -------------------------
+/**
+ * @brief Main roll controller: EKF plus gain-scheduled control law, in its own loop.
+ *
+ * Reloads the Control Freak config on every entry; the Physics, EKF and
+ * ControlLaw objects are built once. Each iteration:
+ *
+ * 1. Zeroes the servos and returns if g_ctrls_enabled or #ALLOW_ACTUATION is
+ *    clear, or #STATE_BACKUP_PID is set.
+ * 2. Takes the latest g_SensorData sample if it is fresh.
+ * 3. Runs EKF::update(), or EKF::predictOnly() without a fresh sample, and the
+ *    roll effectiveness monitor.
+ * 4. Detects apogee (modelled vertical speed below 3 m/s after burnout), which
+ *    disables control and strobes the LED for 2 s.
+ * 5. Computes the command with ControlLaw::computeControl() and drives both
+ *    canards with it.
+ * 6. Waits up to 10 ms for the next frame.
+ *
+ * While active it also logs a DYN line to the SD card every 20 ms. Flight time
+ * comes from g_SensorData.flight_time_s, which starts at liftoff detection in
+ * Sensors::Update().
+ *
+ * @bug When it returns early, the CTRLs task calls it again immediately with no
+ *      delay, so while #ALLOW_ACTUATION is set and g_ctrls_enabled is clear,
+ *      the CTRLs task spins at Realtime priority.
+ * @warning The DYN log calls SD_LogNewline(), which syncs to the card, from
+ *          inside the control loop.
+ */
 void CTRLs_STATESPACE() {
     // ── Init: build algorithm objects ────────────────────────────────────────
     // Mutexes (g_ctrls_sensor_mutex, g_ctrls_output_mutex) are created by
@@ -501,7 +629,8 @@ void CTRLs_STATESPACE() {
 
 // CONTROLS TASK. Selects between PID and state space controllers based on flight conditions.
 // Algorithm selection is one-way: PID runs until ignition latches STATE_BACKUP_PID=false,
-// then CTRLs_STATESPACE() is called and never returns (its own for(;;) loop).
+// then CTRLs_STATESPACE() runs its own for(;;) loop. It returns whenever control is
+// disabled, and this loop calls it again immediately.
 // When ALLOW_ACTUATION is false, yield via ulTaskNotifyTake rather than busy-loop.
 extern "C" void CTRLs(void*)
 {
@@ -520,9 +649,17 @@ extern "C" void CTRLs(void*)
     }
 }
 
-// Monitors IMU for a 3-minute stability window (rocket sitting upright on pad), then
-// sets g_request_tare so updateDataTask can zero the attitude estimator, pad altitude,
-// and CTRLs_t in a mutex-safe context. Suspends itself after the tare is requested.
+/**
+ * @brief Pad-tare task: waits for 3 minutes of stillness, then asks updateDataTask() to tare.
+ *
+ * Monitors the IMU for a 3-minute stability window (rocket sitting upright on
+ * the pad), sampling g_telemNow at 10 Hz. A sample counts as still when every
+ * change from the previous one is under #TARE_ACC_DELTA_G and
+ * #TARE_GYRO_DELTA_DPS; any larger change restarts the #TARE_STABILITY_MS
+ * clock. When the clock runs out it sets #g_request_tare, so updateDataTask
+ * can zero the attitude estimator, pad altitude, and CTRLs_t in a mutex-safe
+ * context, and suspends itself. The tare therefore happens once per boot.
+ */
 extern "C" void Initial_Condition_Tare(void*) {
     while (!initDone) osDelay(10);
 

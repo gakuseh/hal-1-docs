@@ -1,0 +1,7 @@
+<map id="IMUs::IMUs" name="IMUs::IMUs">
+<area shape="rect" id="Node000001" title="Constructs the sensor objects. Does not touch hardware." alt="" coords="179,32,274,60"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#a2e7fd4eb34d4f3dd2e8ab0376d01d1cf" title="Inits the three BMI323s and reads them every tick forever, toggling the LED." alt="" coords="5,5,131,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,36,131,32,131,27,166,35"/>
+<area shape="rect" id="Node000003" href="$classTEST.html#a905b440f1c81bd25d397fd71e814e7df" title="Logs voted IMU readings to the SD card as fast as it can, forever." alt="" coords="6,57,130,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,56,130,64,129,59,166,55"/>
+</map>

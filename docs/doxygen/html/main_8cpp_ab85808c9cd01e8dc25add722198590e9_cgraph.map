@@ -1,0 +1,12 @@
+<map id="CTRLs_PID" name="CTRLs_PID">
+<area shape="rect" id="Node000001" title="Backup roll damper: one proportional step, then wait for the next frame." alt="" coords="5,48,96,76"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="19,49,15,40,18,30,31,24,51,22,72,24,84,32,79,34,70,29,50,27,32,29,22,34,20,39,24,47"/>
+<area shape="rect" id="Node000002" href="$classServo__Axon__Mini__MKII.html#a407534f1678520e15b865b4e19183922" title="Commands both servos and refreshes the feedback data." alt="" coords="144,40,313,85"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="96,60,130,61,125,63,97,65"/>
+<area shape="rect" id="Node000003" href="$classServo__Axon__Mini__MKII.html#a4d466fa0f16934d6c9f20dc7681c6606" title="Writes both PWM compare registers for input plus the configured offsets (deg)." alt="" coords="361,5,530,50"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="313,46,348,43,343,44,314,51"/>
+<area shape="rect" id="Node000004" href="$classServo__Axon__Mini__MKII.html#abf10f927f8b41229a2b87578795df4e2" title="Converts readRawVoltage() to degrees relative to _zeroVoltage (360° per 3.3 V)." alt="" coords="361,75,530,119"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="313,73,348,81,343,81,313,79"/>
+<area shape="rect" id="Node000005" href="$classServo__Axon__Mini__MKII.html#a9b94dc6c6032de01fec44324fad5d840" title="Reads both feedback voltages from ADC3 and smooths them." alt="" coords="578,75,748,119"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="531,94,565,97,560,97,531,100"/>
+</map>

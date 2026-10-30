@@ -1,0 +1,13 @@
+<map id="Servo_Axon_Mini_MKII" name="Servo_Axon_Mini_MKII">
+<area shape="rect" id="Node000001" title="Both canard servos: open&#45;loop PWM commands and analog angle feedback." alt="" coords="117,296,287,324"/>
+<area shape="rect" id="Node000002" href="$structCFG__Axon__Mini__MKII.html" title="Settings shared by both servos." alt="" coords="122,195,282,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,237,204,297,200,294,200,240"/>
+<area shape="rect" id="Node000003" href="$structSAsym.html" title=" " alt="" coords="61,5,188,33"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="96,45,62,80,28,125,16,149,9,174,10,198,19,222,42,247,70,267,101,282,134,295,129,296,99,287,67,272,38,251,15,224,5,199,4,173,11,147,23,122,58,76,98,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,46,115,76,113,108,117,140,129,170,141,183,158,194,152,195,137,187,124,173,112,142,108,108,109,76,116,51"/>
+<area shape="rect" id="Node000004" href="$structDATA__Axon__Mini__MKII.html" title="Commands, feedback and status for both servos." alt="" coords="306,195,472,223"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="203,21,242,33,275,55,285,70,290,85,289,113,288,142,291,155,300,170,315,183,335,195,329,195,312,187,296,173,286,158,282,142,284,113,285,85,280,72,271,59,240,38,204,26"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="353,230,228,298,226,293,348,231"/>
+<area shape="rect" id="Node000005" href="$structSAsym.html" title=" " alt="" coords="410,5,535,33"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="475,46,470,109,461,142,446,173,433,187,418,197,415,193,430,183,441,170,456,140,465,108,472,51"/>
+</map>

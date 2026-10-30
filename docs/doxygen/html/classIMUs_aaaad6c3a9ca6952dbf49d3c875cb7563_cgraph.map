@@ -1,0 +1,5 @@
+<map id="IMUs::Normal_Compute" name="IMUs::Normal_Compute">
+<area shape="rect" id="Node000001" title="Copies sensor A into Voted_BMI." alt="" coords="5,5,182,33"/>
+<area shape="rect" id="Node000002" href="$classSIMU__BMI323.html#a79e55a71d2fad1a758592cbff1e543fa" title="Returns the last reading stored by Update()." alt="" coords="230,5,429,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,17,217,19,211,19,182,22"/>
+</map>

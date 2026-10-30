@@ -1,0 +1,7 @@
+<map id="Magnetometer::platform_read" name="Magnetometer::platform_read">
+<area shape="rect" id="Node000001" title="ST read callback. Sends reg | 0x80, then reads len bytes." alt="" coords="5,32,223,60"/>
+<area shape="rect" id="Node000002" href="$classMagnetometer.html#a93ecf842bbcce0b2ba9986cf9e2b517c" title="Drives chip select CS1 high." alt="" coords="271,5,445,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,31,258,30,252,31,224,37"/>
+<area shape="rect" id="Node000003" href="$classMagnetometer.html#a435d54d948ac469f4c96d9242ee7a2bd" title="Drives chip select CS1 low." alt="" coords="273,57,442,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,54,260,61,255,61,223,60"/>
+</map>

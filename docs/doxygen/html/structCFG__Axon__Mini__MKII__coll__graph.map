@@ -1,0 +1,5 @@
+<map id="CFG_Axon_Mini_MKII" name="CFG_Axon_Mini_MKII">
+<area shape="rect" id="Node000001" title="Settings shared by both servos." alt="" coords="5,106,165,134"/>
+<area shape="rect" id="Node000002" href="$structSAsym.html" title=" " alt="" coords="21,5,149,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,47,88,106,82,105,83,50"/>
+</map>

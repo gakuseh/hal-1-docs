@@ -1,0 +1,5 @@
+<map id="Physics::airRelativeVelocity" name="Physics::airRelativeVelocity">
+<area shape="rect" id="Node000001" title="Air&#45;relative velocity in the body frame: body velocity minus the wind rotated into the body frame." alt="" coords="5,5,208,33"/>
+<area shape="rect" id="Node000002" href="$classPhysics.html#a83fa4d24f42f37f8b008ee394bdf6c9a" title="World&#45;to&#45;body rotation matrix (DCM) from a unit quaternion." alt="" coords="256,5,372,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,17,242,19,237,19,208,22"/>
+</map>

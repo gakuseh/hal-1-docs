@@ -1,0 +1,6 @@
+<map id="ISM_SPI_Write" name="ISM_SPI_Write">
+<area shape="rect" id="Node000001" title="ST write callback: writes len bytes starting at register reg." alt="" coords="197,29,311,57"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="282,14,273,10,254,8,236,10,226,15,223,20,228,30,223,28,218,20,222,11,234,5,254,3,275,5,288,14"/>
+<area shape="rect" id="Node000002" href="$classIMU__ISM6HGx.html#a308f0d9ba86e053605581d300e9d2580" title="Resets the chip, checks WHO_AM_I, and applies the config." alt="" coords="5,29,149,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,43,149,46,149,41,184,43"/>
+</map>

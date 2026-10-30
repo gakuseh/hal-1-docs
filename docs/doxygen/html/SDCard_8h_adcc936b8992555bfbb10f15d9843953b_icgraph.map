@@ -1,0 +1,6 @@
+<map id="SD_LogGPS" name="SD_LogGPS">
+<area shape="rect" id="Node000001" title="Appends one GPS fix as a CSV row: lat,lon,alt,hh,mm,ss." alt="" coords="171,29,266,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="243,13,235,10,218,8,203,10,194,14,192,20,196,30,191,28,187,20,190,11,201,5,218,3,237,5,248,14"/>
+<area shape="rect" id="Node000002" href="$classTEST.html#af5a5fb49484e7f0b97a0fb315100f486" title="Writes 10 test rows to the SD card and closes it, then blinks slowly on success or quickly on failure..." alt="" coords="5,29,123,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="152,43,123,46,123,41,158,43"/>
+</map>

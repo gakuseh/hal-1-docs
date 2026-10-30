@@ -1,0 +1,7 @@
+<map id="TMR::Vote" name="TMR::Vote">
+<area shape="rect" id="Node000001" title="Returns the mean of the two vectors closest to each other (Euclidean distance)." alt="" coords="5,32,94,60"/>
+<area shape="rect" id="Node000002" href="$structTMR.html#abf524eff6ccb00707c6d5804b65ce588" title="Component&#45;wise mean of a and b." alt="" coords="143,5,254,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,35,129,31,125,33,95,40"/>
+<area shape="rect" id="Node000003" href="$structTMR.html#a7e98d094b586379807ad8b61f46a4494" title="Euclidean distance between a and b." alt="" coords="142,57,255,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,51,129,58,124,60,94,56"/>
+</map>
